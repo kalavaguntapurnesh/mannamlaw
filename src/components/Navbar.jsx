@@ -78,6 +78,12 @@ const NavBar = () => {
         <ul className="hidden lg:flex flex-grow justify-center space-x-8 items-center">
           {/* <Tabs /> */}
           <FlyoutLink
+            href="/dynamics-365-support-services"
+            FlyoutContent={SupportContent}
+          >
+            Practices
+          </FlyoutLink>
+          <FlyoutLink
             href="/managed-it-services"
             FlyoutContent={ServicesContent}
           >
@@ -91,12 +97,6 @@ const NavBar = () => {
           </FlyoutLink>
           <FlyoutLink href="/about-us" FlyoutContent={AboutUsContent}>
             About Us
-          </FlyoutLink>
-          <FlyoutLink
-            href="/dynamics-365-support-services"
-            FlyoutContent={SupportContent}
-          >
-            Practices
           </FlyoutLink>
         </ul>
 
@@ -627,25 +627,19 @@ const AboutUsContent = () => {
   return (
     <div className="w-64 bg-white p-6 shadow-xl">
       <div className="mb-3 space-y-3">
-        <h3 className="font-semibold text-sideHeading">About AXSeva</h3>
+        <h3 className="font-semibold text-sideHeading">About MannamLaw</h3>
 
         <a
           href="/about-us"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
-          Why AXSeva
+          Why MannamLaw
         </a>
         <a
           href="/collaborate-with-us"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
-          Collaborate with Us
-        </a>
-        <a
-          href="/privacy-policy"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Our Privacy Policy
+          Our Difference
         </a>
       </div>
       {/* <div className="mb-6 space-y-3"></div>
@@ -663,22 +657,38 @@ const SupportContent = () => {
   return (
     <div className="w-64 bg-white p-6 shadow-xl">
       <div className="mb-3 space-y-3">
-        <h3 className="font-semibold text-sideHeading">
-          Dedicated to Assisting You
-        </h3>
+        <h3 className="font-semibold text-sideHeading">How We Operate</h3>
 
         <a
           href="/about-us#location_map"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
-          Where to Find Us
+          Employment Based Visas
         </a>
-        {/* <a
-          href={whatsappUrl}
-          className="block text-sm hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
+        <a
+          href="/about-us#location_map"
+          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
-          Connect via WhatsApp
-        </a> */}
+          Family Based Visas
+        </a>
+        <a
+          href="/about-us#location_map"
+          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
+        >
+          Investor Based Visas
+        </a>
+        <a
+          href="/about-us#location_map"
+          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
+        >
+          Students & Scholars
+        </a>
+        <a
+          href="/about-us#location_map"
+          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
+        >
+          Naturalization
+        </a>
       </div>
       {/* <button
         onClick={() => navigate("/about-us")}
