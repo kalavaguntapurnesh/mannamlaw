@@ -218,14 +218,14 @@ const Blogs = () => {
                       className="w-full h-60 mb-4"
                     />
                     <div class="px-6">
-                      <div class="font-bold text-start text-headingColor text-xl mb-2">
+                      <div class="font-bold text-start text-headingColor lg:text-xl text-lg mb-2">
                         <h1>{card.title}</h1>
                       </div>
-                      <p class="text-gray-700 text-base text-start ">
+                      <p class="text-gray-700 lg:text-base text-sm text-start ">
                         {card.description}
                       </p>
                     </div>
-                    <div class="px-6 pb-4 flex lg:justify-start justify-center">
+                    <div class="px-6 pb-4 flex justify-start">
                       <button
                         onClick={() =>
                           navigate(
@@ -235,7 +235,7 @@ const Blogs = () => {
                             }
                           )
                         }
-                        class="relative h-[40px] w-48 mt-6 flex items-center justify-center overflow-hidden border border-mainColor text-mainColor transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-mainColor before:duration-300 before:ease-out hover:text-white hover:shadow-mainColor hover:before:h-40 hover:before:w-48 hover:before:opacity-100 rounded"
+                        class="relative h-[40px] lg:w-48 w-44 lg:text-base text-sm mt-6 flex items-center justify-center overflow-hidden border border-mainColor text-mainColor transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-mainColor before:duration-300 before:ease-out hover:text-white hover:shadow-mainColor hover:before:h-40 hover:before:w-48 hover:before:opacity-100 rounded"
                       >
                         <span class="relative z-10">Know More</span>
                       </button>
