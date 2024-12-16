@@ -50,26 +50,13 @@ const NavBar = () => {
   };
 
   return (
-    <nav
-      className={`fixed top-0 left-0 w-full z-20 transition-all duration-300 ease-in-out select-none ${
-        isScrolled ? "bg-white py-6" : "bg-transparent py-6"
-      }`}
-    >
+    <nav className="fixed top-0 left-0 w-full z-20 transition-all duration-300 ease-in-out select-none bg-[#ffffff] py-6">
       <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4">
         <a href="/" className="flex flex-row items-center md:ml-0 ml-2">
           {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
           <h4 className="ml-1 text-2xl text-[#ac0000] font-bold cursor-pointer">
             <div className="flex gap-0">
-              Mannam{" "}
-              <span
-                className={` ${
-                  isScrolled
-                    ? "text-[#0A3161] font-bold"
-                    : "text-[#ac0000] semibold"
-                }`}
-              >
-                Law
-              </span>
+              Mannam <span className="text-[#0A3161] font-bold">Law</span>
             </div>
           </h4>
         </a>
@@ -107,7 +94,7 @@ const NavBar = () => {
             className={`border-[1px] relative  lg:px-6 md:px-4 py-2 rounded text-sm  transition duration-500 ${
               isScrolled
                 ? "border-headingColor hover:border-none text-headingColor font-medium overflow-hidden transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-auto before:w-0 before:bg-mainColor before:duration-300 before:ease-out hover:text-white hover:shadow-mainColor hover:before:h-40 hover:before:w-48 "
-                : "border-navGray font-light text-white"
+                : "border-headingColor font-light text-headingColor"
             }`}
           >
             <span class="relative z-10">Contact Us</span>
@@ -119,13 +106,13 @@ const NavBar = () => {
             {isMobileMenuOpen ? (
               <AiOutlineClose
                 className={`w-6 h-6 ${
-                  isScrolled ? "text-headingColor" : "text-navGray"
+                  isScrolled ? "text-headingColor" : "text-headingColor"
                 }`}
               />
             ) : (
               <RiMenu3Fill
                 className={`w-6 h-6 ${
-                  isScrolled ? "text-headingColor" : "text-navGray"
+                  isScrolled ? "text-headingColor" : "text-headingColor"
                 }`}
               />
             )}
@@ -142,12 +129,12 @@ const NavBar = () => {
           <a href="/" className="flex flex-row items-center ml-6 mt-6 mb-2">
             {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
             <h4 className="ml-1 text-2xl text-mainColor font-bold cursor-pointer">
-               Mannam<span className="text-headingColor">Law</span>
+              Mannam<span className="text-headingColor">Law</span>
             </h4>
           </a>
 
           <ul className="p-4">
-            <li className="p-4 border-b border-headingColor">
+            <li className="p-4 border-b border-gray-600">
               <div
                 onClick={() => toggleMobileDropdown("subscription")}
                 className="flex items-center justify-between cursor-pointer text-headingColor"
@@ -198,7 +185,7 @@ const NavBar = () => {
                 )}
               </AnimatePresence>
             </li>
-            <li className="p-4 border-b border-headingColor">
+            <li className="p-4 border-b border-gray-600">
               <div
                 onClick={() => toggleMobileDropdown("home")}
                 className="flex items-center justify-between cursor-pointer text-headingColor"
@@ -260,7 +247,7 @@ const NavBar = () => {
                 )}
               </AnimatePresence>
             </li>
-            <li className="p-4 border-b border-headingColor">
+            <li className="p-4 border-b border-gray-600">
               <div
                 onClick={() => toggleMobileDropdown("products")}
                 className="flex items-center justify-between cursor-pointer text-headingColor"
@@ -305,7 +292,7 @@ const NavBar = () => {
               </AnimatePresence>
             </li>
 
-            <li className="p-4 border-b border-headingColor">
+            <li className="p-4 border-b border-gray-600">
               <div
                 onClick={() => toggleMobileDropdown("aboutus")}
                 className="flex items-center justify-between cursor-pointer text-headingColor"
@@ -359,7 +346,7 @@ const NavBar = () => {
               </AnimatePresence>
             </li>
 
-            <li className="p-4 border-b border-headingColor">
+            <li className="p-4 border-b border-gray-600">
               <div
                 onClick={() => toggleMobileDropdown("support")}
                 className="flex items-center justify-between cursor-pointer text-headingColor"
@@ -390,7 +377,7 @@ const NavBar = () => {
                         Where to Find Us
                       </a>
                     </li>
-                    {/* <li className="text-navGray ">
+                    {/* <li className="text-headingColor ">
                       <a
                         href={whatsappUrl}
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
@@ -404,7 +391,7 @@ const NavBar = () => {
               </AnimatePresence>
             </li>
 
-            <li className="p-4 border-b border-headingColor">
+            <li className="p-4 border-b border-gray-600">
               <a
                 href="/contact"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
@@ -471,7 +458,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
     >
       <a
         href={href}
-        className={`relative ${isScrolled ? "text-headingColor" : "text-navGray"}`}
+        className={`relative ${isScrolled ? "text-black" : "text-headingColor"}`}
       >
         {children}
         <span
@@ -479,7 +466,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
             transform: showFlyout ? "scaleX(1)" : "scaleX(0)",
           }}
           className={`absolute -bottom-2 -left-2 -right-2 h-[2px] origin-left scale-x-0 rounded transition-transform duration-300 ease-out ${
-            isScrolled ? "bg-headingColor" : "bg-navGray"
+            isScrolled ? "bg-black" : "bg-headingColor"
           }`}
         />
       </a>
@@ -491,7 +478,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
             exit={{ opacity: 0, y: 15 }}
             style={{ translateX: "-50%" }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="absolute left-1/2 top-12 bg-white text-headingColor"
+            className="absolute left-1/2 top-12 bg-white text-black"
           >
             <div className="absolute -top-6 left-0 right-0 h-6 bg-transparent" />
             <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-white" />
