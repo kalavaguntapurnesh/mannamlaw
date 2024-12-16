@@ -6,7 +6,7 @@ import { FaGoogle } from "react-icons/fa6";
 import { SiPaloaltosoftware } from "react-icons/si";
 const Footer = () => {
   return (
-    <div className="bg-[#f6f8f9] p-15 select-none">
+    <div className="bg-[#f2f2f3] p-15 select-none">
       <div className="relative ">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -46,7 +46,7 @@ const Footer = () => {
                           href="/about-us"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          About AXSeva
+                          About MannamLaw
                         </a>
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
@@ -70,7 +70,7 @@ const Footer = () => {
                           href="/collaborate-with-us"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Collaborate with us
+                          Contact Us Now
                         </a>
                       </li>
                     </ul>
@@ -80,7 +80,7 @@ const Footer = () => {
                     <div className="flex items-center md:justify-start justify-center">
                       {/* <div className="h-4 w-1 bg-mainColor"></div> */}
                       <h4 className=" text-sm leading-5 text-mainColor font-bold tracking-wider uppercase flex md:justify-start justify-center items-start mt-1 text-footerLinks">
-                        Services
+                        Practices
                       </h4>
                     </div>
                     <ul className="pl-0 mt-4 space-y-3 list-none">
@@ -89,7 +89,7 @@ const Footer = () => {
                           href="/managed-it-services"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Dynamic 365 Finance & Operations
+                          Employment Based Visas
                         </a>
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
@@ -97,7 +97,7 @@ const Footer = () => {
                           href="/services-microsoft-dynamics-365-finance"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          BI Analytics
+                          Investor Based Visas
                         </a>
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
@@ -105,7 +105,7 @@ const Footer = () => {
                           href="/services-microsoft-dynamics-365-finance"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Support & Managed Services
+                          Family Based Visas
                         </a>
                       </li>
 
@@ -114,18 +114,18 @@ const Footer = () => {
                           href="/"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Customer Engagement
+                          Students & Scholars
                         </a>
                       </li>
 
-                      {/* <li className=" flex items-start md:justify-start justify-center">
+                      <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/about-us#location_map"
-                          className="hover:text-mainColor text-footerItems hover:font-bold no-underline lg:text-start text-center  text-[14px] leading-6 text-footerLinks  transition duration-300 ease-in-out"
+                          href="/"
+                          className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Where to Find Us
+                          Naturalization
                         </a>
-                      </li> */}
+                      </li>
                     </ul>
                   </div>
 
@@ -133,7 +133,7 @@ const Footer = () => {
                     <div className="flex items-center md:justify-start justify-center">
                       {/* <div className="h-4 w-1 bg-mainColor"></div> */}
                       <h4 className="  text-sm leading-5 font-bold text-mainColor tracking-wider uppercase flex md:justify-start justify-center items-start mt-1 text-footerLinks">
-                        Quick Links
+                        Government
                       </h4>
                     </div>
                     <ul className="pl-0 mt-4 space-y-3 list-none">
@@ -142,7 +142,7 @@ const Footer = () => {
                           href="/"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Integration Consulting
+                          USCIS News
                         </a>
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
@@ -150,23 +150,31 @@ const Footer = () => {
                           href="/about-us"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Business Needs
+                          Homeland Security
                         </a>
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="https://www.linkedin.com/company/axseva/"
+                          href="https://www.linkedin.com/in/ravi-mannam-7930531a"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          LinkedIn Page
+                          Processing Times
                         </a>
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="https://www.google.com/maps/place/1691+Kettering+St,+Irvine,+CA+92614,+USA/@33.6979191,-117.8467571,17z/data=!3m1!4b1!4m6!3m5!1s0x80dcdebc76905421:0xc9b403b589d3cb99!8m2!3d33.6979191!4d-117.8467571!16s%2Fg%2F11bw3yyf27?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+                          href="https://www.linkedin.com/in/ravi-mannam-7930531a"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Location Map
+                          VISA Bulletin
+                        </a>
+                      </li>
+                      <li className=" flex items-start md:justify-start justify-center">
+                        <a
+                          href="https://g.co/kgs/L7ak23S"
+                          className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
+                        >
+                          U.S Consulates
                         </a>
                       </li>
                     </ul>
@@ -176,7 +184,7 @@ const Footer = () => {
                     <div className="flex items-center md:justify-start justify-center">
                       {/* <div className="h-4 w-1 bg-mainColor"></div> */}
                       <h4 className="  text-sm leading-5 text-mainColor font-bold tracking-wider uppercase flex md:justify-start justify-center items-start mt-1 text-footerLinks">
-                        Industries
+                        Legal
                       </h4>
                     </div>
                     <ul className="pl-0 mt-4 space-y-3 list-none">
@@ -185,7 +193,7 @@ const Footer = () => {
                           href="/industries"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Financial Services
+                          Trademarks
                         </a>
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
@@ -193,7 +201,7 @@ const Footer = () => {
                           href="/"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Manufacturing Services
+                          Copyright
                         </a>
                       </li>
 
@@ -202,7 +210,7 @@ const Footer = () => {
                           href="/"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Software Services
+                          Disclaimer
                         </a>
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
@@ -210,7 +218,15 @@ const Footer = () => {
                           href="/"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
                         >
-                          Public Sector Services
+                          Job Paths
+                        </a>
+                      </li>
+                      <li className=" flex items-start md:justify-start justify-center">
+                        <a
+                          href="/"
+                          className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks transition duration-300 ease-in-out"
+                        >
+                          Bar Membership
                         </a>
                       </li>
                     </ul>
@@ -219,10 +235,10 @@ const Footer = () => {
               </div>
 
               <div className="w-full">
-                <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 lg:gap-4 w-full">
+                <div className="grid grid-cols-1 gap-8 lg:gap-4 w-full">
                   <div className="grid grid-cols-5">
                     <a
-                      href="https://www.linkedin.com/company/axseva/"
+                      href="https://www.linkedin.com/in/ravi-mannam-7930531a/"
                       className="flex justify-center items-center "
                     >
                       <FaLinkedin
@@ -231,7 +247,7 @@ const Footer = () => {
                       />
                     </a>
                     <a
-                      href="https://www.linkedin.com/company/axseva/"
+                      href="https://g.co/kgs/L7ak23S"
                       className="flex justify-center items-center"
                     >
                       <FaXTwitter
@@ -240,7 +256,7 @@ const Footer = () => {
                       />
                     </a>
                     <a
-                      href="https://www.linkedin.com/company/axseva/"
+                      href="https://g.co/kgs/L7ak23S"
                       className="flex justify-center items-center"
                     >
                       <FaInstagram
@@ -249,7 +265,7 @@ const Footer = () => {
                       />
                     </a>
                     <a
-                      href="https://www.linkedin.com/company/axseva/"
+                      href="https://g.co/kgs/L7ak23S"
                       className="flex justify-center items-center"
                     >
                       <FaGoogle
@@ -258,7 +274,7 @@ const Footer = () => {
                       />
                     </a>
                     <a
-                      href="https://www.linkedin.com/company/axseva/"
+                      href="https://g.co/kgs/L7ak23S"
                       className="flex justify-center items-center"
                     >
                       <FaFacebook
@@ -268,7 +284,7 @@ const Footer = () => {
                     </a>{" "}
                   </div>
 
-                  <div className="flex justify-center items-center">
+                  {/* <div className="flex justify-center items-center">
                     <form className="lg:w-[70%] w-[90%]">
                       <label
                         for="search"
@@ -278,21 +294,7 @@ const Footer = () => {
                       </label>
                       <div class="relative">
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                          {/* <svg
-                            class="w-4 h-4 text-gray-500 dark:text-gray-400"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                            />
-                          </svg> */}
+                          
                         </div>
                         <input
                           type="search"
@@ -309,17 +311,14 @@ const Footer = () => {
                         </button>
                       </div>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
 
             <div className="text-center text-xs pb-6">
               <p className="text-headingColor">
-                Copyright © 2024 AXSeva. All rights reserved
-              </p>
-              <p className="text-headingColor pt-2">
-                All images related to Microsoft are trademarks of Microsoft.
+                Copyright © 2024 MannamLaw. All rights reserved
               </p>
             </div>
           </div>

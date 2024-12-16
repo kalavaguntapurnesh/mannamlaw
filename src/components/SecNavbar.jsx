@@ -50,11 +50,15 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-20 transition-all duration-300 ease-in-out select-none bg-[#ffffff] py-6">
+    <nav
+      className={`fixed top-0 left-0 w-full z-20 transition-all duration-300 ease-in-out select-none ${
+        isScrolled ? "bg-white shadow-md py-6" : "bg-white py-6"
+      }`}
+    >
       <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4">
-        <a href="/" className="flex flex-row items-center md:ml-0 ml-2">
+        <a href="/" className="flex flex-row items-center md:ml-0 ml-1">
           {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
-          <h4 className="ml-1 text-2xl text-[#ac0000] font-bold cursor-pointer">
+          <h4 className="text-2xl text-[#ac0000] font-bold cursor-pointer">
             <div className="flex gap-0">
               Mannam <span className="text-[#0A3161] font-bold">Law</span>
             </div>
@@ -94,7 +98,7 @@ const NavBar = () => {
             className={`border-[1px] relative  lg:px-6 md:px-4 py-2 rounded text-sm  transition duration-500 ${
               isScrolled
                 ? "border-headingColor hover:border-none text-headingColor font-medium overflow-hidden transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-auto before:w-0 before:bg-mainColor before:duration-300 before:ease-out hover:text-white hover:shadow-mainColor hover:before:h-40 hover:before:w-48 "
-                : "border-headingColor font-light text-headingColor"
+                : "border-headingColor font-medium text-headingColor"
             }`}
           >
             <span class="relative z-10">Contact Us</span>
@@ -134,12 +138,12 @@ const NavBar = () => {
           </a>
 
           <ul className="p-4">
-            <li className="p-4 border-b border-gray-600">
+            <li className="p-4 border-b border-headingColor">
               <div
                 onClick={() => toggleMobileDropdown("subscription")}
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
-                Our Services
+                Our Practices
                 <FaAngleDown
                   className={`transition-transform ${
                     openDropdownMobile === "subscription"
@@ -161,7 +165,7 @@ const NavBar = () => {
                         href="/services-microsoft-dynamics-365-finance"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold"
                       >
-                        Dynamic 365 Finance & Operations
+                        Employment Based Visas
                       </a>
                     </li>
                     <li className="text-headingColor">
@@ -169,7 +173,7 @@ const NavBar = () => {
                         href="/services-microsoft-dynamics-365"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold"
                       >
-                        Business Intelligence Analytics
+                        Investor Based Visas
                       </a>
                     </li>
                     <li className="text-headingColor">
@@ -178,220 +182,59 @@ const NavBar = () => {
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
 "
                       >
-                        Support & Managed Services
+                        Family Based Visas
+                      </a>
+                    </li>
+                    <li className="text-headingColor">
+                      <a
+                        href="/services-microsoft-dynamics-365"
+                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
+"
+                      >
+                        Students & Scholars
+                      </a>
+                    </li>
+                    <li className="text-headingColor">
+                      <a
+                        href="/services-microsoft-dynamics-365"
+                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
+"
+                      >
+                        Naturalization
                       </a>
                     </li>
                   </motion.ul>
                 )}
               </AnimatePresence>
             </li>
-            <li className="p-4 border-b border-gray-600">
-              <div
-                onClick={() => toggleMobileDropdown("home")}
+            <li className="p-4 border-b border-headingColor">
+              <a
+                href="/contact"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
-                Industries
-                <FaAngleDown
-                  className={`transition-transform ${
-                    openDropdownMobile === "home"
-                      ? "rotate-180 text-mainColor"
-                      : ""
-                  }`}
-                />
-              </div>
-              <AnimatePresence>
-                {openDropdownMobile === "home" && (
-                  <motion.ul
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    className="pl-4 mt-6 space-y-2"
-                  >
-                    <li className="text-headingColor ">
-                      <a
-                        href="/industries"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Financial Services
-                      </a>
-                    </li>
-                    <li className="text-headingColor ">
-                      <a
-                        href="/industries"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Manufacturing Services
-                      </a>
-                    </li>
-                    <li className="text-headingColor ">
-                      <a
-                        href="/industries"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Public Sector Services
-                      </a>
-                    </li>
-                    <li className="text-headingColor ">
-                      <a
-                        href="/industries"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Software Services
-                      </a>
-                    </li>
-                  </motion.ul>
-                )}
-              </AnimatePresence>
-            </li>
-            <li className="p-4 border-b border-gray-600">
-              <div
-                onClick={() => toggleMobileDropdown("products")}
-                className="flex items-center justify-between cursor-pointer text-headingColor"
-              >
-                Solutions
-                <FaAngleDown
-                  className={`transition-transform ${
-                    openDropdownMobile === "products"
-                      ? "rotate-180 text-mainColor"
-                      : ""
-                  }`}
-                />
-              </div>
-              <AnimatePresence>
-                {openDropdownMobile === "products" && (
-                  <motion.ul
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    className="pl-4 mt-6 space-y-2"
-                  >
-                    <li className="text-headingColor">
-                      <a
-                        href="/solutions"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Integration Consulting
-                      </a>
-                    </li>
-                    <li className="text-headingColor">
-                      <a
-                        href="/solutions"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Business Needs
-                      </a>
-                    </li>
-                  </motion.ul>
-                )}
-              </AnimatePresence>
+                Achievements
+              </a>
             </li>
 
-            <li className="p-4 border-b border-gray-600">
-              <div
-                onClick={() => toggleMobileDropdown("aboutus")}
+            <li className="p-4 border-b border-headingColor">
+              <a
+                href="/contact"
+                className="flex items-center justify-between cursor-pointer text-headingColor"
+              >
+                Our Attorneys
+              </a>
+            </li>
+
+            <li className="p-4 border-b border-headingColor">
+              <a
+                href="/contact"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
                 About Us
-                <FaAngleDown
-                  className={`transition-transform ${
-                    openDropdownMobile === "aboutus"
-                      ? "rotate-180 text-mainColor"
-                      : ""
-                  }`}
-                />
-              </div>
-              <AnimatePresence>
-                {openDropdownMobile === "aboutus" && (
-                  <motion.ul
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    className="pl-4 mt-6 space-y-2"
-                  >
-                    <li className="text-headingColor ">
-                      <a
-                        href="/about-us"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        About AXSeva
-                      </a>
-                    </li>
-                    <li className="text-headingColor ">
-                      <a
-                        href="/collaborate-with-us"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Collaborate With Us
-                      </a>
-                    </li>
-                    <li className="text-headingColor ">
-                      <a
-                        href="/privacy-policy"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Our Privacy Policy
-                      </a>
-                    </li>
-                  </motion.ul>
-                )}
-              </AnimatePresence>
+              </a>
             </li>
 
-            <li className="p-4 border-b border-gray-600">
-              <div
-                onClick={() => toggleMobileDropdown("support")}
-                className="flex items-center justify-between cursor-pointer text-headingColor"
-              >
-                Support
-                <FaAngleDown
-                  className={`transition-transform ${
-                    openDropdownMobile === "aboutus"
-                      ? "rotate-180 text-mainColor"
-                      : ""
-                  }`}
-                />
-              </div>
-              <AnimatePresence>
-                {openDropdownMobile === "support" && (
-                  <motion.ul
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    className="pl-4 mt-6 space-y-2"
-                  >
-                    <li className="text-headingColor ">
-                      <a
-                        href="/about-us#location_map"
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Where to Find Us
-                      </a>
-                    </li>
-                    {/* <li className="text-headingColor ">
-                      <a
-                        href={whatsappUrl}
-                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
-"
-                      >
-                        Whatsapp Chat
-                      </a>
-                    </li> */}
-                  </motion.ul>
-                )}
-              </AnimatePresence>
-            </li>
-
-            <li className="p-4 border-b border-gray-600">
+            <li className="p-4 border-b border-headingColor">
               <a
                 href="/contact"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
@@ -407,17 +250,17 @@ const NavBar = () => {
             </h5>
             <div className="p-4">
               <div className="grid grid-cols-4">
-                <a href="https://www.linkedin.com/company/axseva/">
+                <a href="https://www.linkedin.com/in/ravi-mannam-7930531a/">
                   <FaLinkedinIn className="w-6 h-6 text-headingColor duration-1000 hover:text-mainColor ease-in-out" />
                 </a>
-                <a href="https://www.linkedin.com/company/axseva/">
+                <a href="https://www.linkedin.com/in/ravi-mannam-7930531a/">
                   <FaXTwitter className="w-6 h-6 text-headingColor duration-1000 hover:text-mainColor ease-in-out" />
                 </a>
-                <a href="https://www.linkedin.com/company/axseva/">
+                <a href="https://www.linkedin.com/in/ravi-mannam-7930531a/">
                   {" "}
                   <FaInstagram className="w-6 h-6 text-headingColor duration-1000 hover:text-mainColor ease-in-out" />
                 </a>
-                <a href="https://www.linkedin.com/company/axseva/">
+                <a href="https://www.linkedin.com/in/ravi-mannam-7930531a/">
                   {" "}
                   <FaFacebookF className="w-6 h-6 text-headingColor duration-1000 hover:text-mainColor ease-in-out" />
                 </a>
@@ -458,7 +301,9 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
     >
       <a
         href={href}
-        className={`relative ${isScrolled ? "text-black" : "text-headingColor"}`}
+        className={`relative ${
+          isScrolled ? "text-black" : "text-headingColor"
+        }`}
       >
         {children}
         <span

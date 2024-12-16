@@ -21,66 +21,67 @@ const dataMapping = {
       {
         title: "H-1B Petitions Subject to Annual Quota (Cap-Subject H-1Bs)",
         description:
-          "The H-1B visa is available for specialty occupations that require at least a bachelor's degree.",
+          "Under the current law, the annual H-1B quota (H-1B Cap) is 65,000 for each fiscal year beginning October 1.  Under the L1 Visa and H1B Visa Reform Act of 2004, Congress added an additional 20,000 H-1B visas for graduates of advanced degree programs in the U.S. Out of the 65,000 quota, 5,400 visas are set aside for citizens of Singapore and 1,400 H-1B visas for citizens of Chile.  The H-1B cap applies to new petitions filed for foreign workers that have not been counted against the H-1B Cap within the past six years.  The earliest start date for these “new” H-1Bs is October 1 of each year, with the filing period commencing as early as April 1 of the same year.",
         points: [
-          "Minimum education requirement: Bachelor's degree.",
-          "Employer sponsorship is mandatory.",
-          "The job must require specialized knowledge.",
+          // "Minimum education requirement: Bachelor's degree.",
+          // "Employer sponsorship is mandatory.",
+          // "The job must require specialized knowledge.",
         ],
       },
       {
         title: "H-1B Petition Exempted from Annual Quota (Cap-Exempt H-1Bs)",
         description:
-          "Applicants must prepare the following documents for the H-1B visa application.",
+          "H-1B petitions are exempt from the quota if they are filed by a college or university, a related or affiliated non-profit entity, a non-profit research organization, or governmental research organization.  Cap-Exempt H-1B petitions are generally filed on behalf of researchers by non-profit organizations as well as public and private universities.  Public School systems with critical teacher shortages also utilize this visa option to engage foreign workers.  They They must, however, demonstrate that they maintain certain affiliation with a University (for more details on obtaining an H-1B visa for a public school teacher, please click here).",
         points: [
-          "Educational certificates (degree, transcripts).",
-          "Offer letter from the sponsoring employer.",
-          "Passport and visa application forms.",
+          // "Educational certificates (degree, transcripts).",
+          // "Offer letter from the sponsoring employer.",
+          // "Passport and visa application forms.",
         ],
       },
       {
         title: "H-1B Petition Not Subject to Annual Quota",
-        description: "The H-1B visa application follows these key steps:",
+        description:
+          "Certain H-1B petitions are not subject to the 65,000 annual quota and allow foreign workers to start employment immediately upon approval.  These petitions include H-1B petitions amending previously approved conditions of the employment, H-1B petitions for Change of Employer or H-1B extension petitions for the same employer (unless he or she is changing employment from a cap-exempt employer to a non-exempt employer, i.e. switching employment from a non-profit or government institutional to a for-profit U.S. employer).",
         points: [
-          "Employer files Labor Condition Application (LCA).",
-          "H-1B petition submitted to USCIS.",
-          "If selected, attend visa interview at the U.S. Embassy.",
+          // "Employer files Labor Condition Application (LCA).",
+          // "H-1B petition submitted to USCIS.",
+          // "If selected, attend visa interview at the U.S. Embassy.",
         ],
       },
       {
         title: "Period of Stay",
         description:
-          "H-1B visas are subject to annual caps, and deadlines are crucial.",
+          "H-1B status is generally granted for three-year increments, for up to a total of six years.  However, under the American Competitiveness in the 21st Century Act (AC-21 Act), an H-1B worker’s period of stay may be extended in one-year increments if a pending Labor Certification or Form I-140 was filed on the worker's behalf more than 365 days prior to the end of the sixth year of the H status. Alternatively, an H-1B holder is eligible for extension of status in three-year increment after the six-year period if the foreign national is named as the beneficiary of an approved I-140, but cannot apply for adjustment of status because of country-specific limits.",
         points: [
-          "H-1B cap lottery opens every April.",
-          "Cap-exempt petitions can be filed year-round.",
-          "Visa validity: Maximum of 6 years.",
+          // "H-1B cap lottery opens every April.",
+          // "Cap-exempt petitions can be filed year-round.",
+          // "Visa validity: Maximum of 6 years.",
         ],
       },
       {
         title: "Filing Fees",
         description:
-          "H-1B visas are subject to annual caps, and deadlines are crucial.",
+          "The filing fees for an H-1B petition consist of the following:",
         points: [
-          "H-1B cap lottery opens every April.",
-          "Cap-exempt petitions can be filed year-round.",
+          "Form I-129 Application Fee: $320",
+          "Fraud-Prevention Fee:$500 for New H-1B petitions and H-1B petitions for Change of Employer.",
           "Visa validity: Maximum of 6 years.",
         ],
       },
       {
         title: "Alternatives when the H-1B Annual Quotas have been filed",
         description:
-          "H-1B visas are subject to annual caps, and deadlines are crucial.",
+          "The demand for skilled foreign nationals has generally been so high and the quota so low that it has created problems for employers each year when the H-1B cap has been prematurely reached.  However, there are still many other temporary work, including TN visas, L-1 intra-company transferee visas, O-1 extraordinary ability worker visas, as well as the E treaty trader/treaty investor visas.",
         points: [
-          "H-1B cap lottery opens every April.",
-          "Cap-exempt petitions can be filed year-round.",
-          "Visa validity: Maximum of 6 years.",
+          // "H-1B cap lottery opens every April.",
+          // "Cap-exempt petitions can be filed year-round.",
+          // "Visa validity: Maximum of 6 years.",
         ],
       },
       {
         title: "IT Consulting Industry",
         description:
-          "H-1B visas are subject to annual caps, and deadlines are crucial.",
+          "Since 2008, H-1B petitions filed through Information Technology firms have been receiving particularly intense scrutiny.  The USCIS appears to be on a mission to eradicate fraud through issuing overly burdensome Requests for Evidence and placing a heightened burden of proof on IT companies.  Immigration practitioners and petitioners in the IT Consulting Industry face increasingly taxing requests for additional documentation, from complete profiles of all IT employees’ names and educational background, a list of all H-1Bs filed with the USCIS, corporate tax returns, quarterly wage reports, W-2 Forms, work orders, client letters detailing the H-1B employee’s job duties and minimum requirements for the position, and images of the company’s business premises.",
         points: [
           "H-1B cap lottery opens every April.",
           "Cap-exempt petitions can be filed year-round.",
@@ -101,11 +102,11 @@ const dataMapping = {
       {
         title: "Public School System",
         description:
-          "H-1B visas are subject to annual caps, and deadlines are crucial.",
+          "Across the country, public school systems face shortages of qualified teachers, particularly in high demand subjects, such as Mathematics, Science, ESL, Foreign Language and Special Education.  Many districts, both rural and urban, have turned to H-1B programs to recruit and engage qualified English-speaking teachers from abroad.  Today, one estimate suggests that as many as 10,000 foreign teachers are working in the United States.",
         points: [
-          "H-1B cap lottery opens every April.",
-          "Cap-exempt petitions can be filed year-round.",
-          "Visa validity: Maximum of 6 years.",
+          // "H-1B cap lottery opens every April.",
+          // "Cap-exempt petitions can be filed year-round.",
+          // "Visa validity: Maximum of 6 years.",
         ],
       },
     ],
@@ -121,15 +122,16 @@ const dataMapping = {
       {
         title: "L-1 Intra-Company Transferee",
         description:
-          "The L-1 visa allows intra-company transfers of executives, managers, or specialized knowledge employees.",
+          "The intra-company transfer provision is a long-standing visa category designed to allow international firms, whether U.S. or foreign, with operations in the United States and abroad to exchange personnel on a temporary basis.  The original impetus for the program was to allow for the mobility of management personnel, but the program quickly expanded to include personnel with specialized knowledge of the company's operations.  In order to qualify to file an L-1 visa petition, the U.S. employer must be a branch, subsidiary, parent, or affiliate of a foreign company and the foreign national employee must have worked for such foreign company for at least one year prior to such employee’s arrival in the United States. L-1A visas are designed for intra-company transferees in managerial or executive positions.  The L-1B category covers specialized knowledge personnel who possess an advanced level of expertise and proprietary knowledge of the company's products, services, research activities, in-house procedures and processes, management or other interests of the company that are not readily available in the U.S. labor market.  An individual can remain in the United States for a maximum of seven (7) consecutive years under the L-1A visa status or five (5) consecutive years under the L-1B visa status.",
         points: [
-          "Suitable for multinational companies.",
-          "Supports U.S. expansions.",
+          // "Suitable for multinational companies.",
+          // "Supports U.S. expansions.",
         ],
       },
       {
         title: "Frequent User Pass——Blanket L-1 Petition",
-        description: "Key requirements for L-1 visa eligibility include:",
+        description:
+          "An L-1 Blanket Petition is an expedited program for large multi-national corporations that are frequent users of the L-1 visa program.  The regular L-1 process is a two-step process where the employer first files and obtains USCIS approval for each intra-company transferee before the employee schedules a consulate visa interview.  Under the procedure for the Blanket L-1 program, an employer only files for one approval form from the USCIS to transfer an unspecified number of managerial/executive employees and professionals with specialized knowledge.  After the approval, each time the employer seeks to transfer its qualifying employees through the Blanket L-1 procedure, the employees can immediately schedule a visa appointment at the U.S. Embassy/Consulate Office and present the L-1 Blanket Approval Notice with the visa application.  This greatly reduces the processing time because it removes the need for the USCIS to adjudicate the individual L-1 petition.",
         points: [
           "Employee must have worked abroad for the company for at least one year.",
           "Employee must hold an executive or managerial role.",
@@ -137,15 +139,15 @@ const dataMapping = {
       },
       {
         title: "Green Card Eligibility",
-        description: "Key requirements for L-1 visa eligibility include:",
+        description: "Individuals with an L-1 visa may also be eligible for a green card through employment.  If an individual served in a managerial or executive capacity for a qualifying foreign employer for at least one year and serves in a managerial or executive capacity in L-1A status in the United States, such individual will most likely qualify for an immigrant visa.  This is one of the fastest ways in which a foreign national can attain U.S. permanent residency.",
         points: [
-          "Employee must have worked abroad for the company for at least one year.",
-          "Employee must hold an executive or managerial role.",
+          // "Employee must have worked abroad for the company for at least one year.",
+          // "Employee must hold an executive or managerial role.",
         ],
       },
       {
         title: "H-1B v. L-1",
-        description: "Key requirements for L-1 visa eligibility include:",
+        description: "H-1B visas are an obvious choice for bringing in foreign talent to address labor shortages in the fields of IT Consulting, Healthcare, Engineering, etc.  The L-1 visas are available to companies that have offshore subsidiaries from which to bring qualified foreign employees to the U.S. Both categories allow for the individual visa holders to hold `dual intent` and pursue legal permanent residency in the U.S. while under H-1B/L-1 visa status.",
         points: [
           "Employee must have worked abroad for the company for at least one year.",
           "Employee must hold an executive or managerial role.",
