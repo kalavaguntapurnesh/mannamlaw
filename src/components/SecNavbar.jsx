@@ -86,7 +86,7 @@ const NavBar = () => {
           <FlyoutLink href="/industries" FlyoutContent={IndustriesContent}>
             Our Attorneys
           </FlyoutLink>
-          <FlyoutLink href="/about-us" FlyoutContent={AboutUsContent}>
+          <FlyoutLink href="/why-mannam-law" FlyoutContent={AboutUsContent}>
             About Us
           </FlyoutLink>
         </ul>
@@ -462,7 +462,7 @@ const AboutUsContent = () => {
         <h3 className="font-semibold text-sideHeading">About MannamLaw</h3>
 
         <a
-          href="/about-us"
+          href="/why-mannam-law"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Why MannamLaw
