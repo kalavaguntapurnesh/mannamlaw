@@ -92,8 +92,8 @@ const NavBar = () => {
           <FlyoutLink href="/solutions" FlyoutContent={PricingContent}>
             Achievements
           </FlyoutLink>
-          <FlyoutLink href="/industries" FlyoutContent={IndustriesContent}>
-            Our Attorneys
+          <FlyoutLink href="/experts" FlyoutContent={IndustriesContent}>
+            Our Experts
           </FlyoutLink>
           <FlyoutLink href="/why-mannam-law" FlyoutContent={AboutUsContent}>
             About Us

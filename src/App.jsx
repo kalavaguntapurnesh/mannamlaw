@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import "./App.css";
 import DetailsPage from "./pages/DetailsPage";
 import WhyUsPage from "./pages/WhyUsPage";
+import Experts from "./pages/Experts";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/details/:title" element={<DetailsPage />} />
           <Route path="/why-mannam-law" element={<WhyUsPage />} />
+          <Route path="/experts" element={<Experts />} />
         </Routes>
       </BrowserRouter>
     </>
