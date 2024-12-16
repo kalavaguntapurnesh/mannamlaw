@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Blogs = () => {
   const [selectedTopic, setSelectedTopic] = useState("Non-Immigrant Visas");
+  const navigate = useNavigate();
   const topics = [
     "Non-Immigrant Visas",
     "Green Cards",
@@ -146,6 +148,7 @@ const Blogs = () => {
       },
     ],
   };
+
   return (
     <div className="lg:pt-28 pt-16 select-none">
       <div className="relative">
@@ -223,12 +226,19 @@ const Blogs = () => {
                       </p>
                     </div>
                     <div class="px-6 pb-4 flex lg:justify-start justify-center">
-                      <a
-                        href="/contact"
+                      <button
+                        onClick={() =>
+                          navigate(
+                            `/details/${encodeURIComponent(card.title)}`,
+                            {
+                              state: { card }, // Pass the card data
+                            }
+                          )
+                        }
                         class="relative h-[40px] w-48 mt-6 flex items-center justify-center overflow-hidden border border-mainColor text-mainColor transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-mainColor before:duration-300 before:ease-out hover:text-white hover:shadow-mainColor hover:before:h-40 hover:before:w-48 hover:before:opacity-100 rounded"
                       >
                         <span class="relative z-10">Know More</span>
-                      </a>
+                      </button>
                     </div>
                   </div>
                 ))}
