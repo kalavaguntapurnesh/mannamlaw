@@ -150,7 +150,7 @@ const Blogs = () => {
   };
 
   return (
-    <div className="lg:pt-28 pt-16 select-none">
+    <div className="lg:pt-28 pt-16">
       <div className="relative">
         <div className="w-full">
           <div className="w-full mx-auto max-w-[1400px] pb-16">
@@ -231,7 +231,7 @@ const Blogs = () => {
                           navigate(
                             `/details/${encodeURIComponent(card.title)}`,
                             {
-                              state: { card }, // Pass the card data
+                              state: { card, topic: selectedTopic }, // Pass the card data
                             }
                           )
                         }
