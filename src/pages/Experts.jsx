@@ -46,6 +46,18 @@ const Experts = () => {
         "Mr. Ramachandran has been admitted to practice before the Georgia Supreme Court and is a member of the State Bar of Georgia and the American Immigration Lawyers Association [AILA]. He has been a part of the Mannam & Associates team for over eight years, having previously served as a law clerk in the Coweta Judicial Circuit. He earned his J.D. from the University of Georgia School of Law in Athens, GA in 2014, and his Bachelor of Science Degree in Industrial & Systems Engineering from the Georgia Institute of Technology in Atlanta, GA in 2009. Having been raised in an immigrant family, Mr. Ramachandran has a personal understanding of the sensitive needs of foreign workers, as well as the particular concerns of their corporate petitioner",
     },
     {
+      image: Kanchi,
+      name: "Kanchi Khanna",
+      role: "Senior Paralegal",
+      languages: ["Hindi", "English", "Punjabi"],
+      phone: "(877) 596-1761 Ext. 3",
+      direct: "(678) 392-3172",
+      fax: "(877) 596-1667",
+      email: "kanchi@mannamlaw.com",
+      descriptionOne:
+        "Prior to joining Mannam & Associates LLC, in 2002, Ms. Khanna studied at the University of Maryland at College Park, MD, and worked at an IT consulting firm as an Accounts/HR Manager and an Immigration Associate. She has been working for over 12 years in the employment and family-based immigration field. Ms. Khanna has considerable experience in overseeing, preparing and filing a broad spectrum of nonimmigrant and immigrant petitions, including temporary nonimmigrant visas, labor certifications, permanent resident applications and naturalization applications. Assisting in all aspects of business immigration matters, Ms. Khanna’s expertise is in guiding our clients through employment and family based Green Card application processes. With strong attention to detail, she drafts appropriate documents required by the U.S. Citizenship and Immigration Services, the U.S. Department of Labor, and the U.S. Department of State. Ms. Khanna consults with attorneys and clients from start to finish through various processes in an effort to provide high quality and dedicated services. She has extensive contact with clients to obtain necessary documentation and to assist them with immigration processing procedures. Ms. Khanna is committed to our clients and is a true asset to our firm.",
+    },
+    {
       image: Shruthi,
       name: "Shruthi Khanna",
       role: "Accountant",
@@ -68,18 +80,6 @@ const Experts = () => {
       email: "sabirou@mannamlaw.com",
       descriptionOne:
         "Mr. Sanousi has over seven years of experience in business immigration. Being highly knowledgeable about various immigration processes, he specializes, and has expertise in, the H-1B nonimmigrant visa application process. From start to completion of the H-1B petition process, Sabir communicates extensively with clients, obtaining and thoroughly reviewing appropriate documentation/evidence gathered to support a proper filing. Sabir assists attorneys in document review and in all aspects of case preparation. He drafts appropriate forms and petition support letters, and assembles application and petition packages to file with the USCIS. Since joining our firm in 2005, Sabir has established and maintained great working relationships with our clients. He has a Bachelor’s Degree in Corporate Law. Prior to joining our firm, Sabir practiced corporate law and banking in Kuwait for over eight years.",
-    },
-    {
-      image: Kanchi,
-      name: "Kanchi Khanna",
-      role: "Senior Paralegal",
-      languages: ["Hindi", "English", "Punjabi"],
-      phone: "(877) 596-1761 Ext. 3",
-      direct: "(678) 392-3172",
-      fax: "(877) 596-1667",
-      email: "kanchi@mannamlaw.com",
-      descriptionOne:
-        "Prior to joining Mannam & Associates LLC, in 2002, Ms. Khanna studied at the University of Maryland at College Park, MD, and worked at an IT consulting firm as an Accounts/HR Manager and an Immigration Associate. She has been working for over 12 years in the employment and family-based immigration field. Ms. Khanna has considerable experience in overseeing, preparing and filing a broad spectrum of nonimmigrant and immigrant petitions, including temporary nonimmigrant visas, labor certifications, permanent resident applications and naturalization applications. Assisting in all aspects of business immigration matters, Ms. Khanna’s expertise is in guiding our clients through employment and family based Green Card application processes. With strong attention to detail, she drafts appropriate documents required by the U.S. Citizenship and Immigration Services, the U.S. Department of Labor, and the U.S. Department of State. Ms. Khanna consults with attorneys and clients from start to finish through various processes in an effort to provide high quality and dedicated services. She has extensive contact with clients to obtain necessary documentation and to assist them with immigration processing procedures. Ms. Khanna is committed to our clients and is a true asset to our firm.",
     },
   ];
 

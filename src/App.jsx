@@ -10,6 +10,7 @@ import DetailsPage from "./pages/DetailsPage";
 import WhyUsPage from "./pages/WhyUsPage";
 import Experts from "./pages/Experts";
 import ExpertDetails from "./pages/ExpertDetails";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/why-mannam-law" element={<WhyUsPage />} />
           <Route path="/experts" element={<Experts />} />
           <Route path="/experts/:name" element={<ExpertDetails />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
