@@ -227,10 +227,10 @@ const NavBar = () => {
 
             <li className="p-4 border-b border-headingColor">
               <a
-                href="/contact"
+                href="/experts"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
-                Our Attorneys
+                Our Experts
               </a>
             </li>
 

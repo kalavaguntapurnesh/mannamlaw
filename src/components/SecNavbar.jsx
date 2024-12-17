@@ -83,8 +83,8 @@ const NavBar = () => {
           <FlyoutLink href="/solutions" FlyoutContent={PricingContent}>
             Achievements
           </FlyoutLink>
-          <FlyoutLink href="/industries" FlyoutContent={IndustriesContent}>
-            Our Attorneys
+          <FlyoutLink href="/experts" FlyoutContent={IndustriesContent}>
+            Our Experts
           </FlyoutLink>
           <FlyoutLink href="/why-mannam-law" FlyoutContent={AboutUsContent}>
             About Us
@@ -218,10 +218,10 @@ const NavBar = () => {
 
             <li className="p-4 border-b border-headingColor">
               <a
-                href="/contact"
+                href="/experts"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
-                Our Attorneys
+                Our Experts
               </a>
             </li>
 
