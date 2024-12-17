@@ -276,19 +276,19 @@ const Contact = () => {
 
                                 <div class="grid grid-cols-3 pt-2">
                                   <a
-                                    href="https://www.linkedin.com/company/axseva/"
+                                    href="https://www.linkedin.com/in/ravi-mannam-7930531a"
                                     className="flex justify-center items-center"
                                   >
                                     <FaLinkedin className="text-headingColor w-6 h-6" />
                                   </a>
                                   <a
-                                    href="https://www.linkedin.com/company/axseva/"
+                                    href="https://www.linkedin.com/in/ravi-mannam-7930531a"
                                     className="flex justify-center items-center"
                                   >
                                     <FaXTwitter className="text-headingColor w-6 h-6" />
                                   </a>
                                   <a
-                                    href="https://www.linkedin.com/company/axseva/"
+                                    href="https://www.linkedin.com/in/ravi-mannam-7930531a"
                                     className="flex justify-center items-center"
                                   >
                                     <FaInstagram className="text-headingColor w-6 h-6" />
@@ -330,7 +330,7 @@ const Contact = () => {
                               htmlFor="jobtitle"
                               className="mb-3 block text-base font-medium text-[#07074D]"
                             >
-                              Job Title
+                              Legal Issue
                             </label>
                             <input
                               type="text"
@@ -338,7 +338,7 @@ const Contact = () => {
                               id="jobtitle"
                               value={formData.jobtitle}
                               onChange={handleChange}
-                              placeholder="Your Job Title"
+                              placeholder="Your Legal Issue"
                               className="w-full rounded bg-[#f1f0f4] py-3 px-6 text-base text-[#393053] outline-none focus:bg-white focus:border-[0.5px] ease-in-out transition duration-1000 focus:border-[#393053]"
                             />
                           </div>
