@@ -83,9 +83,21 @@ const NavBar = () => {
           <FlyoutLink href="/solutions" FlyoutContent={PricingContent}>
             Achievements
           </FlyoutLink>
-          <FlyoutLink href="/experts" FlyoutContent={IndustriesContent}>
+          {/* <FlyoutLink href="/experts" FlyoutContent={IndustriesContent}>
             Our Experts
-          </FlyoutLink>
+          </FlyoutLink> */}
+          <li
+            className={` group transition duration-300 ${
+              isScrolled ? "text-black" : "text-headingColor"
+            }`}
+          >
+            <a href="/experts">Our Experts</a>
+            <div
+              className={` h-[2px] w-0 group-hover:w-full transition-all duration-300 ${
+                isScrolled ? "bg-black" : "bg-headingColor"
+              }`}
+            ></div>
+          </li>
           <FlyoutLink href="/why-mannam-law" FlyoutContent={AboutUsContent}>
             About Us
           </FlyoutLink>
@@ -310,7 +322,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
           style={{
             transform: showFlyout ? "scaleX(1)" : "scaleX(0)",
           }}
-          className={`absolute -bottom-2 -left-2 -right-2 h-[2px] origin-left scale-x-0 rounded transition-transform duration-300 ease-out ${
+          className={`absolute -bottom-1 -left-2 -right-2 h-[2px] origin-left scale-x-0 rounded transition-transform duration-300 ease-out ${
             isScrolled ? "bg-black" : "bg-headingColor"
           }`}
         />

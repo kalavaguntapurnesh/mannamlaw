@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import SecNavbar from "../components/SecNavbar";
@@ -7,6 +7,10 @@ const ExpertDetails = () => {
   const { name } = useParams();
   const location = useLocation();
   const card = location.state; // Get the card data passed as state
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -133,7 +137,7 @@ const ExpertDetails = () => {
                   )}
 
                   {card.image && (
-                     <div className="grid grid-cols-2 gap-4 pt-4 text-sm">
+                    <div className="grid grid-cols-2 gap-4 pt-4 text-sm">
                       <div className="flex flex-col justify-center items-center space-y-1">
                         <p className="text-gray-500 uppercase">Phone: </p>
                         <p className="text-[#1a1a1a] font-medium">
@@ -150,7 +154,7 @@ const ExpertDetails = () => {
                   )}
 
                   {card.image && (
-                     <div className="grid grid-cols-2 gap-4 pt-4 text-sm">
+                    <div className="grid grid-cols-2 gap-4 pt-4 text-sm">
                       <div className="flex flex-col justify-center items-center space-y-1">
                         <p className="text-gray-500 uppercase">Fax: </p>
                         <p className="text-[#1a1a1a] font-medium">{card.fax}</p>

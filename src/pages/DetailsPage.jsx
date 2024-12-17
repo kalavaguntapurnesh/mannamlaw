@@ -139,7 +139,8 @@ const dataMapping = {
       },
       {
         title: "Green Card Eligibility",
-        description: "Individuals with an L-1 visa may also be eligible for a green card through employment.  If an individual served in a managerial or executive capacity for a qualifying foreign employer for at least one year and serves in a managerial or executive capacity in L-1A status in the United States, such individual will most likely qualify for an immigrant visa.  This is one of the fastest ways in which a foreign national can attain U.S. permanent residency.",
+        description:
+          "Individuals with an L-1 visa may also be eligible for a green card through employment.  If an individual served in a managerial or executive capacity for a qualifying foreign employer for at least one year and serves in a managerial or executive capacity in L-1A status in the United States, such individual will most likely qualify for an immigrant visa.  This is one of the fastest ways in which a foreign national can attain U.S. permanent residency.",
         points: [
           // "Employee must have worked abroad for the company for at least one year.",
           // "Employee must hold an executive or managerial role.",
@@ -147,7 +148,8 @@ const dataMapping = {
       },
       {
         title: "H-1B v. L-1",
-        description: "H-1B visas are an obvious choice for bringing in foreign talent to address labor shortages in the fields of IT Consulting, Healthcare, Engineering, etc.  The L-1 visas are available to companies that have offshore subsidiaries from which to bring qualified foreign employees to the U.S. Both categories allow for the individual visa holders to hold `dual intent` and pursue legal permanent residency in the U.S. while under H-1B/L-1 visa status.",
+        description:
+          "H-1B visas are an obvious choice for bringing in foreign talent to address labor shortages in the fields of IT Consulting, Healthcare, Engineering, etc.  The L-1 visas are available to companies that have offshore subsidiaries from which to bring qualified foreign employees to the U.S. Both categories allow for the individual visa holders to hold `dual intent` and pursue legal permanent residency in the U.S. while under H-1B/L-1 visa status.",
         points: [
           "Employee must have worked abroad for the company for at least one year.",
           "Employee must hold an executive or managerial role.",
@@ -547,6 +549,10 @@ const dataMapping = {
 const DetailsPage = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const [activeHeading, setActiveHeading] = useState(null);
   const [selectedHeadingIndex, setSelectedHeadingIndex] = useState(0);
