@@ -9,6 +9,7 @@ import "./App.css";
 import DetailsPage from "./pages/DetailsPage";
 import WhyUsPage from "./pages/WhyUsPage";
 import Experts from "./pages/Experts";
+import ExpertDetails from "./pages/ExpertDetails";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/details/:title" element={<DetailsPage />} />
           <Route path="/why-mannam-law" element={<WhyUsPage />} />
           <Route path="/experts" element={<Experts />} />
+          <Route path="/experts/:name" element={<ExpertDetails />} />
         </Routes>
       </BrowserRouter>
     </>

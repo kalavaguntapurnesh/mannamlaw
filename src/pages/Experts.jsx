@@ -6,9 +6,12 @@ import Ravi from "../assets/Ravi.png";
 import Hemanth from "../assets/Hemanth.jpeg";
 import Sabir from "../assets/Sabir.png";
 import Shruthi from "../assets/Shruthi.png";
-import Kanchi from "../assets/kanchi.jpeg";
+import Kanchi from "../assets/kanchi.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Experts = () => {
+  const navigate = useNavigate();
+
   const cardsData = [
     { image: Ravi, name: "Ravi Mannam", role: "Managing Attorney" },
     { image: Hemanth, name: "Hemant Ramachandran", role: "Associate Attorney" },
@@ -24,6 +27,10 @@ const Experts = () => {
       role: "Senior Paralegal",
     },
   ];
+
+  const handleViewClick = (card) => {
+    navigate(`/experts/${encodeURIComponent(card.name)}`, { state: card });
+  };
 
   return (
     <>
@@ -86,7 +93,12 @@ const Experts = () => {
                             </div>
 
                             <div className="flex items-center justify-end w-[50%]">
-                              <button className="border border-[#f2f2f3] py-1 px-4 rounded bg-[#f2f2f3] text-gray-600">View</button>
+                              <button
+                                onClick={() => handleViewClick(card)}
+                                className="border border-[#f2f2f3] py-1 px-4 rounded bg-[#f2f2f3] text-gray-600"
+                              >
+                                View
+                              </button>
                             </div>
                           </div>
                         </div>
