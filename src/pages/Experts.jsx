@@ -13,18 +13,73 @@ const Experts = () => {
   const navigate = useNavigate();
 
   const cardsData = [
-    { image: Ravi, name: "Ravi Mannam", role: "Managing Attorney" },
-    { image: Hemanth, name: "Hemant Ramachandran", role: "Associate Attorney" },
-    { image: Shruthi, name: "Shruthi Khanna", role: "Accountant" },
+    {
+      image: Ravi,
+      name: "Ravi Mannam",
+      role: "Managing Attorney",
+      languages: ["Telugu", "Hindi", "English"],
+      barAdmission: "Tennessee",
+      phone: "(877) 596-1761 Ext. 6",
+      direct: "(678) 392-3170",
+      fax: "(877) 596-1667",
+      email: "ravi@mannamlaw.com",
+      descriptionOne:
+        "Ravi Mannam is the Managing Attorney and Founder of Mannam & Associates LLC. He offers over 20 years of legal experience in immigration and taxation law, with the last decade dedicated exclusively to the area of business immigration law. Mr. Mannam has extensive experience in complex employment-based immigration matters, including H-1B Requests for Evidence, Labor Certification Audits, I-140 Degree Equivalencies and Ability to Pay. His practice focuses on counseling clients in the information technology, engineering, and healthcare industries. Mr. Mannam also advises corporate clients on devising comprehensive global human resource strategies.",
+      descriptionTwo:
+        "Mr. Mannam is a member of the State Bar of Tennessee and the American Immigration Lawyers Association [AILA]. He is also an active member of the Telugu Association of Metro Atlanta and the local South Asian community. He is regularly invited to speak on the latest trends in filing immigrant and nonimmigrant visas on behalf of IT consulting and development companies. Having navigated the U.S. immigration system himself, Mr. Mannam understands the needs of foreign workers, as well as the business and HR concerns of their corporate petitioners.",
+      descriptionThree:
+        "Mr. Mannam received an LLB from Osmania University Department of Law and an LLM with a focus in taxation from the University of Georgia. After graduating from the University of Georgia, Mr. Mannam joined a large corporate firm in Atlanta, Georgia, practicing in the areas of taxation, ERISA and employee benefits. Prior to founding Mannam & Associates LLC, Mr. Mannam also served as in-house immigration counsel to a large information technology consulting firm.",
+    },
+    {
+      image: Hemanth,
+      name: "Hemant Ramachandran",
+      role: "Associate Attorney",
+      languages: ["Tamil", "English", "Spanish"],
+      barAdmission: "Georgia",
+      phone: "(877) 596-1761 Ext. 5",
+      direct: "(678) 392-3175",
+      fax: "(877) 596-1667",
+      email: "Hemanth@mannamlaw.com",
+      descriptionOne:
+        "Mr. Hemant Ramachandran is an Associate Attorney with Mannam & Associates LLC. He has extensive experience handling matters related to both employment and family immigration, including the preparation and filing of petitions as well as the filing of responses to Requests for Evidence, Appeals, and Motions to Reopen. He has successfully argued appeals to the Board of Alien Labor Certification Appeals on denied PERM applications, reopened and obtained approvals on H-1B Denials and Notices of Intent to Revoke, prepared and gained approvals on hundreds of I-140 immigrant visa petitions in several employment-based visa categories, and prepared and resolved complex legal issues concerning matters such as L-1, TN, H-1B, EB-1C, EB-2/EB-3, EB-2 National Interest Waiver, adjustment of status, and naturalization applications. He routinely engages with consulates abroad and Department of Homeland Security enforcement to resolve matters such as FDNS inquiries, 221(g) refusals, and emergency expedite requests, and assists immigration beneficiaries in resolving potential admissibility issues at ports of entry.",
+      descriptionTwo:
+        "Mr. Ramachandran has been admitted to practice before the Georgia Supreme Court and is a member of the State Bar of Georgia and the American Immigration Lawyers Association [AILA]. He has been a part of the Mannam & Associates team for over eight years, having previously served as a law clerk in the Coweta Judicial Circuit. He earned his J.D. from the University of Georgia School of Law in Athens, GA in 2014, and his Bachelor of Science Degree in Industrial & Systems Engineering from the Georgia Institute of Technology in Atlanta, GA in 2009. Having been raised in an immigrant family, Mr. Ramachandran has a personal understanding of the sensitive needs of foreign workers, as well as the particular concerns of their corporate petitioner",
+    },
+    {
+      image: Shruthi,
+      name: "Shruthi Khanna",
+      role: "Accountant",
+      languages: ["Hindi", "English"],
+      phone: "(877) 596-1761 Ext. 5",
+      direct: "(678) 392-3171",
+      fax: "(877) 596-1667",
+      email: "shruthi@mannamlaw.com",
+      descriptionOne:
+        "Ms. Khanna graduated summa cum laude from the Smith School of Business, University of Maryland with a Bachelor’s degree in Accounting. Ms. Khanna joined our firm as Accountant in 2006. She is involved in all aspects of recording and reviewing financial transactions for our firm.",
+    },
     {
       image: Sabir,
       name: "Sabirou Sanoussi",
       role: "Paralegal",
+      languages: ["Arabic", "Akan", "Hausa", "English"],
+      phone: "(877) 596-1761 Ext. 2",
+      direct: "(678) 392-3174",
+      fax: "(877) 596-1667",
+      email: "sabirou@mannamlaw.com",
+      descriptionOne:
+        "Mr. Sanousi has over seven years of experience in business immigration. Being highly knowledgeable about various immigration processes, he specializes, and has expertise in, the H-1B nonimmigrant visa application process. From start to completion of the H-1B petition process, Sabir communicates extensively with clients, obtaining and thoroughly reviewing appropriate documentation/evidence gathered to support a proper filing. Sabir assists attorneys in document review and in all aspects of case preparation. He drafts appropriate forms and petition support letters, and assembles application and petition packages to file with the USCIS. Since joining our firm in 2005, Sabir has established and maintained great working relationships with our clients. He has a Bachelor’s Degree in Corporate Law. Prior to joining our firm, Sabir practiced corporate law and banking in Kuwait for over eight years.",
     },
     {
       image: Kanchi,
       name: "Kanchi Khanna",
       role: "Senior Paralegal",
+      languages: ["Hindi", "English", "Punjabi"],
+      phone: "(877) 596-1761 Ext. 3",
+      direct: "(678) 392-3172",
+      fax: "(877) 596-1667",
+      email: "kanchi@mannamlaw.com",
+      descriptionOne:
+        "Prior to joining Mannam & Associates LLC, in 2002, Ms. Khanna studied at the University of Maryland at College Park, MD, and worked at an IT consulting firm as an Accounts/HR Manager and an Immigration Associate. She has been working for over 12 years in the employment and family-based immigration field. Ms. Khanna has considerable experience in overseeing, preparing and filing a broad spectrum of nonimmigrant and immigrant petitions, including temporary nonimmigrant visas, labor certifications, permanent resident applications and naturalization applications. Assisting in all aspects of business immigration matters, Ms. Khanna’s expertise is in guiding our clients through employment and family based Green Card application processes. With strong attention to detail, she drafts appropriate documents required by the U.S. Citizenship and Immigration Services, the U.S. Department of Labor, and the U.S. Department of State. Ms. Khanna consults with attorneys and clients from start to finish through various processes in an effort to provide high quality and dedicated services. She has extensive contact with clients to obtain necessary documentation and to assist them with immigration processing procedures. Ms. Khanna is committed to our clients and is a true asset to our firm.",
     },
   ];
 
