@@ -6,6 +6,13 @@ import USA from "../assets/USA.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import LawOne from "../assets/lawOne.png";
+import LawTwo from "../assets/lawTwo.png";
+import LawThree from "../assets/lawThree.png";
+import LawFour from "../assets/lawFour.png";
+import linkedin from "../assets/social.png";
+import email from "../assets/email.png";
+import badge from "../assets/badge.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -121,9 +128,9 @@ const Contact = () => {
                       <div className="space-y-3">
                         <div className="flex justify-center items-center">
                           <img
-                            src="https://cdn.iconscout.com/icon/premium/png-512-thumb/law-8053176-6402204.png?f=webp&w=512"
+                            src={LawThree}
                             alt="services_five"
-                            className="w-24 h-24"
+                            className="w-20 h-20"
                           />
                         </div>
                         <div className="flex justify-center items-center">
@@ -144,9 +151,9 @@ const Contact = () => {
                       <div className="space-y-3">
                         <div className="flex justify-center items-center">
                           <img
-                            src="https://cdn.iconscout.com/icon/premium/png-512-thumb/audit-8053136-6402164.png?f=webp&w=512"
+                            src={LawTwo}
                             alt="services_five"
-                            className="w-24 h-24"
+                            className="w-20 h-20"
                           />
                         </div>
                         <div className="flex justify-center items-center">
@@ -167,9 +174,9 @@ const Contact = () => {
                       <div className="space-y-3">
                         <div className="flex justify-center items-center">
                           <img
-                            src="https://cdn.iconscout.com/icon/premium/png-512-thumb/balance-8053139-6402167.png?f=webp&w=512"
+                            src={LawOne}
                             alt="services_five"
-                            className="w-24 h-24"
+                            className="w-20 h-20"
                           />
                         </div>
                         <div className="flex justify-center items-center">
@@ -238,7 +245,7 @@ const Contact = () => {
                               <div class="space-y-2">
                                 <div className="flex justify-center items-center">
                                   <img
-                                    src="https://cdn.iconscout.com/icon/premium/png-512-thumb/email-address-8510581-6701837.png?f=webp&w=512"
+                                    src={email}
                                     alt="contact_three"
                                     className="w-20 h-20"
                                   />
@@ -263,7 +270,7 @@ const Contact = () => {
                               <div class="space-y-2">
                                 <div className="flex justify-center items-center">
                                   <img
-                                    src="https://cdn.iconscout.com/icon/premium/png-512-thumb/social-media-5686022-4752631.png?f=webp&w=512"
+                                    src={linkedin}
                                     alt="contact_four"
                                     className="w-20 h-20"
                                   />
