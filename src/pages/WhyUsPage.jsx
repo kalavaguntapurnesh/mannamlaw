@@ -185,7 +185,7 @@ const WhyUsPage = () => {
                   </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-6 pt-8 max-w-full">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-2 pt-8 max-w-full">
                   <div className="flex md:justify-start justify-center">
                     <div className="w-full bg-white rounded p-6 transition-transform duration-300 lg:hover:-translate-y-2">
                       <div className="space-y-4">

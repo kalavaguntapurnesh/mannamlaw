@@ -239,7 +239,7 @@ const NavBar = () => {
 
             <li className="p-4 border-b border-headingColor">
               <a
-                href="/contact"
+                href="/why-mannam-law"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
                 About Us
