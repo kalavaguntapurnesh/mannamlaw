@@ -89,9 +89,9 @@ const NavBar = () => {
           >
             Our Services
           </FlyoutLink>
-          <FlyoutLink href="/solutions" FlyoutContent={PricingContent}>
+          {/* <FlyoutLink href="/solutions" FlyoutContent={PricingContent}>
             Achievements
-          </FlyoutLink>
+          </FlyoutLink> */}
           {/* <FlyoutLink href="/experts" FlyoutContent={IndustriesContent}>
             Our Experts
           </FlyoutLink> */}
@@ -228,14 +228,14 @@ const NavBar = () => {
                 )}
               </AnimatePresence>
             </li>
-            <li className="p-4 border-b border-headingColor">
+            {/* <li className="p-4 border-b border-headingColor">
               <a
                 href="/contact"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
                 Achievements
               </a>
-            </li>
+            </li> */}
 
             <li className="p-4 border-b border-headingColor">
               <a
@@ -271,17 +271,17 @@ const NavBar = () => {
             </h5>
             <div className="p-4">
               <div className="grid grid-cols-4">
-                <a href="https://www.linkedin.com/in/ravi-mannam-7930531a/">
+                <a href="https://www.linkedin.com/company/mannam-&-associates-llc/">
                   <FaLinkedinIn className="w-6 h-6 text-headingColor duration-1000 hover:text-mainColor ease-in-out" />
                 </a>
-                <a href="https://www.linkedin.com/in/ravi-mannam-7930531a/">
+                <a href="https://www.linkedin.com/company/mannam-&-associates-llc/">
                   <FaXTwitter className="w-6 h-6 text-headingColor duration-1000 hover:text-mainColor ease-in-out" />
                 </a>
-                <a href="https://www.linkedin.com/in/ravi-mannam-7930531a/">
+                <a href="https://www.linkedin.com/company/mannam-&-associates-llc/">
                   {" "}
                   <FaInstagram className="w-6 h-6 text-headingColor duration-1000 hover:text-mainColor ease-in-out" />
                 </a>
-                <a href="https://www.linkedin.com/in/ravi-mannam-7930531a/">
+                <a href="https://www.linkedin.com/company/mannam-&-associates-llc/">
                   {" "}
                   <FaFacebookF className="w-6 h-6 text-headingColor duration-1000 hover:text-mainColor ease-in-out" />
                 </a>

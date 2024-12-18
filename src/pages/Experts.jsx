@@ -164,7 +164,7 @@ const Experts = () => {
                           <div className="flex items-center justify-center">
                             <button
                               onClick={() => handleViewClick(card)}
-                              className="border border-[#f2f2f3] py-2 px-8 rounded bg-[#f2f2f3] text-gray-800 hover:bg-headingColor transition duration-500 ease-in-out hover:text-white"
+                              className="border border-[#f2f2f3] py-2 px-12 w-3/4 rounded bg-mainColor text-white hover:bg-headingColor transition duration-500 ease-in-out hover:text-white"
                             >
                               View More
                             </button>

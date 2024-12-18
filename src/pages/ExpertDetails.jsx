@@ -28,12 +28,22 @@ const ExpertDetails = () => {
                         <img
                           src={card.image}
                           alt={card.name}
-                          className="rounded-full mb-4 h-24 w-24"
+                          className="rounded-full mb-4 h-36 w-36"
                         />
                       )}
-                      <h1 className="text-4xl font-bold text-[#1A1A1A]">
+                      <h1 className="text-4xl font-bold text-headingColor">
                         {card.name}
                       </h1>
+                    </div>
+
+                    <div className="flex flex-row text-xl font-medium justify-between text-headingColor">
+                      <div>
+                        <h1>{card.role}</h1>
+                      </div>
+
+                      <div>
+                        <h1>Languages Spoken: {card.languages}</h1>
+                      </div>
                     </div>
 
                     <div className="flex flex-col">

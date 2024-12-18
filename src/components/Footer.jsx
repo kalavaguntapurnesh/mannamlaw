@@ -104,7 +104,7 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/about-us#our_leadership"
+                          href="/experts"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Our Leadership
@@ -120,7 +120,7 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/collaborate-with-us"
+                          href="/contact"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Contact Us Now
@@ -155,7 +155,7 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="https://www.linkedin.com/in/ravi-mannam-7930531a"
+                          href="https://www.linkedin.com/company/mannam-&-associates-llc/"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Processing Times
@@ -163,7 +163,7 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="https://www.linkedin.com/in/ravi-mannam-7930531a"
+                          href="https://www.linkedin.com/company/mannam-&-associates-llc/"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           VISA Bulletin
@@ -238,7 +238,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 gap-8 lg:gap-4 w-full">
                   <div className="grid grid-cols-5">
                     <a
-                      href="https://www.linkedin.com/in/ravi-mannam-7930531a/"
+                      href="https://www.linkedin.com/company/mannam-&-associates-llc/"
                       className="flex justify-center items-center "
                     >
                       <FaLinkedin

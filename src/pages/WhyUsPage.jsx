@@ -128,7 +128,7 @@ const WhyUsPage = () => {
                       <div className="h-4 w-1 bg-mainColor"></div>
 
                       <p className="ml-2 lg:text-lg font-semibold text-mainColor">
-                        We are best
+                        Why Mannam Law?
                       </p>
                     </div>
                     <div>
@@ -153,7 +153,7 @@ const WhyUsPage = () => {
                         href="/contact"
                         class="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded-full"
                       >
-                        <span class="relative z-10">Request a Demo</span>
+                        <span class="relative z-10">Request a consultation</span>
                       </a>
                     </div>
 
@@ -311,8 +311,8 @@ const WhyUsPage = () => {
                 <div className="text-center mt-4">
                   <h1 className="text-base text-center text-gray-600 lg:leading-normal">
                     Mannam & Associates focuses exclusively on U.S. immigration
-                    law, offering client-oriented, results-driven representation
-                    with a 99% success rate.
+                    law, offering client-oriented, results-driven
+                    representation.
                   </h1>
                 </div>
 
@@ -397,6 +397,12 @@ const WhyUsPage = () => {
                             Atlanta, Georgia
                           </h1>
                         </div>
+
+                        <div className="flex flex-col justify-center items-center">
+                          <p>Mannam & Associates, LLC 6160</p>
+                          <p>Peachtree Dunwoody Rd Suite B-230</p>
+                          <p>Atlanta, GA 30328, USA</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -417,6 +423,12 @@ const WhyUsPage = () => {
                             Chattanooga, Tennessee
                           </h1>
                         </div>
+
+                        <div className="flex flex-col justify-center items-center">
+                          <p>Mannam & Associates, LLC 2288</p>
+                          <p>Gunbarrel Road, Suite 154-300</p>
+                          <p>Chattanooga, TN 37421, USA</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -436,6 +448,12 @@ const WhyUsPage = () => {
                           <h1 className="text-2xl text-headingColor font-bold text-center">
                             Suwanee, Georgia
                           </h1>
+                        </div>
+
+                        <div className="flex flex-col justify-center items-center">
+                          <p>Mannam & Associates, LLC 3651</p>
+                          <p>Peachtree Pkwy Suite E-360</p>
+                          <p>Atlanta, GA 30024, USA</p>
                         </div>
                       </div>
                     </div>

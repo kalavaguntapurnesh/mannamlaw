@@ -11,6 +11,7 @@ import WhyUsPage from "./pages/WhyUsPage";
 import Experts from "./pages/Experts";
 import ExpertDetails from "./pages/ExpertDetails";
 import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/experts" element={<Experts />} />
           <Route path="/experts/:name" element={<ExpertDetails />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </BrowserRouter>
     </>
