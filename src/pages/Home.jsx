@@ -9,13 +9,9 @@ const Home = () => {
   return (
     <>
       <MainLayout />
-
       <HomeServices />
-
       <Blogs />
-
       <ScrollToTop />
-
       <Footer />
     </>
   );

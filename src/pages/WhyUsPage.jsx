@@ -75,7 +75,7 @@ const WhyUsPage = () => {
                       </p>
                     </div>
                     <div>
-                      <h1 className="lg:text-5xl lg:text-start text-center text-2xl text-headingColor font-bold lg:leading-loose">
+                      <h1 className="lg:text-5xl lg:text-start text-center text-2xl text-headingColor font-bold lg:leading-snug">
                         Reliable Expertise for Your Legal Success
                       </h1>
                     </div>
