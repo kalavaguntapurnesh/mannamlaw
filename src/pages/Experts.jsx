@@ -130,7 +130,7 @@ const Experts = () => {
                   </div>
                 </div>
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 p-6 pt-8">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:p-6 pt-8">
                   {cardsData.map((card, index) => (
                     <div
                       key={index}
