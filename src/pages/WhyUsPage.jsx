@@ -10,52 +10,109 @@ import { FaMessage } from "react-icons/fa6";
 import { RiEmotionHappyFill } from "react-icons/ri";
 import { ImPower } from "react-icons/im";
 import { FaFlag } from "react-icons/fa6";
+import passport from "../assets/passport.png";
+import document from "../assets/document.png";
+import globe from "../assets/globe.png";
+import email from "../assets/email.png";
+import board from "../assets/board.png";
+import permit from "../assets/permit.png";
+import investment from "../assets/investment.png";
+import students from "../assets/students.png";
+import multi from "../assets/multi.png";
+import exp from "../assets/exp.png";
+import comm from "../assets/comm.png";
 
 const WhyUsPage = () => {
+  // const values1 = [
+  //   {
+  //     icon: <FaHandshake />,
+  //     Title: "Best in class partner experience",
+  //     description:
+  //       "We have a value-driven partnerships philosophy which relies on trust & collaboration, a joint focus on our customers backed up by ownership and accountability, and constant learning and growth.",
+  //     color: "text-green-500", // Blue color for this icon
+  //   },
+  //   {
+  //     icon: <FaInbox />,
+  //     Title: "Diverse product and ecosystem",
+  //     description:
+  //       "We are leaders in the emerging Headless CMS category, MACH Alliance Certified and we have a strong ecosystem and marketplace of native integrations.",
+  //     color: "text-blue-500", // Green color for this icon
+  //   },
+  //   {
+  //     icon: <BiSolidNavigation />,
+  //     Title: "Revenue potential",
+  //     description:
+  //       "We offer diverse opportunities for growth and revenue - our partners can benefit from cost efficiencies and 10% revenue share, active demand generation and practice opportunities with services revenue potential.",
+  //     color: "text-yellow-400", // Red color for this icon
+  //   },
+  //   {
+  //     icon: <FaMessage />,
+  //     Title: "Perks",
+  //     description:
+  //       "As a token of our appreciation for our partnership, you will receive practical or limited edition Hygraph swag, invitations to workshops, conferences & events, as well as a lifetime license for company website.",
+  //     color: "text-teal-500", // Yellow color for this icon
+  //   },
+  //   {
+  //     icon: <MdAutoGraph />,
+  //     Title: "Collaboration",
+  //     description:
+  //       "We develop mutual business plans with our partners, focusing on co-marketing and co-selling, ensuring both parties align goals, resources, and strategies effectively. We track progress in joint quarterly reviews.",
+  //     color: "text-pink-500", // Purple color for this icon
+  //   },
+  //   {
+  //     icon: <RiEmotionHappyFill />,
+  //     Title: "Enablement and support",
+  //     description:
+  //       "Our partners have priority admittance to technical & commercial trainings, they gain insider access to new product features, and they benefit from community support for swift issue resolution.",
+  //     color: "text-violet-500", // Pink color for this icon
+  //   },
+  // ];
+
   const values1 = [
     {
-      icon: <FaHandshake />,
-      Title: "Best in class partner experience",
+      icon: passport,
+      Title: "Strong Advocacy",
       description:
-        "We have a value-driven partnerships philosophy which relies on trust & collaboration, a joint focus on our customers backed up by ownership and accountability, and constant learning and growth.",
+        " Provides robust legal advocacy to safeguard client rights and interests throughout the immigration process.",
       color: "text-green-500", // Blue color for this icon
     },
     {
-      icon: <FaInbox />,
-      Title: "Diverse product and ecosystem",
+      icon: document,
+      Title: "Proven Track Record",
       description:
-        "We are leaders in the emerging Headless CMS category, MACH Alliance Certified and we have a strong ecosystem and marketplace of native integrations.",
+        "Demonstrates a high success rate, showcasing their ability to deliver favorable outcomes for clients.",
       color: "text-blue-500", // Green color for this icon
     },
     {
-      icon: <BiSolidNavigation />,
-      Title: "Revenue potential",
+      icon: globe,
+      Title: "Global Client Reach",
       description:
-        "We offer diverse opportunities for growth and revenue - our partners can benefit from cost efficiencies and 10% revenue share, active demand generation and practice opportunities with services revenue potential.",
-      color: "text-yellow-400", // Red color for this icon
+        "Offers support to clients worldwide, accommodating varying linguistic needs and cultural backgrounds.",
+      color: "text-yellow-500", // Red color for this icon
     },
     {
-      icon: <FaMessage />,
-      Title: "Perks",
+      icon: multi,
+      Title: "Multilingual Support",
       description:
-        "As a token of our appreciation for our partnership, you will receive practical or limited edition Hygraph swag, invitations to workshops, conferences & events, as well as a lifetime license for company website.",
+        "Provides services in multiple languages to cater to a diverse clientele, ensuring clear communication and understanding.",
       color: "text-teal-500", // Yellow color for this icon
     },
     {
-      icon: <MdAutoGraph />,
-      Title: "Collaboration",
+      icon: exp,
+      Title: "Diverse Experience",
       description:
-        "We develop mutual business plans with our partners, focusing on co-marketing and co-selling, ensuring both parties align goals, resources, and strategies effectively. We track progress in joint quarterly reviews.",
+        "Handles a wide range of immigration cases, from work visas to permanent residency and citizenship applications.",
       color: "text-pink-500", // Purple color for this icon
     },
     {
-      icon: <RiEmotionHappyFill />,
-      Title: "Enablement and support",
+      icon: comm,
+      Title: "Transparent Communication",
       description:
-        "Our partners have priority admittance to technical & commercial trainings, they gain insider access to new product features, and they benefit from community support for swift issue resolution.",
+        "Offers clear and straightforward guidance throughout the legal process, keeping clients well-informed.",
       color: "text-violet-500", // Pink color for this icon
     },
   ];
+
   return (
     <>
       <SecNavbar />
@@ -135,13 +192,7 @@ const WhyUsPage = () => {
                     </div>
                   </div>
 
-                  <div
-                    // variants={fadeIn("down", 0.1)} // Fade in from top to bottom
-                    // initial="hidden"
-                    // whileInView="show"
-                    // viewport={{ once: true, amount: 0.5 }}
-                    className="flex justify-center items-center w-[100%]"
-                  >
+                  <div className="flex justify-center items-center w-[100%]">
                     <div>
                       <img
                         src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -202,27 +253,7 @@ const WhyUsPage = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col space-y-4">
-                  {/* Heading */}
-
-                  {/* <div className="flex items-center justify-center">
-                    <div className="h-4 w-1 bg-mainColor"></div>
-                    <h1 className="ml-2 text-lg font-bold text-mainColor ">
-                      We empower you
-                    </h1>
-                  </div> */}
-                  {/* <div className="lg:text-4xl text-2xl text-headingColor font-bold text-center">
-                    Why collaborate with AXSeva?
-                  </div> */}
-
-                  {/* Description */}
-                  {/* <div>
-                    <p className="text-gray-700 lg:leading-normal text-center md:text-lg">
-                      Collaborating with us unlocks an opportunity to elevate
-                      your offerings and maximize growth opportunities together.
-                    </p>
-                  </div> */}
-                  {/* Cards Grid */}
+                {/* <div className="flex flex-col space-y-4">
                   <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-6 max-w-full">
                     {values1.map((value, index) => (
                       <div
@@ -252,6 +283,67 @@ const WhyUsPage = () => {
                       </div>
                     ))}
                   </div>
+                </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pt-16 pb-12">
+        <div className="relative">
+          <div className="w-full">
+            <div className="w-full mx-auto max-w-[1400px]">
+              <div className="p-4">
+                <div className="flex items-center text-center justify-center ">
+                  <div className="h-4 w-1 bg-mainColor"></div>
+                  <h1 className="ml-2 text-lg font-bold text-mainColor">
+                    We are best
+                  </h1>
+                </div>
+
+                <div className="mx-auto max-w-[1000px] text-center mt-4">
+                  <h1 className="lg:text-4xl text-2xl font-bold text-headingColor">
+                    Why Mannam & Law Associates?
+                  </h1>
+                </div>
+
+                <div className="text-center mt-4">
+                  <h1 className="text-base text-center text-gray-600 lg:leading-normal">
+                    Mannam & Associates focuses exclusively on U.S. immigration
+                    law, offering client-oriented, results-driven representation
+                    with a 99% success rate.
+                  </h1>
+                </div>
+
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8">
+                  {values1.map((value, index) => (
+                    <div
+                      key={index}
+                      className="flex md:justify-start justify-center"
+                    >
+                      <div className="w-full bg-white border border-gray-200 rounded p-6">
+                        <div className="space-y-3">
+                          <div className="flex justify-center items-center">
+                            <img
+                              src={value.icon}
+                              alt=""
+                              className="w-20 h-20"
+                            />
+                          </div>
+
+                          <div className="flex justify-center items-center">
+                            <h1 className="text-2xl text-headingColor font-semibold text-center">
+                              {value.Title}
+                            </h1>
+                          </div>
+                          <div className="flex justify-center items-center text-gray-600 text-center lg:leading-normal">
+                            <p>{value.description}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
