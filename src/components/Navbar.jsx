@@ -64,7 +64,7 @@ const NavBar = () => {
               <span
                 className={` ${
                   isScrolled
-                    ? "text-[#0A3161] font-bold"
+                    ? "text-headingColor font-bold"
                     : "text-[#ac0000] semibold"
                 }`}
               >
@@ -81,7 +81,7 @@ const NavBar = () => {
             href="/dynamics-365-support-services"
             FlyoutContent={SupportContent}
           >
-            Practices
+            Our Practice
           </FlyoutLink>
           <FlyoutLink
             href="/managed-it-services"
@@ -95,6 +95,11 @@ const NavBar = () => {
           {/* <FlyoutLink href="/experts" FlyoutContent={IndustriesContent}>
             Our Experts
           </FlyoutLink> */}
+
+          <FlyoutLink href="/why-mannam-law" FlyoutContent={AboutUsContent}>
+            About Us
+          </FlyoutLink>
+
           <li
             className={` group transition duration-300 ${
               isScrolled ? "text-headingColor" : "text-navGray"
@@ -107,9 +112,6 @@ const NavBar = () => {
               }`}
             ></div>
           </li>
-          <FlyoutLink href="/why-mannam-law" FlyoutContent={AboutUsContent}>
-            About Us
-          </FlyoutLink>
         </ul>
 
         {/* Login Button */}
@@ -164,7 +166,7 @@ const NavBar = () => {
                 onClick={() => toggleMobileDropdown("subscription")}
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
-                Our Practices
+                Our Practice
                 <FaAngleDown
                   className={`transition-transform ${
                     openDropdownMobile === "subscription"
@@ -239,19 +241,19 @@ const NavBar = () => {
 
             <li className="p-4 border-b border-headingColor">
               <a
-                href="/experts"
+                href="/why-mannam-law"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
-                Our Experts
+                About Us
               </a>
             </li>
 
             <li className="p-4 border-b border-headingColor">
               <a
-                href="/why-mannam-law"
+                href="/experts"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
-                About Us
+                Our Experts
               </a>
             </li>
 
