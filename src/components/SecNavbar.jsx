@@ -71,12 +71,12 @@ const NavBar = () => {
           <FlyoutLink href="/our-practices" FlyoutContent={SupportContent}>
             Our Practice
           </FlyoutLink>
-          <FlyoutLink
+          {/* <FlyoutLink
             href="/managed-it-services"
             FlyoutContent={ServicesContent}
           >
             Our Services
-          </FlyoutLink>
+          </FlyoutLink> */}
           {/* <FlyoutLink href="/solutions" FlyoutContent={PricingContent}>
             Achievements
           </FlyoutLink> */}
@@ -87,6 +87,21 @@ const NavBar = () => {
           <FlyoutLink href="/why-mannam-law" FlyoutContent={AboutUsContent}>
             About Us
           </FlyoutLink>
+
+          <li
+            className={` group transition duration-300 uppercase ${
+              isScrolled
+                ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
+                : "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
+            }`}
+          >
+            <a href="/our-services">Our Services</a>
+            <div
+              className={` h-[2px] w-0 group-hover:w-full transition-all duration-300 ${
+                isScrolled ? "bg-mainColor" : "bg-mainColor"
+              }`}
+            ></div>
+          </li>
 
           <li
             className={` group transition duration-300 uppercase ${
