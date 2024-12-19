@@ -13,6 +13,7 @@ import LawFour from "../assets/lawFour.png";
 import linkedin from "../assets/social.png";
 import email from "../assets/email.png";
 import badge from "../assets/badge.png";
+import { MdArrowRightAlt } from "react-icons/md";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -122,7 +123,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-6 pt-8 max-w-full">
+                {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-6 pt-8 max-w-full">
                   <div className="flex md:justify-start justify-center">
                     <div className="w-full bg-white border border-gray-200 rounded p-6 transition-transform duration-300 hover:-translate-y-2">
                       <div className="space-y-3">
@@ -192,6 +193,134 @@ const Contact = () => {
                       </div>
                     </div>
                   </div>
+                </div> */}
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-2 pt-8 max-w-full">
+                  <a
+                    href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
+                    className="flex md:justify-start justify-center"
+                  >
+                    <div className="w-full bg-white rounded p-6 transition-transform duration-300 lg:hover:-translate-y-2">
+                      <div className="space-y-3">
+                        <div className="flex justify-center items-center">
+                          <img
+                            src="https://images.pexels.com/photos/134643/pexels-photo-134643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="services_five"
+                            className="w-full h-60"
+                          />
+                        </div>
+
+                        <div className="flex justify-center items-center">
+                          <h1 className="text-2xl text-headingColor font-bold text-center">
+                            Atlanta, Georgia
+                          </h1>
+                        </div>
+
+                        <div className="flex flex-col text-gray-600 justify-center items-center">
+                          <p>Mannam & Associates, LLC 6160</p>
+                          <p>Peachtree Dunwoody Rd Suite B-230</p>
+                          <p>Atlanta, GA 30328, USA</p>
+                          <p>
+                            Phone Number:{" "}
+                            <span className="underline text-blue-600 font-medium">
+                              (678) 392-3170
+                            </span>
+                          </p>
+                        </div>
+
+                        <div class="px-6 pb-4 flex justify-center">
+                          <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
+                            <span class="relative z-10 ">View Location</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://maps.app.goo.gl/oGgn5UJCpWmAXT2HA"
+                    className="flex md:justify-start justify-center"
+                  >
+                    <div className="w-full bg-white rounded p-6 transition-transform duration-300 lg:hover:-translate-y-2">
+                      <div className="space-y-3">
+                        <div className="flex justify-center items-center">
+                          <img
+                            src="https://images.pexels.com/photos/2874064/pexels-photo-2874064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="services_five"
+                            className="w-full h-60"
+                          />
+                        </div>
+
+                        <div className="flex justify-center items-center">
+                          <h1 className="text-2xl text-headingColor font-bold text-center">
+                            Chattanooga, Tennessee
+                          </h1>
+                        </div>
+
+                        <div className="flex flex-col text-gray-600 justify-center items-center">
+                          <p>Mannam & Associates, LLC 2288</p>
+                          <p>Gunbarrel Road, Suite 154-300</p>
+                          <p>Chattanooga, TN 37421, USA</p>
+                          <p>
+                            Phone Number:{" "}
+                            <span className="underline text-blue-600 font-medium">
+                              (678) 392-3170
+                            </span>
+                          </p>
+                        </div>
+
+                        <div class="px-6 pb-4 flex justify-center">
+                          <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
+                            <span class="relative z-10 ">View Location</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
+                    className="flex md:justify-start justify-center"
+                  >
+                    <div className="w-full bg-white rounded p-6 transition-transform duration-300 lg:hover:-translate-y-2">
+                      <div className="space-y-3">
+                        <div className="flex justify-center items-center">
+                          <img
+                            src="https://images.pexels.com/photos/2815184/pexels-photo-2815184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="services_five"
+                            className="w-full h-60"
+                          />
+                        </div>
+
+                        <div className="flex justify-center items-center">
+                          <h1 className="text-2xl text-headingColor font-bold text-center">
+                            Suwanee, Georgia
+                          </h1>
+                        </div>
+
+                        <div className="flex flex-col text-gray-600 justify-center items-center">
+                          <p>Mannam & Associates, LLC 3651</p>
+                          <p>Peachtree Pkwy Suite E-360</p>
+                          <p>Atlanta, GA 30024, USA</p>
+                          <p>
+                            Phone Number:{" "}
+                            <span className="underline text-blue-600 font-medium">
+                              (678) 392-3170
+                            </span>
+                          </p>
+                        </div>
+
+                        <div class="px-6 pb-4 flex justify-center">
+                          <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
+                            <span class="relative z-10 ">View Location</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
                 </div>
 
                 <div id="location_map" className="pt-20 md:px-0 px-2">
@@ -445,7 +574,7 @@ const Contact = () => {
 
                         <button
                           type="submit"
-                          class="relative flex h-[50px] w-full items-center justify-center overflow-hidden bg-mainColor border border-mainColor text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:bg-white hover:text-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded font-medium"
+                          class="relative flex h-[50px] w-full items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:bg-white hover:text-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded font-medium"
                         >
                           <span class="relative z-10">Submit</span>
                         </button>

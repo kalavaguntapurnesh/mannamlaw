@@ -18,8 +18,8 @@ const Experts = () => {
       image: Ravi,
       name: "Ravi Mannam",
       role: "Managing Attorney / Founder",
-      languages: "Telugu, Hindi, English",
-      barAdmission: "Tennessee",
+      languages: "English, Hindi, Telugu",
+      barAdmission: "Bar Association of Tennessee",
       phone: "(877) 596-1761 Ext. 6",
       direct: "(678) 392-3170",
       fax: "(877) 596-1667",
@@ -37,8 +37,8 @@ const Experts = () => {
       image: Hemanth,
       name: "Hemant Ramachandran",
       role: "Associate Attorney",
-      languages: "Tamil, English, Spanish",
-      barAdmission: "Georgia",
+      languages: "English, Spanish, Tamil",
+      barAdmission: "Bar Association of Georgia",
       phone: "(877) 596-1761 Ext. 5",
       direct: "(678) 392-3175",
       fax: "(877) 596-1667",
@@ -54,7 +54,7 @@ const Experts = () => {
       image: Sabir,
       name: "Sabirou Sanoussi",
       role: "Paralegal",
-      languages: "Arabic, Akan, Hausa, English",
+      languages: "English, Arabic, Akan, Hausa",
       phone: "(877) 596-1761 Ext. 2",
       direct: "(678) 392-3174",
       fax: "(877) 596-1667",
@@ -68,7 +68,7 @@ const Experts = () => {
       image: Kanchi,
       name: "Kanchi Khanna",
       role: "Senior Paralegal",
-      languages: "Hindi, English, Punjabi",
+      languages: "English, Hindi, Punjabi",
       phone: "(877) 596-1761 Ext. 3",
       direct: "(678) 392-3172",
       fax: "(877) 596-1667",
@@ -82,7 +82,7 @@ const Experts = () => {
       image: Shruthi,
       name: "Shruthi Khanna",
       role: "Accountant",
-      languages: "Hindi, English",
+      languages: "English, Hindi",
       phone: "(877) 596-1761 Ext. 5",
       direct: "(678) 392-3171",
       fax: "(877) 596-1667",
@@ -174,9 +174,7 @@ const Experts = () => {
                               className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                               onClick={() => handleViewClick(card)}
                             >
-                              <span class="relative z-10  ">
-                                Know More
-                              </span>
+                              <span class="relative z-10  ">Know More</span>
                               <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5  " />
                             </button>
                           </div>

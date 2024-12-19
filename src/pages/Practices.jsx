@@ -357,7 +357,7 @@ const Practices = () => {
                       <div class=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
                         <img
                           class="w-full h-60 lg:h-[320px]"
-                          src="https://images.pexels.com/photos/134643/pexels-photo-134643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                          src="https://images.pexels.com/photos/10770457/pexels-photo-10770457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="Sunset in the mountains"
                         />
                         <div class="px-6 pt-4">

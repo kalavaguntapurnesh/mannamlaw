@@ -17,7 +17,7 @@ const Hero = () => {
       // image: HomeOne,
       image:
         "https://images.pexels.com/photos/3905838/pexels-photo-3905838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      heading: "Immigration is in our DNA",
+      heading: "Immigration is our DNA",
       paragraph: "Navigating Your Legal Needs with Confidence and Integrity",
       buttonText: "Discover More",
       buttonLink: "/contact",
@@ -26,7 +26,7 @@ const Hero = () => {
     {
       image:
         "https://images.pexels.com/photos/5668481/pexels-photo-5668481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      heading: "Your Attorney for Justice",
+      heading: "Your Attorney for Immigration",
       paragraph:
         "Providing Trusted Legal Solutions with Dedication and Integrity",
       buttonText: "Speak With Us",

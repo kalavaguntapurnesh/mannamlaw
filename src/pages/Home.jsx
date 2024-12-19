@@ -170,7 +170,7 @@ const Home = () => {
                               href="/contact"
                               class="relative mt-8 flex h-[50px] w-56 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56 rounded"
                             >
-                              <span class="relative z-10">Request a Demo</span>
+                              <span class="relative z-10">Contact our team</span>
                             </a>
                           </div>
                         </div>
@@ -187,7 +187,7 @@ const Home = () => {
                           </h4>
                           <p class="font-normal text-gray-600 lg:text-start text-center">
                             Providing clear advice with precision, expertise,
-                            and personalized legal solutions.
+                            and personalized immigration solutions.
                           </p>
                         </div>
                         <div className="flex flex-col lg:items-start items-center">
@@ -215,7 +215,7 @@ const Home = () => {
                             Cost Effective
                           </h4>
                           <p class="font-normal text-gray-600 lg:text-start text-center">
-                            Delivering affordable solutions without compromising
+                            Delivering affordable immigration solutions without compromising
                             quality, efficiency, or results.
                           </p>
                         </div>
