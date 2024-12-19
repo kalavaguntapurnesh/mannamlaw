@@ -111,7 +111,7 @@ const Contact = () => {
 
                   <div className="text-center mt-4">
                     <h3 className="lg:text-4xl text-2xl font-bold text-headingColor">
-                      Talk to our team
+                      Connect with our experts
                     </h3>
                   </div>
 

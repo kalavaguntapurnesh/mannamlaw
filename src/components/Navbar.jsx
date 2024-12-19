@@ -98,7 +98,7 @@ const NavBar = () => {
           </FlyoutLink>
 
           <li
-            className={` group transition duration-300 ${
+            className={` group transition duration-300 uppercase ${
               isScrolled
                 ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
                 : "text-navGray"
@@ -117,7 +117,7 @@ const NavBar = () => {
         <div className="hidden lg:flex space-x-4">
           <a
             href="/contact"
-            className={`border-[1px] relative  lg:px-6 md:px-4 py-2 rounded text-sm  transition duration-500 ${
+            className={`border-[1px] relative  lg:px-6 md:px-4 py-2 rounded text-sm  transition duration-500 uppercase ${
               isScrolled
                 ? "border-headingColor hover:border-none text-headingColor font-medium overflow-hidden transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-auto before:w-0 before:bg-mainColor before:duration-300 before:ease-out hover:text-white hover:shadow-mainColor hover:before:h-40 hover:before:w-48 "
                 : "border-navGray font-light text-white"
@@ -325,8 +325,8 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
         href={href}
         className={`relative ${
           isScrolled
-            ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
-            : "text-navGray"
+            ? "text-headingColor uppercase hover:text-mainColor transition ease-in-out duration-500"
+            : "text-navGray uppercase"
         }`}
       >
         {children}
