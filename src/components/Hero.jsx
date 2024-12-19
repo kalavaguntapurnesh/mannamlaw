@@ -16,7 +16,7 @@ const Hero = () => {
     {
       // image: HomeOne,
       image:
-        "https://images.pexels.com/photos/2955704/pexels-photo-2955704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/3905838/pexels-photo-3905838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       heading: "Immigration is in our DNA",
       paragraph: "Navigating Your Legal Needs with Confidence and Integrity",
       buttonText: "Discover More",
