@@ -2,72 +2,17 @@ import React from "react";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
-import { FaHandshake } from "react-icons/fa";
-import { MdAutoGraph } from "react-icons/md";
-import { BiSolidNavigation } from "react-icons/bi";
-import { FaInbox } from "react-icons/fa";
-import { FaMessage } from "react-icons/fa6";
-import { RiEmotionHappyFill } from "react-icons/ri";
 import { ImPower } from "react-icons/im";
 import { FaFlag } from "react-icons/fa6";
 import passport from "../assets/passport.png";
 import document from "../assets/document.png";
 import globe from "../assets/globe.png";
-import email from "../assets/email.png";
-import board from "../assets/board.png";
-import permit from "../assets/permit.png";
-import investment from "../assets/investment.png";
-import students from "../assets/students.png";
 import multi from "../assets/multi.png";
 import exp from "../assets/exp.png";
 import comm from "../assets/comm.png";
+import justice from "../assets/justice.webp";
 
 const WhyUsPage = () => {
-  // const values1 = [
-  //   {
-  //     icon: <FaHandshake />,
-  //     Title: "Best in class partner experience",
-  //     description:
-  //       "We have a value-driven partnerships philosophy which relies on trust & collaboration, a joint focus on our customers backed up by ownership and accountability, and constant learning and growth.",
-  //     color: "text-green-500", // Blue color for this icon
-  //   },
-  //   {
-  //     icon: <FaInbox />,
-  //     Title: "Diverse product and ecosystem",
-  //     description:
-  //       "We are leaders in the emerging Headless CMS category, MACH Alliance Certified and we have a strong ecosystem and marketplace of native integrations.",
-  //     color: "text-blue-500", // Green color for this icon
-  //   },
-  //   {
-  //     icon: <BiSolidNavigation />,
-  //     Title: "Revenue potential",
-  //     description:
-  //       "We offer diverse opportunities for growth and revenue - our partners can benefit from cost efficiencies and 10% revenue share, active demand generation and practice opportunities with services revenue potential.",
-  //     color: "text-yellow-400", // Red color for this icon
-  //   },
-  //   {
-  //     icon: <FaMessage />,
-  //     Title: "Perks",
-  //     description:
-  //       "As a token of our appreciation for our partnership, you will receive practical or limited edition Hygraph swag, invitations to workshops, conferences & events, as well as a lifetime license for company website.",
-  //     color: "text-teal-500", // Yellow color for this icon
-  //   },
-  //   {
-  //     icon: <MdAutoGraph />,
-  //     Title: "Collaboration",
-  //     description:
-  //       "We develop mutual business plans with our partners, focusing on co-marketing and co-selling, ensuring both parties align goals, resources, and strategies effectively. We track progress in joint quarterly reviews.",
-  //     color: "text-pink-500", // Purple color for this icon
-  //   },
-  //   {
-  //     icon: <RiEmotionHappyFill />,
-  //     Title: "Enablement and support",
-  //     description:
-  //       "Our partners have priority admittance to technical & commercial trainings, they gain insider access to new product features, and they benefit from community support for swift issue resolution.",
-  //     color: "text-violet-500", // Pink color for this icon
-  //   },
-  // ];
-
   const values1 = [
     {
       icon: passport,
@@ -151,9 +96,11 @@ const WhyUsPage = () => {
                     <div className="flex lg:justify-start justify-center items-center pb-4 pt-2">
                       <a
                         href="/contact"
-                        class="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded-full"
+                        class="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                       >
-                        <span class="relative z-10">Request a consultation</span>
+                        <span class="relative z-10">
+                          Request a consultation
+                        </span>
                       </a>
                     </div>
 
@@ -193,20 +140,20 @@ const WhyUsPage = () => {
                   </div>
 
                   <div className="flex justify-center items-center w-[100%]">
-                    <div>
+                    <div className="lg:block hidden">
                       <img
                         src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="support_one"
                         // width="612"
-                        height="512"
-                        className="rounded lg:block hidden"
+                        // height="512"
+                        className="rounded h-auto w-auto"
                       />
                     </div>
                     <div className="flex justify-center items-center">
                       <img
                         src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="support_two"
-                        className="rounded lg:hidden block w-[90%]"
+                        className="rounded lg:hidden block w-auto"
                       />
                     </div>
                   </div>
@@ -344,6 +291,74 @@ const WhyUsPage = () => {
                       </div>
                     </div>
                   ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pt-16 pb-12">
+        <div className="relative">
+          <div className="w-full">
+            <div className="w-full mx-auto max-w-[1400px] bg-[#f8f9fa] rounded">
+              <div className="lg:px-4 lg:py-12 px-4 py-8">
+                <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-4 gap-6">
+                  <div className="flex flex-col space-y-6 w-full">
+                    <div className="flex items-center lg:justify-start justify-center lg:ml-[5px]">
+                      <div className="h-4 w-1 bg-mainColor"></div>
+                      <h1 className="ml-2 text-lg font-bold text-mainColor ">
+                        Streamline your operations
+                      </h1>
+                    </div>
+                    <div className="lg:text-4xl text-2xl lg:text-start text-center font-bold text-headingColor">
+                      <h1>
+                        Promoting America’s Prosperity, One Business, One
+                        Immigrant at a Time.
+                      </h1>
+                    </div>
+
+                    <div className="lg:text-start text-base text-center text-gray-600 lg:leading-normal">
+                      <p>
+                        For more than a decade, Mannam & Associates, LLC has
+                        been fulfilling our clients’ needs in all areas of
+                        Business and Family Immigration Law. As we grew to a
+                        national presence, we stayed true to our roots as a
+                        boutique law firm and continued to remain committed to
+                        maintaining : collegial, close client relationships,
+                        with aggressive, diligent,and highly expert
+                        representation of all clients, large and small.
+                      </p>
+                    </div>
+
+                    <div className="flex lg:justify-start justify-center items-center pb-4 pt-2">
+                      <a
+                        href="/contact"
+                        class="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor text-headingColor transition-all before:absolute before:h-0 before:w-0  before:bg-headingColor hover:text-white hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                      >
+                        <span class="relative z-10">Contact our team</span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center items-center w-[100%]">
+                    <div className="lg:block hidden">
+                      <img
+                        src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="support_one"
+                        // width="612"
+                        // height="512"
+                        className="rounded w-auto h-auto"
+                      />
+                    </div>
+                    <div className="flex justify-center items-center">
+                      <img
+                        src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="support_two"
+                        className="rounded lg:hidden block w-auto"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

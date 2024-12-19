@@ -71,7 +71,7 @@ const HomeServices = () => {
 
                 <div className="text-center mt-4">
                   <h3 className="lg:text-4xl text-2xl font-bold text-headingColor">
-                    Services we provide
+                    Services we offer
                   </h3>
                 </div>
 
