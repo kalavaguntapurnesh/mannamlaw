@@ -301,7 +301,7 @@ const WhyUsPage = () => {
       <div className="pt-16 pb-12">
         <div className="relative">
           <div className="w-full">
-            <div className="w-full mx-auto max-w-[1400px] bg-[#f8f9fa] rounded">
+            <div className="w-full mx-auto max-w-[1400px] rounded">
               <div className="lg:px-4 lg:py-12 px-4 py-8">
                 <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-4 gap-6">
                   <div className="flex flex-col space-y-6 w-full">
@@ -344,7 +344,7 @@ const WhyUsPage = () => {
                   <div className="flex justify-center items-center w-[100%]">
                     <div className="lg:block hidden">
                       <img
-                        src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        src={justice}
                         alt="support_one"
                         // width="612"
                         // height="512"
@@ -353,7 +353,7 @@ const WhyUsPage = () => {
                     </div>
                     <div className="flex justify-center items-center">
                       <img
-                        src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        src={justice}
                         alt="support_two"
                         className="rounded lg:hidden block w-auto"
                       />
