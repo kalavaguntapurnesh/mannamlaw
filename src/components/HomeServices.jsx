@@ -5,6 +5,7 @@ import email from "../assets/email.png";
 import board from "../assets/board.png";
 import investment from "../assets/investment.png";
 import students from "../assets/students.png";
+import { MdArrowRightAlt } from "react-icons/md";
 
 const HomeServices = () => {
   const values1 = [
@@ -53,7 +54,7 @@ const HomeServices = () => {
   ];
 
   return (
-    <div className="pt-16 pb-12">
+    <div className="pt-12 pb-12">
       <div className="relative">
         <div className="w-full">
           <div className="w-full mx-auto max-w-[1400px] pb-16">
@@ -100,6 +101,16 @@ const HomeServices = () => {
                         </div>
                         <div className="flex justify-center  items-center text-gray-600 text-center">
                           <p>{value.description}</p>
+                        </div>
+
+                        <div class="px-6 flex justify-center">
+                          <a
+                            href="/our-services"
+                            className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
+                          >
+                            <span class="relative z-10 ">Know More</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </a>
                         </div>
                       </div>
                     </div>
