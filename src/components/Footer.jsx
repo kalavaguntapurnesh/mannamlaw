@@ -318,7 +318,7 @@ const Footer = () => {
 
             <div className="text-center text-xs pb-6">
               <p className="text-headingColor">
-                Copyright © 2024 MannamLaw. All rights reserved
+                © 2024 Manna Law Firm. All Rights Reserved.
               </p>
             </div>
           </div>
