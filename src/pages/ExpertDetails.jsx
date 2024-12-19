@@ -184,7 +184,7 @@ const ExpertDetails = () => {
                   )}
 
                   {card.image && (
-                    <div className="pt-6 space-y-3">
+                    <div className="pt-6 space-y-3 text-gray-600">
                       <p>{card.descriptionOne}</p>
                       <p>{card.descriptionTwo}</p>
                       <p>{card.descriptionThree}</p>
