@@ -42,16 +42,16 @@ const ExpertDetails = () => {
                       </div>
 
                       <div>
-                        <h1>Languages Spoken: {card.languages}</h1>
+                        <h1>Languages: {card.languages}</h1>
                       </div>
                     </div>
 
                     <div className="flex flex-col">
                       <div>
-                        <h1 className="uppercase text-gray-500">about</h1>
+                        <h1 className="uppercase text-gray-700 font-semibold">about</h1>
                       </div>
 
-                      <div className="space-y-3">
+                      <div className="space-y-3 text-gray-600">
                         <div className="mt-4">
                           <p>{card.descriptionOne}</p>
                         </div>

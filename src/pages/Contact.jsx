@@ -227,7 +227,7 @@ const Contact = () => {
                           </p>
                         </div>
                         <div className="lg:text-start text-center">
-                          <p className="md:text-lg text-base text-gray-600 md:text-start text-center px-2 md:px-0">
+                          <p className=" text-base text-gray-600 md:text-start text-center px-2 md:px-0">
                             Empowering America's growth with trusted legal
                             expertise, we navigate complexities, protect rights,
                             and drive success. Our dedicated professionals

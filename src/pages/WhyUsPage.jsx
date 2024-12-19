@@ -297,7 +297,7 @@ const WhyUsPage = () => {
               <div className="p-4">
                 <div className="flex items-center text-center justify-center ">
                   <div className="h-4 w-1 bg-mainColor"></div>
-                  <h1 className="ml-2 text-lg font-bold text-mainColor">
+                  <h1 className="ml-2 text-lg font-semibold text-mainColor">
                     We are best
                   </h1>
                 </div>
@@ -398,7 +398,7 @@ const WhyUsPage = () => {
                           </h1>
                         </div>
 
-                        <div className="flex flex-col justify-center items-center">
+                        <div className="flex flex-col text-gray-600 justify-center items-center">
                           <p>Mannam & Associates, LLC 6160</p>
                           <p>Peachtree Dunwoody Rd Suite B-230</p>
                           <p>Atlanta, GA 30328, USA</p>
@@ -424,7 +424,7 @@ const WhyUsPage = () => {
                           </h1>
                         </div>
 
-                        <div className="flex flex-col justify-center items-center">
+                        <div className="flex flex-col text-gray-600 justify-center items-center">
                           <p>Mannam & Associates, LLC 2288</p>
                           <p>Gunbarrel Road, Suite 154-300</p>
                           <p>Chattanooga, TN 37421, USA</p>
@@ -450,7 +450,7 @@ const WhyUsPage = () => {
                           </h1>
                         </div>
 
-                        <div className="flex flex-col justify-center items-center">
+                        <div className="flex flex-col text-gray-600 justify-center items-center">
                           <p>Mannam & Associates, LLC 3651</p>
                           <p>Peachtree Pkwy Suite E-360</p>
                           <p>Atlanta, GA 30024, USA</p>
