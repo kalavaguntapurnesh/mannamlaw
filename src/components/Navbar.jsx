@@ -102,13 +102,13 @@ const NavBar = () => {
 
           <li
             className={` group transition duration-300 ${
-              isScrolled ? "text-headingColor" : "text-navGray"
+              isScrolled ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500" : "text-navGray"
             }`}
           >
             <a href="/experts">Our Experts</a>
             <div
               className={` h-[2px] w-0 group-hover:w-full transition-all duration-300 ${
-                isScrolled ? "bg-headingColor" : "bg-navGray"
+                isScrolled ? "bg-mainColor" : "bg-navGray"
               }`}
             ></div>
           </li>
@@ -325,7 +325,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
       <a
         href={href}
         className={`relative ${
-          isScrolled ? "text-headingColor" : "text-navGray"
+          isScrolled ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500" : "text-navGray"
         }`}
       >
         {children}
@@ -334,7 +334,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
             transform: showFlyout ? "scaleX(1)" : "scaleX(0)",
           }}
           className={`absolute -bottom-1 -left-2 -right-2 h-[2px] origin-left scale-x-0 rounded transition-transform duration-300 ease-out ${
-            isScrolled ? "bg-headingColor" : "bg-navGray"
+            isScrolled ? "bg-mainColor" : "bg-navGray"
           }`}
         />
       </a>
