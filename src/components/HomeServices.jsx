@@ -54,7 +54,7 @@ const HomeServices = () => {
   ];
 
   return (
-    <div className="pt-12 pb-12">
+    <div className="pt-8 pb-12">
       <div className="relative">
         <div className="w-full">
           <div className="w-full mx-auto max-w-[1400px]">
