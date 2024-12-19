@@ -67,7 +67,7 @@ const PrivacyPolicy = () => {
                   Our Privacy Policy
                 </h1>
                 <p className="lg:text-xl text-center">
-                  Updated: December 20, 2024
+                  Updated: December 18, 2024
                 </p>
               </div>
             </div>
@@ -530,7 +530,7 @@ const PrivacyPolicy = () => {
                             We may collect various types of information from
                             you, including:
                           </p>
-                          <ul className=" list-disc xl:ml-6 space-y-1">
+                          <ul className=" list-disc xl:ml-6 mx-2 space-y-1">
                             <li>
                               Personal Information: This includes your name,
                               email address, contact details, and any other
@@ -563,7 +563,7 @@ const PrivacyPolicy = () => {
                             We use the collected information for the following
                             purposes:
                           </p>
-                          <ul className=" list-disc xl:ml-6 space-y-1">
+                          <ul className=" list-disc xl:ml-6 mx-1 space-y-1">
                             <li>
                               Providing Services: To deliver the services you
                               request, including responding to inquiries,
@@ -601,7 +601,7 @@ const PrivacyPolicy = () => {
                             third parties. However, we may share your
                             information in the following circumstances:
                           </p>
-                          <ul className=" list-disc xl:ml-6 space-y-1">
+                          <ul className=" list-disc xl:ml-6 mx-1 space-y-1">
                             <li>
                               Service Providers: We may share information with
                               trusted third-party service providers who assist
@@ -624,7 +624,7 @@ const PrivacyPolicy = () => {
                         </h3>
 
                         <div className="space-y-2 xl:text-start text-center ">
-                          <ul className="list-disc xl:ml-6 space-y-1">
+                          <ul className="list-disc xl:ml-6 mx-1 space-y-1">
                             <li>
                               Access and Correct Your Information: You can
                               access and update your personal information
@@ -667,7 +667,7 @@ const PrivacyPolicy = () => {
                               including the right to:
                             </p>
 
-                            <ul className=" list-disc xl:ml-6 space-y-1">
+                            <ul className=" list-disc xl:ml-6 mx-1 space-y-1">
                               <li>
                                 Know the categories and/or specific pieces of
                                 information collected about you, including
