@@ -255,6 +255,15 @@ const NavBar = () => {
 
             <li className="p-4 border-b border-headingColor">
               <a
+                href="/our-services"
+                className="flex items-center justify-between cursor-pointer text-headingColor"
+              >
+                Our Services
+              </a>
+            </li>
+
+            <li className="p-4 border-b border-headingColor">
+              <a
                 href="/why-mannam-law"
                 className="flex items-center justify-between cursor-pointer text-headingColor"
               >
