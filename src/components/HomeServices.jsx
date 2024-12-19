@@ -105,7 +105,7 @@ const HomeServices = () => {
 
                         <div class="px-6 flex justify-center">
                           <a
-                            href="/our-services"
+                            href="/our-practices"
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                           >
                             <span class="relative z-10 ">Know More</span>

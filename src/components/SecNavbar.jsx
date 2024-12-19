@@ -68,10 +68,7 @@ const NavBar = () => {
         {/* Desktop Nav Links */}
         <ul className="hidden lg:flex flex-grow justify-center space-x-8 items-center">
           {/* <Tabs /> */}
-          <FlyoutLink
-            href="/dynamics-365-support-services"
-            FlyoutContent={SupportContent}
-          >
+          <FlyoutLink href="/our-practices" FlyoutContent={SupportContent}>
             Our Practice
           </FlyoutLink>
           <FlyoutLink
@@ -93,7 +90,9 @@ const NavBar = () => {
 
           <li
             className={` group transition duration-300 ${
-              isScrolled ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500" : "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
+              isScrolled
+                ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
+                : "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
             }`}
           >
             <a href="/experts">Our Experts</a>
@@ -172,7 +171,7 @@ const NavBar = () => {
                   >
                     <li className="text-headingColor">
                       <a
-                        href="/services-microsoft-dynamics-365-finance"
+                        href="/our-practices"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold"
                       >
                         Employment Based Visas
@@ -180,7 +179,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-headingColor">
                       <a
-                        href="/services-microsoft-dynamics-365"
+                        href="/our-practices"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold"
                       >
                         Investor Based Visas
@@ -188,7 +187,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-headingColor">
                       <a
-                        href="/services-microsoft-dynamics-365"
+                        href="/our-practices"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
 "
                       >
@@ -197,7 +196,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-headingColor">
                       <a
-                        href="/services-microsoft-dynamics-365"
+                        href="/our-practices"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
 "
                       >
@@ -206,7 +205,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-headingColor">
                       <a
-                        href="/services-microsoft-dynamics-365"
+                        href="/our-practices"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
 "
                       >
@@ -312,7 +311,9 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
       <a
         href={href}
         className={`relative ${
-          isScrolled ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500" : "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
+          isScrolled
+            ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
+            : "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
         }`}
       >
         {children}

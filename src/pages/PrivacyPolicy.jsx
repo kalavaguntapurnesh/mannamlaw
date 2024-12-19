@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
               </div>
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-black text-white bg-opacity-50">
                 <h1 className=" lg:text-5xl lg:block hidden uppercase font-semibold text-center px-4 py-2 rounded">
-                  Mannam Law & Associate's Privacy Policy
+                  Mannam & Associate's Privacy Policy
                 </h1>
 
                 <h1 className="text-4xl lg:hidden block uppercase font-semibold text-center px-4 py-2 rounded">

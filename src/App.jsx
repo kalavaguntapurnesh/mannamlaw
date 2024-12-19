@@ -12,6 +12,7 @@ import Experts from "./pages/Experts";
 import ExpertDetails from "./pages/ExpertDetails";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Practices from "./pages/Practices";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/experts/:name" element={<ExpertDetails />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/our-practices" element={<Practices />} />
         </Routes>
       </BrowserRouter>
     </>

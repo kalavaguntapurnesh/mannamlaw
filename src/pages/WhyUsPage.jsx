@@ -11,6 +11,7 @@ import multi from "../assets/multi.png";
 import exp from "../assets/exp.png";
 import comm from "../assets/comm.png";
 import justice from "../assets/justice.webp";
+import { MdArrowRightAlt } from "react-icons/md";
 
 const WhyUsPage = () => {
   const values1 = [
@@ -73,7 +74,7 @@ const WhyUsPage = () => {
                       <div className="h-4 w-1 bg-mainColor"></div>
 
                       <p className="ml-2 lg:text-lg font-semibold text-mainColor">
-                        Why Mannam Law?
+                        Why Mannam Associates?
                       </p>
                     </div>
                     <div>
@@ -83,9 +84,9 @@ const WhyUsPage = () => {
                     </div>
                     <div className="lg:text-start text-base text-center text-gray-600 lg:leading-normal">
                       <p>
-                        At Mannam Law, we prioritize your success by offering
-                        expert legal guidance uniquely tailored to your needs.
-                        Our dedicated attorneys combine integrity,
+                        At Mannam & Associates, we prioritize your success by
+                        offering expert legal guidance uniquely tailored to your
+                        needs. Our dedicated attorneys combine integrity,
                         professionalism, and results-driven strategies to
                         safeguard your rights and help you achieve your
                         objectives. Trust us to be your steadfast legal partner
@@ -199,38 +200,6 @@ const WhyUsPage = () => {
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="flex flex-col space-y-4">
-                  <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-6 max-w-full">
-                    {values1.map((value, index) => (
-                      <div
-                        key={index}
-                        className="flex lg:justify-start justify-center"
-                      >
-                        <div className="w-full p-6">
-                          <div className="space-y-3">
-                            <div
-                              className={`text-4xl flex lg:justify-start justify-center lg:items-start items-center ${value.color}`}
-                            >
-                              {value.icon}
-                            </div>
-
-                            <div className="flex lg:justify-start justify-center md:items-start items-center">
-                              <h1 className="lg:text-2xl text-xl text-headingColor font-semibold lg:text-start text-center">
-                                {value.Title}
-                              </h1>
-                            </div>
-                            <div className="flex text-gray-700 lg:leading-normal lg:justify-start justify-center lg:items-start items-center">
-                              <p className="lg:text-start text-center">
-                                {value.description}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
@@ -396,9 +365,12 @@ const WhyUsPage = () => {
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-2 pt-8 max-w-full">
-                  <div className="flex md:justify-start justify-center">
+                  <a
+                    href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
+                    className="flex md:justify-start justify-center"
+                  >
                     <div className="w-full bg-white rounded p-6 transition-transform duration-300 lg:hover:-translate-y-2">
-                      <div className="space-y-4">
+                      <div className="space-y-3">
                         <div className="flex justify-center items-center">
                           <img
                             src="https://images.pexels.com/photos/134643/pexels-photo-134643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -418,13 +390,23 @@ const WhyUsPage = () => {
                           <p>Peachtree Dunwoody Rd Suite B-230</p>
                           <p>Atlanta, GA 30328, USA</p>
                         </div>
+
+                        <div class="px-6 pb-4 flex justify-center">
+                          <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
+                            <span class="relative z-10 ">View Location</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
 
-                  <div className="flex md:justify-start justify-center">
+                  <a
+                    href="https://maps.app.goo.gl/oGgn5UJCpWmAXT2HA"
+                    className="flex md:justify-start justify-center"
+                  >
                     <div className="w-full bg-white rounded p-6 transition-transform duration-300 lg:hover:-translate-y-2">
-                      <div className="space-y-4">
+                      <div className="space-y-3">
                         <div className="flex justify-center items-center">
                           <img
                             src="https://images.pexels.com/photos/2874064/pexels-photo-2874064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -444,13 +426,23 @@ const WhyUsPage = () => {
                           <p>Gunbarrel Road, Suite 154-300</p>
                           <p>Chattanooga, TN 37421, USA</p>
                         </div>
+
+                        <div class="px-6 pb-4 flex justify-center">
+                          <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
+                            <span class="relative z-10 ">View Location</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
 
-                  <div className="flex md:justify-start justify-center">
+                  <a
+                    href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
+                    className="flex md:justify-start justify-center"
+                  >
                     <div className="w-full bg-white rounded p-6 transition-transform duration-300 lg:hover:-translate-y-2">
-                      <div className="space-y-4">
+                      <div className="space-y-3">
                         <div className="flex justify-center items-center">
                           <img
                             src="https://images.pexels.com/photos/2815184/pexels-photo-2815184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -470,9 +462,16 @@ const WhyUsPage = () => {
                           <p>Peachtree Pkwy Suite E-360</p>
                           <p>Atlanta, GA 30024, USA</p>
                         </div>
+
+                        <div class="px-6 pb-4 flex justify-center">
+                          <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
+                            <span class="relative z-10 ">View Location</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
