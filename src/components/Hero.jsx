@@ -11,7 +11,7 @@ const Hero = () => {
       heading: "Legacy of Legal Excellence",
       paragraph: "Delivering Trusted Solutions with Integrity and Expertise",
       buttonText: "Find Out More",
-      buttonLink: "/contact#contact_form",
+      buttonLink: "/contact",
     },
     {
       // image: HomeOne,
@@ -20,7 +20,7 @@ const Hero = () => {
       heading: "Immigration is in our DNA",
       paragraph: "Navigating Your Legal Needs with Confidence and Integrity",
       buttonText: "Discover More",
-      buttonLink: "/contact#contact_form",
+      buttonLink: "/contact",
     },
 
     {
@@ -30,7 +30,7 @@ const Hero = () => {
       paragraph:
         "Providing Trusted Legal Solutions with Dedication and Integrity",
       buttonText: "Speak With Us",
-      buttonLink: "/contact#contact_form",
+      buttonLink: "/contact",
     },
   ];
 
