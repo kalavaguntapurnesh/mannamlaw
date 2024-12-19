@@ -14,46 +14,46 @@ import justice from "../assets/justice.webp";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const Practices = () => {
-  const values1 = [
-    {
-      icon: passport,
-      Title: "Employment Based Visas",
-      description:
-        " Provides robust legal advocacy to safeguard client rights and interests throughout the immigration process.",
-      color: "text-green-500", // Blue color for this icon
-    },
-    {
-      icon: document,
-      Title: "Investor Based Visas",
-      description:
-        "Demonstrates a high success rate, showcasing their ability to deliver favorable outcomes for clients.",
-      color: "text-blue-500", // Green color for this icon
-    },
-    {
-      icon: globe,
-      Title: "Family Based Visas",
-      description:
-        "Offers support to clients worldwide, accommodating varying linguistic needs and cultural backgrounds.",
-      color: "text-yellow-500", // Red color for this icon
-    },
-  ];
+  // const values1 = [
+  //   {
+  //     icon: passport,
+  //     Title: "Employment Based Visas",
+  //     description:
+  //       " Provides robust legal advocacy to safeguard client rights and interests throughout the immigration process.",
+  //     color: "text-green-500", // Blue color for this icon
+  //   },
+  //   {
+  //     icon: document,
+  //     Title: "Investor Based Visas",
+  //     description:
+  //       "Demonstrates a high success rate, showcasing their ability to deliver favorable outcomes for clients.",
+  //     color: "text-blue-500", // Green color for this icon
+  //   },
+  //   {
+  //     icon: globe,
+  //     Title: "Family Based Visas",
+  //     description:
+  //       "Offers support to clients worldwide, accommodating varying linguistic needs and cultural backgrounds.",
+  //     color: "text-yellow-500", // Red color for this icon
+  //   },
+  // ];
 
-  const values2 = [
-    {
-      icon: multi,
-      Title: "Student & Scholars",
-      description:
-        "Provides services in multiple languages to cater to a diverse clientele, ensuring clear communication and understanding.",
-      color: "text-teal-500", // Yellow color for this icon
-    },
-    {
-      icon: exp,
-      Title: "Naturalization",
-      description:
-        "Handles a wide range of immigration cases, from work visas to permanent residency and citizenship applications.",
-      color: "text-pink-500", // Purple color for this icon
-    },
-  ];
+  // const values2 = [
+  //   {
+  //     icon: multi,
+  //     Title: "Student & Scholars",
+  //     description:
+  //       "Provides services in multiple languages to cater to a diverse clientele, ensuring clear communication and understanding.",
+  //     color: "text-teal-500", // Yellow color for this icon
+  //   },
+  //   {
+  //     icon: exp,
+  //     Title: "Naturalization",
+  //     description:
+  //       "Handles a wide range of immigration cases, from work visas to permanent residency and citizenship applications.",
+  //     color: "text-pink-500", // Purple color for this icon
+  //   },
+  // ];
 
   return (
     <>
@@ -239,7 +239,7 @@ const Practices = () => {
                           alt="Sunset in the mountains"
                         />
                         <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor text-xl mb-2">
+                          <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Employment Based Visas
                           </div>
                           <p class="text-gray-700 text-base lg:text-start text-center ">
@@ -269,7 +269,7 @@ const Practices = () => {
                           alt="Sunset in the mountains"
                         />
                         <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor text-xl mb-2">
+                        <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Investor Based Visas
                           </div>
                           <p class="text-gray-700 text-base lg:text-start text-center ">
@@ -298,7 +298,7 @@ const Practices = () => {
                           alt="Sunset in the mountains"
                         />
                         <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor text-xl mb-2">
+                        <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Family Based Visas
                           </div>
                           <p class="text-gray-700 text-base lg:text-start text-center ">
@@ -330,7 +330,7 @@ const Practices = () => {
                           alt="Sunset in the mountains"
                         />
                         <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor text-xl mb-2">
+                        <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Students & Scholars
                           </div>
                           <p class="text-gray-700 text-base lg:text-start text-center ">
@@ -361,7 +361,7 @@ const Practices = () => {
                           alt="Sunset in the mountains"
                         />
                         <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor text-xl mb-2">
+                        <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Naturalization
                           </div>
                           <p class="text-gray-700 text-base lg:text-start text-center ">
