@@ -503,31 +503,31 @@ const SupportContent = () => {
         <h3 className="font-semibold text-sideHeading">How We Operate</h3>
 
         <a
-          href="/about-us#location_map"
+          href="/our-practices"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Employment Based Visas
         </a>
         <a
-          href="/about-us#location_map"
+          href="/our-practices"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Family Based Visas
         </a>
         <a
-          href="/about-us#location_map"
+          href="/our-practices"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Investor Based Visas
         </a>
         <a
-          href="/about-us#location_map"
+          href="/our-practices"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Students & Scholars
         </a>
         <a
-          href="/about-us#location_map"
+          href="/our-practices"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Naturalization
