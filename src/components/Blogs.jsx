@@ -151,10 +151,10 @@ const Blogs = () => {
   };
 
   return (
-    <div className="lg:pt-28 pt-16">
+    <div className="lg:pt-28 pt-16 pb-12">
       <div className="relative">
         <div className="w-full">
-          <div className="w-full mx-auto max-w-[1400px] pb-16">
+          <div className="w-full mx-auto max-w-[1400px]">
             <div className="p-4">
               {/* Topics Navigation */}
               <div className="hidden md:flex justify-center space-x-8">

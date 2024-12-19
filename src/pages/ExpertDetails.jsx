@@ -17,10 +17,10 @@ const ExpertDetails = () => {
     <>
       <SecNavbar />
 
-      <div className="lg:pt-28 pt-24">
+      <div className="lg:pt-28 pt-24 pb-12">
         <div className="relative">
           <div className="w-full">
-            <div className="w-full mx-auto max-w-[1400px] lg:pt-8 pb-16">
+            <div className="w-full mx-auto max-w-[1400px] lg:pt-8 ">
               <div className="p-6">
                 <div className="lg:grid hidden grid-cols-3 gap-4 ">
                   <div className="space-y-4 p-4 col-span-2">

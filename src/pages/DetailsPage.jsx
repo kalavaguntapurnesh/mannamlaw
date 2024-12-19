@@ -619,10 +619,10 @@ const DetailsPage = () => {
   return (
     <>
       <SecNavbar />
-      <div className="lg:pt-28 pt-24 select-none">
+      <div className="lg:pt-28 pt-24 select-none pb-12">
         <div className="relative">
           <div className="w-full">
-            <div className="w-full mx-auto max-w-[1400px] pb-16">
+            <div className="w-full mx-auto max-w-[1400px] ">
               <div className="space-y-4 p-4">
                 <div className="flex items-center text-center justify-center ">
                   <div className="h-4 w-1 bg-mainColor"></div>

@@ -102,10 +102,10 @@ const Experts = () => {
     <>
       <SecNavbar />
 
-      <div className="lg:pt-28 pt-24">
+      <div className="lg:pt-28 pt-24 pb-12">
         <div className="relative">
           <div className="w-full">
-            <div className="w-full mx-auto max-w-[1400px] pb-16">
+            <div className="w-full mx-auto max-w-[1400px]">
               <div className="p-4">
                 <div className="space-y-3">
                   <div className="flex items-center text-center justify-center ">
