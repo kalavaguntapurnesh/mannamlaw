@@ -210,7 +210,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="w-full px-4 mx-auto max-w-[1400px] pt-16">
+                <div className="w-full mx-auto max-w-[1400px] pt-16">
                   <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
                     <div>
                       <div className="flex flex-col space-y-4 mt-8">
@@ -227,7 +227,7 @@ const Contact = () => {
                           </p>
                         </div>
                         <div className="lg:text-start text-center">
-                          <p className=" text-base text-gray-600 md:text-start text-center px-2 md:px-0">
+                          <p className=" text-base text-gray-600 md:text-start text-center">
                             Empowering America's growth with trusted legal
                             expertise, we navigate complexities, protect rights,
                             and drive success. Our dedicated professionals
@@ -236,7 +236,7 @@ const Contact = () => {
                           </p>
                         </div>
 
-                        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-6 md:px-0 px-2">
+                        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-6 ">
                           <a
                             href="mailto:info@mannamlaw.com"
                             class="flex md:justify-start justify-center"

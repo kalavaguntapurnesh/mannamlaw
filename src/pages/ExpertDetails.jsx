@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import SecNavbar from "../components/SecNavbar";
+import ContactUsButton from "../components/ScrollToTop";
 
 const ExpertDetails = () => {
   const { name } = useParams();
@@ -48,18 +49,22 @@ const ExpertDetails = () => {
 
                     <div className="flex flex-col">
                       <div>
-                        <h1 className="uppercase text-gray-700 font-semibold">about</h1>
+                        <h1 className="uppercase text-gray-700 font-semibold">
+                          about
+                        </h1>
                       </div>
 
                       <div className="space-y-3 text-gray-600">
                         <div className="mt-4">
-                          <p>{card.descriptionOne}</p>
+                          <p className="text-gray-600">{card.descriptionOne}</p>
                         </div>
                         <div>
-                          <p>{card.descriptionTwo}</p>
+                          <p className="text-gray-600">{card.descriptionTwo}</p>
                         </div>
                         <div>
-                          <p>{card.descriptionThree}</p>
+                          <p className="text-gray-600">
+                            {card.descriptionThree}
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -191,6 +196,8 @@ const ExpertDetails = () => {
           </div>
         </div>
       </div>
+
+      <ContactUsButton />
 
       <Footer />
     </>
