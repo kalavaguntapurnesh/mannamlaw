@@ -5,20 +5,21 @@ import HomeOne from "../assets/HomeOne.jpg";
 const Hero = () => {
   const slides = [
     {
-      image: HomeOne,
-      heading: "Trusted Legal Expertise",
-      paragraph: "Navigating Your Legal Needs with Confidence and Integrity",
-      buttonText: "Discover More",
-      buttonLink: "/contact#contact_form",
-    },
-
-    {
       image:
         // "https://images.pexels.com/photos/1069000/pexels-photo-1069000.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
         "https://images.pexels.com/photos/6077091/pexels-photo-6077091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       heading: "Legacy of Legal Excellence",
       paragraph: "Delivering Trusted Solutions with Integrity and Expertise",
       buttonText: "Find Out More",
+      buttonLink: "/contact#contact_form",
+    },
+    {
+      // image: HomeOne,
+      image:
+        "https://images.pexels.com/photos/2955704/pexels-photo-2955704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      heading: "Immigration is in our DNA",
+      paragraph: "Navigating Your Legal Needs with Confidence and Integrity",
+      buttonText: "Discover More",
       buttonLink: "/contact#contact_form",
     },
 
