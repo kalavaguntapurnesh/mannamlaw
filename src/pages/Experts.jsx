@@ -145,7 +145,7 @@ const Experts = () => {
                               src={card.image}
                               alt={card.name}
                               // className="lg:w-[80%] w-full lg:h-[350px] h-[360px] rounded"
-                              className="w-36 h-36 rounded-full"
+                              className="w-36 h-36 rounded-full "
                             />
                           </div>
 

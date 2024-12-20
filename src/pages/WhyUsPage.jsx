@@ -110,13 +110,13 @@ const WhyUsPage = () => {
                         <div class="space-y-2">
                           <div class="flex justify-center lg:justify-start items-center">
                             <h4 class="lg:text-5xl text-4xl ml-2 text-headingColor font-semibold text-start">
-                              100%
+                              2000
                             </h4>
                           </div>
 
                           <div class="flex justify-center lg:justify-start items-center lg:text-base text-sm text-gray-600">
-                            <p className="lg:text-start text-center ">
-                              Excellence in Legal Solutions
+                            <p className="lg:text-start text-center">
+                              Year of Establishment
                             </p>
                           </div>
                         </div>
@@ -126,13 +126,13 @@ const WhyUsPage = () => {
                         <div class="space-y-2">
                           <div class="flex justify-center lg:justify-start items-center">
                             <h4 class="lg:text-5xl text-4xl ml-2 text-headingColor font-semibold text-start">
-                              2X
+                              100%
                             </h4>
                           </div>
 
                           <div class="flex justify-center lg:justify-start items-center lg:text-base text-sm text-gray-600">
-                            <p className="lg:text-start text-center">
-                              Accelerated Resolution of Cases
+                            <p className="lg:text-start text-center ">
+                              Excellence in Legal Solutions
                             </p>
                           </div>
                         </div>
@@ -147,7 +147,7 @@ const WhyUsPage = () => {
                         alt="support_one"
                         // width="612"
                         // height="512"
-                        className="rounded h-auto w-auto"
+                        className="rounded h-auto w-auto object-cover"
                       />
                     </div>
                     <div className="flex justify-center items-center">
@@ -317,14 +317,14 @@ const WhyUsPage = () => {
                         alt="support_one"
                         // width="612"
                         // height="512"
-                        className="rounded w-auto h-auto"
+                        className="rounded w-auto h-auto object-cover"
                       />
                     </div>
                     <div className="flex justify-center items-center">
                       <img
                         src={justice}
                         alt="support_two"
-                        className="rounded lg:hidden block w-auto"
+                        className="rounded lg:hidden block w-auto object-cover"
                       />
                     </div>
                   </div>
