@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
-import un from "../assets/Un.png";
+import un from "../assets/Un.jpg";
 
 const TermsAndConditions = () => {
   return (

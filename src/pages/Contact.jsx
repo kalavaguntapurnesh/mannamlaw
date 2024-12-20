@@ -6,13 +6,8 @@ import USA from "../assets/USA.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import LawOne from "../assets/lawOne.png";
-import LawTwo from "../assets/lawTwo.png";
-import LawThree from "../assets/lawThree.png";
-import LawFour from "../assets/lawFour.png";
 import linkedin from "../assets/social.png";
 import email from "../assets/email.png";
-import badge from "../assets/badge.png";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const Contact = () => {

@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa6";
-import georgia from "../assets/georgia.png";
+import georgia from "../assets/georgia.jpg";
 import tennessee from "../assets/tennessee.png";
 
 const Footer = () => {
@@ -35,7 +35,7 @@ const Footer = () => {
                           <img
                             src={georgia}
                             alt=""
-                            className="w-6 h-6 rounded"
+                            className="w-6 h-6"
                           />
                           <a
                             href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
@@ -50,7 +50,7 @@ const Footer = () => {
                           <img
                             src={tennessee}
                             alt=""
-                            className="w-6 h-6 rounded"
+                            className="w-6 h-6"
                           />
                           <a
                             href="https://maps.app.goo.gl/oGgn5UJCpWmAXT2HA"
@@ -65,7 +65,7 @@ const Footer = () => {
                           <img
                             src={georgia}
                             alt=""
-                            className="w-6 h-6 rounded"
+                            className="w-6 h-6"
                           />
                           <a
                             href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"

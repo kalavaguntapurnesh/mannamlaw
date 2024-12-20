@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import HomeOne from "../assets/HomeOne.jpg";
 
 const Hero = () => {
   const slides = [

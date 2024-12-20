@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
 import Ravi from "../assets/Ravi.png";
-import Hemanth from "../assets/Hemanth.jpeg";
+import Hemanth from "../assets/Hemanth.jpg";
 import Sabir from "../assets/Sabir.png";
 import Shruthi from "../assets/Shruthi.png";
 import Kanchi from "../assets/kanchi.jpg";
