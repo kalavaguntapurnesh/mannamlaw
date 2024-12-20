@@ -1,11 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useState, useRef } from "react";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
-import { ImPower } from "react-icons/im";
-import { FaFlag } from "react-icons/fa6";
-import { useLocation } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   const [activeHeading, setActiveHeading] = useState(null);
@@ -75,7 +71,7 @@ const PrivacyPolicy = () => {
         </div>
       </div>
 
-      <div className="pt-8 pb-12 select-none">
+      <div className="pt-4 pb-12 select-none">
         <div className="relative">
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px] space-y-4">

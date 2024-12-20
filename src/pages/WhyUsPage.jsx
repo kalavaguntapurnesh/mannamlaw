@@ -74,7 +74,7 @@ const WhyUsPage = () => {
                       <div className="h-4 w-1 bg-mainColor"></div>
 
                       <p className="ml-2 lg:text-lg font-semibold text-mainColor">
-                        Why Mannam Associates?
+                        Why Mannam & Associates?
                       </p>
                     </div>
                     <div>
@@ -220,7 +220,7 @@ const WhyUsPage = () => {
 
                 <div className="mx-auto max-w-[1000px] text-center mt-4">
                   <h1 className="lg:text-4xl text-2xl font-bold text-headingColor">
-                    Why Mannam & Law Associates?
+                    Why Mannam & Associates?
                   </h1>
                 </div>
 
