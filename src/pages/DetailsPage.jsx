@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import SecNavbar from "../components/SecNavbar";
 import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
 
 // Data Mapping based on card titles
 const dataMapping = {
@@ -546,17 +547,219 @@ const dataMapping = {
   },
 };
 
+// const DetailsPage = () => {
+//   const { state } = useLocation();
+//   const navigate = useNavigate();
+
+//   useEffect(() => {
+//     window.scrollTo(0, 0);
+//   }, []);
+
+//   const [activeHeading, setActiveHeading] = useState(null);
+//   const [selectedHeadingIndex, setSelectedHeadingIndex] = useState(0);
+//   const sectionRefs = useRef([]);
+
+//   useEffect(() => {
+//     if (state?.hash) {
+//       const element = document.querySelector(state.hash);
+//       if (element) {
+//         element.scrollIntoView({ behavior: "smooth" });
+//       }
+//     }
+//   }, [state]);
+
+//   if (!state?.card || !state?.topic) {
+//     return (
+//       <div className="flex justify-center items-center h-screen">
+//         <p>No data found. Please go back.</p>
+//         <button
+//           onClick={() => navigate("/")}
+//           className="bg-blue-500 text-white px-4 py-2 rounded"
+//         >
+//           Go Back
+//         </button>
+//       </div>
+//     );
+//   }
+
+//   const { card, topic } = state;
+//   const data = dataMapping[card.title];
+
+//   if (!data) {
+//     return (
+//       <div className="flex justify-center items-center h-screen">
+//         <p>Data for this card is not available.</p>
+//         <button
+//           onClick={() => navigate("/")}
+//           className="bg-blue-500 text-white px-4 py-2 rounded"
+//         >
+//           Go Back
+//         </button>
+//       </div>
+//     );
+//   }
+
+//   const scrollToSection = (index) => {
+//     setActiveHeading(index); // Set active heading
+//     const element = sectionRefs.current[index];
+//     if (element) {
+//       const headerOffset = 100;
+//       const elementPosition = element.getBoundingClientRect().top;
+//       const offsetPosition =
+//         elementPosition + window.pageYOffset - headerOffset;
+
+//       window.scrollTo({
+//         top: offsetPosition,
+//         behavior: "smooth",
+//       });
+//     }
+//   };
+
+//   const { headings, content } = data;
+
+//   return (
+//     <>
+//       <SecNavbar />
+//       <div className="lg:pt-28 pt-24 select-none pb-12">
+//         <div className="relative">
+//           <div className="w-full">
+//             <div className="w-full mx-auto max-w-[1400px] ">
+//               <div className="space-y-4 p-4">
+//                 <div className="flex items-center text-center justify-center ">
+//                   <div className="h-4 w-1 bg-mainColor"></div>
+
+//                   <p className="ml-2 lg:text-lg font-semibold text-mainColor">
+//                     {topic}
+//                   </p>
+//                 </div>
+
+//                 <div className="text-center mt-4">
+//                   <h3 className="lg:text-4xl text-2xl font-bold text-headingColor">
+//                     {card.title}
+//                   </h3>
+//                 </div>
+
+//                 <div className="mx-auto max-w-[1200px] pt-2">
+//                   <img
+//                     src={card.image}
+//                     alt={card.title}
+//                     className="w-full h-80 object-cover rounded mb-6"
+//                   />
+//                 </div>
+
+//                 <div className="hidden lg:grid grid-cols-3 gap-8 pt-6">
+
+//                   <div className="space-y-4 col-span-1 sticky top-28">
+//                     {headings.map((heading, index) => (
+//                       <div
+//                         key={index}
+//                         onClick={() => scrollToSection(index)}
+//                         className={`py-3 px-4 rounded-lg cursor-pointer ${
+//                           activeHeading === index
+//                             ? "bg-blue-100 text-blue-600"
+//                             : "bg-gray-200 text-gray-700"
+//                         }`}
+//                       >
+//                         {heading}
+//                       </div>
+//                     ))}
+//                   </div>
+
+//                   <div className="col-span-2">
+//                     {content.map((section, index) => (
+//                       <div
+//                         ref={(el) => (sectionRefs.current[index] = el)}
+//                         key={index}
+//                         className="mb-8"
+//                       >
+//                         <h3 className="text-xl font-semibold">
+//                           {section.title}
+//                         </h3>
+//                         <p className="text-gray-700 mt-2">
+//                           {section.description}
+//                         </p>
+//                         <ul className="list-disc ml-5 mt-2">
+//                           {section.points.map((point, idx) => (
+//                             <li key={idx}>{point}</li>
+//                           ))}
+//                         </ul>
+//                       </div>
+//                     ))}
+//                   </div>
+//                 </div>
+
+//                 <div className="lg:hidden">
+//                   <div className="relative">
+//                     <select
+//                       value={selectedHeadingIndex}
+//                       onChange={(e) =>
+//                         setSelectedHeadingIndex(parseInt(e.target.value))
+//                       }
+//                       className="w-full mb-4 p-3 border border-gray-300 rounded shadow bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none pr-8"
+//                     >
+//                       {headings.map((heading, index) => (
+//                         <option key={index} value={index}>
+//                           {heading}
+//                         </option>
+//                       ))}
+//                     </select>
+//                     <span className="absolute right-3 top-1/4 -translate-y-[20%] pointer-events-none">
+//                       <svg
+//                         className="w-5 h-5 text-gray-500"
+//                         fill="none"
+//                         stroke="currentColor"
+//                         strokeWidth="2"
+//                         viewBox="0 0 24 24"
+//                         xmlns="http://www.w3.org/2000/svg"
+//                       >
+//                         <path
+//                           strokeLinecap="round"
+//                           strokeLinejoin="round"
+//                           d="M19 9l-7 7-7-7"
+//                         ></path>
+//                       </svg>
+//                     </span>
+//                   </div>
+
+//                   <div className="mb-8 mt-6">
+//                     <h3 className="text-xl font-semibold">
+//                       {content[selectedHeadingIndex].title}
+//                     </h3>
+//                     <p className="text-gray-700 mt-2">
+//                       {content[selectedHeadingIndex].description}
+//                     </p>
+//                     <ul className="list-disc ml-5 mt-2">
+//                       {content[selectedHeadingIndex].points.map(
+//                         (point, idx) => (
+//                           <li key={idx}>{point}</li>
+//                         )
+//                       )}
+//                     </ul>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+
+//       <ScrollToTop />
+
+//       <Footer />
+//     </>
+//   );
+// };
+
 const DetailsPage = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
+  const [activeHeading, setActiveHeading] = useState(null);
+  const [selectedHeadingIndex, setSelectedHeadingIndex] = useState(0);
+  const sectionRefs = useRef([]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  const [activeHeading, setActiveHeading] = useState(null);
-  const [selectedHeadingIndex, setSelectedHeadingIndex] = useState(0);
-  const sectionRefs = useRef([]);
 
   useEffect(() => {
     if (state?.hash) {
@@ -599,7 +802,7 @@ const DetailsPage = () => {
   }
 
   const scrollToSection = (index) => {
-    setActiveHeading(index); // Set active heading
+    setActiveHeading(index);
     const element = sectionRefs.current[index];
     if (element) {
       const headerOffset = 100;
@@ -622,17 +825,16 @@ const DetailsPage = () => {
       <div className="lg:pt-28 pt-24 select-none pb-12">
         <div className="relative">
           <div className="w-full">
-            <div className="w-full mx-auto max-w-[1400px] ">
+            <div className="w-full mx-auto max-w-[1400px]">
               <div className="space-y-4 p-4">
-                <div className="flex items-center text-center justify-center ">
-                  <div className="h-4 w-1 bg-mainColor"></div>
+                <div className="text-center space-y-2">
+                  <div className="flex items-center text-center justify-center ">
+                    <div className="h-4 w-1 bg-mainColor"></div>
 
-                  <p className="ml-2 lg:text-lg font-semibold text-mainColor">
-                    {topic}
-                  </p>
-                </div>
-
-                <div className="text-center mt-4">
+                    <p className="ml-2 lg:text-lg font-semibold text-mainColor">
+                      {topic}
+                    </p>
+                  </div>
                   <h3 className="lg:text-4xl text-2xl font-bold text-headingColor">
                     {card.title}
                   </h3>
@@ -642,64 +844,27 @@ const DetailsPage = () => {
                   <img
                     src={card.image}
                     alt={card.title}
-                    className="w-full h-80 object-cover rounded mb-6"
+                    className="w-full lg:h-80 h-auto lg:object-cover rounded mb-6"
                   />
                 </div>
 
-                {/* <div className="grid lg:grid-cols-3 gap-8 pt-6">
-                  <div className="space-y-4 col-span-1 sticky top-28">
-                    {headings.map((heading, index) => (
-                      <div
-                        key={index}
-                        onClick={() => scrollToSection(index)}
-                        className={`py-3 px-4 rounded-lg cursor-pointer ${
-                          activeHeading === index
-                            ? "bg-blue-100 text-blue-600"
-                            : "bg-gray-200 text-gray-700"
-                        }`}
-                      >
-                        {heading}
-                      </div>
-                    ))}
-                  </div>
-
-                  <div className="col-span-2">
-                    {content.map((section, index) => (
-                      <div
-                        ref={(el) => (sectionRefs.current[index] = el)}
-                        key={index}
-                        className="mb-8"
-                      >
-                        <h3 className="text-xl font-semibold">
-                          {section.title}
-                        </h3>
-                        <p className="text-gray-700 mt-2">
-                          {section.description}
-                        </p>
-                        <ul className="list-disc ml-5 mt-2">
-                          {section.points.map((point, idx) => (
-                            <li key={idx}>{point}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    ))}
-                  </div>
-                </div> */}
-
-                <div className="hidden lg:grid grid-cols-3 gap-8 pt-6">
+                {/* Desktop View */}
+                <div className="hidden lg:grid grid-cols-3 gap-8">
                   {/* Left: Headings */}
-                  <div className="space-y-4 col-span-1 sticky top-28">
+                  <div className="space-y-4 col-span-1 sticky h-max top-28">
                     {headings.map((heading, index) => (
                       <div
                         key={index}
                         onClick={() => scrollToSection(index)}
-                        className={`py-3 px-4 rounded-lg cursor-pointer ${
+                        className={`py-3 px-4 rounded cursor-pointer shadow ${
                           activeHeading === index
-                            ? "bg-blue-100 text-blue-600"
-                            : "bg-gray-200 text-gray-700"
+                            ? "bg-[#f8f9fa] text-mainColor"
+                            : "bg-[#f8f9fa] text-headingColor"
                         }`}
                       >
-                        {heading}
+                        <h2 className="pl-3 text-lg cursor-pointer font-medium ease-in-out duration-1000">
+                          {heading}
+                        </h2>
                       </div>
                     ))}
                   </div>
@@ -712,7 +877,7 @@ const DetailsPage = () => {
                         key={index}
                         className="mb-8"
                       >
-                        <h3 className="text-xl font-semibold">
+                        <h3 className="text-xl font-semibold text-headingColor">
                           {section.title}
                         </h3>
                         <p className="text-gray-700 mt-2">
@@ -730,39 +895,21 @@ const DetailsPage = () => {
 
                 {/* Mobile View */}
                 <div className="lg:hidden">
-                  <div className="relative">
-                    <select
-                      value={selectedHeadingIndex}
-                      onChange={(e) =>
-                        setSelectedHeadingIndex(parseInt(e.target.value))
-                      }
-                      className="w-full mb-4 p-3 border border-gray-300 rounded shadow bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none pr-8"
-                    >
-                      {headings.map((heading, index) => (
-                        <option key={index} value={index}>
-                          {heading}
-                        </option>
-                      ))}
-                    </select>
-                    <span className="absolute right-3 top-1/4 -translate-y-[20%] pointer-events-none">
-                      <svg
-                        className="w-5 h-5 text-gray-500"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M19 9l-7 7-7-7"
-                        ></path>
-                      </svg>
-                    </span>
-                  </div>
+                  <select
+                    value={selectedHeadingIndex}
+                    onChange={(e) =>
+                      setSelectedHeadingIndex(parseInt(e.target.value))
+                    }
+                    className="w-full mb-4 p-3 border border-gray-300 rounded shadow bg-white text-gray-700"
+                  >
+                    {headings.map((heading, index) => (
+                      <option key={index} value={index}>
+                        {heading}
+                      </option>
+                    ))}
+                  </select>
 
-                  {/* Display only the selected content */}
+                  {/* Display selected section */}
                   <div className="mb-8 mt-6">
                     <h3 className="text-xl font-semibold">
                       {content[selectedHeadingIndex].title}
@@ -784,6 +931,8 @@ const DetailsPage = () => {
           </div>
         </div>
       </div>
+
+      <ScrollToTop />
       <Footer />
     </>
   );

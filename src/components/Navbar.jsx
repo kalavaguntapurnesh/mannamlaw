@@ -60,7 +60,7 @@ const NavBar = () => {
           {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
           <h4 className="text-2xl text-[#ac0000] font-bold cursor-pointer">
             <div className="flex gap-0">
-              Mannam{" "}
+              Mannam &
               <span
                 className={` ${
                   isScrolled
@@ -68,7 +68,7 @@ const NavBar = () => {
                     : "text-[#ac0000] semibold"
                 }`}
               >
-                Law
+                Associates
               </span>
             </div>
           </h4>
@@ -93,7 +93,10 @@ const NavBar = () => {
             Our Experts
           </FlyoutLink> */}
 
-          <FlyoutLink href="/why-mannam-and-associates" FlyoutContent={AboutUsContent}>
+          <FlyoutLink
+            href="/why-mannam-and-associates"
+            FlyoutContent={AboutUsContent}
+          >
             About Us
           </FlyoutLink>
 
@@ -170,7 +173,7 @@ const NavBar = () => {
           <a href="/" className="flex flex-row items-center ml-6 mt-6 mb-2">
             {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
             <h4 className="ml-1 text-2xl text-mainColor font-bold cursor-pointer">
-              Mannam<span className="text-headingColor">Law</span>
+              Mannam & <span className="text-headingColor">Asoociates</span>
             </h4>
           </a>
 

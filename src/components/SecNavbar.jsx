@@ -60,7 +60,8 @@ const NavBar = () => {
           {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
           <h4 className="text-2xl text-[#ac0000] font-bold cursor-pointer">
             <div className="flex gap-0">
-              Mannam <span className="text-[#0A3161] font-bold">Law</span>
+              Mannam &{" "}
+              <span className="text-[#0A3161] font-bold">Associates</span>
             </div>
           </h4>
         </a>
@@ -160,7 +161,7 @@ const NavBar = () => {
           <a href="/" className="flex flex-row items-center ml-6 mt-6 mb-2">
             {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
             <h4 className="ml-1 text-2xl text-mainColor font-bold cursor-pointer">
-              Mannam<span className="text-headingColor">Law</span>
+              Mannam & <span className="text-headingColor">Associates</span>
             </h4>
           </a>
 
