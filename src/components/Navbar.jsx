@@ -62,7 +62,7 @@ const NavBar = () => {
             <div className="flex gap-0">
               Mannam &
               <span
-                className={` ${
+                className={`ml-[2px] ${
                   isScrolled
                     ? "text-headingColor font-bold"
                     : "text-[#ac0000] semibold"

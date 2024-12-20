@@ -61,7 +61,7 @@ const NavBar = () => {
           <h4 className="text-2xl text-[#ac0000] font-bold cursor-pointer">
             <div className="flex gap-0">
               Mannam &{" "}
-              <span className="text-[#0A3161] font-bold">Associates</span>
+              <span className="ml-[2px] text-[#0A3161] font-bold">Associates</span>
             </div>
           </h4>
         </a>
