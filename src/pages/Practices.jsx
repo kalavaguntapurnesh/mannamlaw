@@ -324,6 +324,51 @@ const Practices = () => {
         </div>
       </div>
 
+      <div className="pt-16 pb-12">
+        <div className="relative">
+          <div className="w-full">
+            <div className="w-full mx-auto max-w-[1400px] ">
+              <div className="p-4">
+                <div className="bg-[#f8f9fa] h-[200px] lg:h-[180px] shadow rounded">
+                  <div className=" h-[100%]">
+                    <div className="flex lg:flex-row flex-col gap-4 h-[100%] p-6">
+                      <div className="h-[100%] lg:w-[50%] ">
+                        <div className="space-y-2 flex flex-col justify-center  h-full">
+                          <h1 className="lg:text-4xl text-2xl font-bold text-headingColor lg:text-start text-center">
+                            Expertise Delivered, Trust Earned
+                          </h1>
+                          <p className="text-gray-700 text-base lg:text-start text-center lg:hidden block">
+                            Let's run complexity into clarity together.
+                          </p>
+                          <p className="text-gray-700 text-base lg:text-start text-center lg:block hidden">
+                            Transforming complexity into clarity with trusted
+                            legal expertise, personalized guidance, and
+                            unwavering commitment to justice.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="lg:w-[50%] w-[100%] lg:h-[100%] flex lg:justify-end justify-center items-center">
+                        <div className="flex lg:justify-end justify-center items-center w-[100%]">
+                          <a
+                            href="/contact"
+                            class="relative flex h-[50px] md:w-60 w-2/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                          >
+                            <span class="relative z-10">
+                              Request a consultation
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <ScrollToTop />
 
       <Footer />
