@@ -352,7 +352,7 @@ const Practices = () => {
                         <div className="flex lg:justify-end justify-center items-center w-[100%]">
                           <a
                             href="/contact"
-                            class="relative flex h-[50px] md:w-60 w-2/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                            class="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                           >
                             <span class="relative z-10">
                               Request a consultation
