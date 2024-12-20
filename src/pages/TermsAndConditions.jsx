@@ -44,7 +44,7 @@ const TermsAndConditions = () => {
               <div className="p-4">
                 <div className="space-y-2 xl:text-start text-center pt-4">
                   <div className="space-y-2 xl:text-start text-center ">
-                    <h1 className="text-headingColor text-xl font-semibold pb-4">
+                    <h1 className="text-headingColor text-2xl font-bold pb-4">
                       Terms and Conditions of Mannam & Associates
                     </h1>
                     <p className="text-sideHeading">
