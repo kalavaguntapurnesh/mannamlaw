@@ -24,6 +24,8 @@ const Experts = () => {
       direct: "(678) 392-3170",
       fax: "(877) 596-1667",
       email: "ravi@mannamlaw.com",
+      undergraduation: "Osmania University, Andhra Pradesh, India LLB, 1990",
+      graduation: "University of Georgia, Athens, GA LLM, 1996",
       initialDescription:
         "Ravi Mannam is the Managing Attorney & Founder of Mannam & Associates LLC. He offers over 20 years of legal experience in immigration & taxation law, with the last decade dedicated exclusively to the area of immigration law.",
       descriptionOne:
@@ -43,6 +45,8 @@ const Experts = () => {
       direct: "(678) 392-3175",
       fax: "(877) 596-1667",
       email: "Hemanth@mannamlaw.com",
+      undergraduation:"Georgia Institute of Technology, Atlanta, GA – B.S., 2009",
+      graduation:"University of Georgia School of Law, Athens, GA – J.D., 2014",
       initialDescription:
         "Mr. Hemant Ramachandran is an Associate Attorney with Mannam & Associates LLC. He has extensive experience handling matters related to both employment and family immigration, including the preparation and filing of petitions.",
       descriptionOne:
@@ -59,6 +63,8 @@ const Experts = () => {
       direct: "(678) 392-3174",
       fax: "(877) 596-1667",
       email: "sabirou@mannamlaw.com",
+      undergraduation:"Bachelor’s Degree in Corporate Law",
+      graduation:"",
       initialDescription:
         "Sanousi has over seven years of experience in business immigration. Being highly knowledgeable about various immigration processes, he specializes, and has expertise in, the H-1B nonimmigrant visa application process.",
       descriptionOne:
@@ -73,6 +79,8 @@ const Experts = () => {
       direct: "(678) 392-3172",
       fax: "(877) 596-1667",
       email: "kanchi@mannamlaw.com",
+      undergraduation: "University of Maryland at College Park",
+      graduation: "",
       initialDescription:
         "Ms. Khanna’s expertise is in guiding our clients through employment and family based Green Card application processes. With strong attention to detail, she drafts appropriate documents required by the U.S.C.I.S of the country.",
       descriptionOne:
@@ -87,6 +95,8 @@ const Experts = () => {
       direct: "(678) 392-3171",
       fax: "(877) 596-1667",
       email: "shruthi@mannamlaw.com",
+      undergraduation:"Smith School of Business, University of Maryland",
+      graduation:"",
       initialDescription:
         "Ms. Khanna graduated summa cum laude from the Smith School of Business, University of Maryland with a Bachelor’s degree in Accounting. She is involved in all aspects of recording and reviewing financial transactions",
       descriptionOne:

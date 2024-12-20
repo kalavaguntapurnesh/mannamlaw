@@ -105,12 +105,15 @@ const ExpertDetails = () => {
                         <p className="text-gray-500 uppercase">Fax: </p>
                         <p className="text-[#1a1a1a] font-medium">{card.fax}</p>
                       </div>
-                      {/* <div className="flex flex-col space-y-1">
-                        <p className="text-gray-500 uppercase">Direct: </p>
+                      <div className="flex flex-col space-y-1">
+                        <p className="text-gray-500 uppercase">Education: </p>
                         <p className="text-[#1a1a1a] font-medium">
-                          {card.direct}
+                          {card.undergraduation}
                         </p>
-                      </div> */}
+                        <p className="text-[#1a1a1a] font-medium">
+                          {card.graduation}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
