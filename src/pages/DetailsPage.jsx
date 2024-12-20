@@ -900,7 +900,7 @@ const DetailsPage = () => {
                     onChange={(e) =>
                       setSelectedHeadingIndex(parseInt(e.target.value))
                     }
-                    className="w-full mb-4 p-3 border border-gray-300 rounded shadow bg-white text-gray-700"
+                    className="w-full mb-4 p-3 border border-gray-300 rounded shadow bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none pr-8"
                   >
                     {headings.map((heading, index) => (
                       <option key={index} value={index}>
@@ -911,7 +911,7 @@ const DetailsPage = () => {
 
                   {/* Display selected section */}
                   <div className="mb-8 mt-6">
-                    <h3 className="text-xl font-semibold">
+                    <h3 className="text-xl font-semibold text-headingColor">
                       {content[selectedHeadingIndex].title}
                     </h3>
                     <p className="text-gray-700 mt-2">
