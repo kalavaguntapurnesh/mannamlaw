@@ -16,6 +16,11 @@ import Practices from "./pages/Practices";
 import Services from "./pages/Services";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import CopyRight from "./pages/CopyRight";
+import Employment from "./pages/Employment";
+import Family from "./pages/Family";
+import Investor from "./pages/Investor";
+import Student from "./pages/Student";
+import Naturalization from "./pages/Naturalization";
 
 function App() {
   return (
@@ -30,6 +35,11 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/our-practices" element={<Practices />} />
+          <Route path="/employment-based-visa" element={<Employment />} />
+          <Route path="/family-based-visa" element={<Family />} />
+          <Route path="/investor-based-visa" element={<Investor />} />
+          <Route path="/student-based-visa" element={<Student />} />
+          <Route path="/naturalization" element={<Naturalization />} />
           <Route
             path="/terms-and-conditions"
             element={<TermsAndConditions />}

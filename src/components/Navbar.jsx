@@ -202,7 +202,7 @@ const NavBar = () => {
                   >
                     <li className="text-headingColor">
                       <a
-                        href="/our-practices"
+                        href="/employment-based-visa"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold"
                       >
                         Employment Based Visas
@@ -210,7 +210,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-headingColor">
                       <a
-                        href="/our-practices"
+                        href="/investor-based-visa"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold"
                       >
                         Investor Based Visas
@@ -218,7 +218,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-headingColor">
                       <a
-                        href="/our-practices"
+                        href="/family-based-visa"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
 "
                       >
@@ -227,7 +227,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-headingColor">
                       <a
-                        href="/our-practices"
+                        href="/student-based-visa"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
 "
                       >
@@ -236,7 +236,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-headingColor">
                       <a
-                        href="/our-practices"
+                        href="/naturalization"
                         className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
 "
                       >
@@ -543,31 +543,31 @@ const SupportContent = () => {
         <h3 className="font-semibold text-sideHeading">How We Operate</h3>
 
         <a
-          href="/our-practices"
+          href="/employment-based-visa"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Employment Based Visas
         </a>
         <a
-          href="/our-practices"
+          href="/family-based-visa"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Family Based Visas
         </a>
         <a
-          href="/our-practices"
+          href="/investor-based-visa"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Investor Based Visas
         </a>
         <a
-          href="/our-practices"
+          href="/student-based-visa"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Students & Scholars
         </a>
         <a
-          href="/our-practices"
+          href="/naturalization"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Naturalization

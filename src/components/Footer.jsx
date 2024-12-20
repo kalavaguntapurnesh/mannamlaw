@@ -32,48 +32,42 @@ const Footer = () => {
                     <div className="w-full lg:block hidden">
                       <ul className="lg:pl-1 space-y-3 list-none">
                         <li className=" flex flex-row items-center md:justify-start justify-center">
-                          <img
-                            src={georgia}
-                            alt=""
-                            className="w-6 h-6"
-                          />
+                          <img src={georgia} alt="" className="w-6 h-6" />
                           <a
                             href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
                             className="ml-2 font-medium text-headingColor text-[14px] leading-6 text-footerLinks text-center transition duration-500 ease-in-out underline hover:text-blue-600"
                           >
                             Atlanta, GA 30328, USA:
                           </a>
-                          <p className="ml-2 text-headingColor">(678) 392-3170</p>
+                          <p className="ml-2 text-headingColor">
+                            (678) 392-3170
+                          </p>
                         </li>
 
                         <li className=" flex flex-row items-center md:justify-start justify-center">
-                          <img
-                            src={tennessee}
-                            alt=""
-                            className="w-6 h-6"
-                          />
+                          <img src={tennessee} alt="" className="w-6 h-6" />
                           <a
                             href="https://maps.app.goo.gl/oGgn5UJCpWmAXT2HA"
                             className="ml-2 font-medium text-headingColor text-[14px] leading-6 text-footerLinks text-center transition duration-500 ease-in-out underline hover:text-blue-600"
                           >
                             Chattanooga, TN 37421, USA:
                           </a>
-                          <p className="ml-2 text-headingColor">(678) 392-3175</p>
+                          <p className="ml-2 text-headingColor">
+                            (678) 392-3175
+                          </p>
                         </li>
 
                         <li className=" flex flex-row items-center md:justify-start justify-center">
-                          <img
-                            src={georgia}
-                            alt=""
-                            className="w-6 h-6"
-                          />
+                          <img src={georgia} alt="" className="w-6 h-6" />
                           <a
                             href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
                             className="ml-2 font-medium text-headingColor text-[14px] leading-6 text-footerLinks text-center transition duration-500 ease-in-out underline hover:text-blue-600"
                           >
                             Atlanta, GA 30024, USA:
                           </a>
-                          <p className="ml-2 text-headingColor">(678) 392-3170</p>
+                          <p className="ml-2 text-headingColor">
+                            (678) 392-3170
+                          </p>
                         </li>
                       </ul>
                     </div>
@@ -89,7 +83,7 @@ const Footer = () => {
                     <ul className="pl-0 mt-4 space-y-3 list-none">
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/our-practices"
+                          href="/employment-based-visa"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Employment Based Visas
@@ -97,7 +91,7 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/our-practices"
+                          href="/investor-based-visa"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Investor Based Visas
@@ -105,7 +99,7 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/our-practices"
+                          href="/family-based-visa"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Family Based Visas
@@ -114,7 +108,7 @@ const Footer = () => {
 
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/our-practices"
+                          href="/student-based-visa"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Students and Scholars
@@ -123,7 +117,7 @@ const Footer = () => {
 
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/our-practices"
+                            href="/naturalization"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Naturalization

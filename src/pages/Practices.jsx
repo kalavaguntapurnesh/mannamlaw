@@ -183,13 +183,13 @@ const Practices = () => {
                           </p>
                         </div>
                         <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
-                          <button
+                          <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
-                            onClick={() => {}}
+                            href="/employment-based-visa"
                           >
                             <span class="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
-                          </button>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -212,13 +212,13 @@ const Practices = () => {
                           </p>
                         </div>
                         <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
-                          <button
+                          <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
-                            onClick={() => {}}
+                            href="/investor-based-visa"
                           >
                             <span class="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
-                          </button>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -242,13 +242,13 @@ const Practices = () => {
                           </p>
                         </div>
                         <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
-                          <button
+                          <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
-                            onClick={() => {}}
+                            href="/family-based-visa"
                           >
                             <span class="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
-                          </button>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -275,13 +275,13 @@ const Practices = () => {
                           </p>
                         </div>
                         <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
-                          <button
+                          <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
-                            onClick={() => {}}
+                            href="/student-based-visa"
                           >
                             <span class="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
-                          </button>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -306,13 +306,13 @@ const Practices = () => {
                           </p>
                         </div>
                         <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
-                          <button
+                          <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
-                            onClick={() => {}}
+                            href="/naturalization"
                           >
                             <span class="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
-                          </button>
+                          </a>
                         </div>
                       </div>
                     </div>
