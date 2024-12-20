@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/details/:title" element={<DetailsPage />} />
-          <Route path="/why-mannam-law" element={<WhyUsPage />} />
+          <Route path="/why-mannam-and-associates" element={<WhyUsPage />} />
           <Route path="/experts" element={<Experts />} />
           <Route path="/experts/:name" element={<ExpertDetails />} />
           <Route path="/contact" element={<Contact />} />
