@@ -123,77 +123,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-6 pt-8 max-w-full">
-                  <div className="flex md:justify-start justify-center">
-                    <div className="w-full bg-white border border-gray-200 rounded p-6 transition-transform duration-300 hover:-translate-y-2">
-                      <div className="space-y-3">
-                        <div className="flex justify-center items-center">
-                          <img
-                            src={LawThree}
-                            alt="services_five"
-                            className="w-20 h-20"
-                          />
-                        </div>
-                        <div className="flex justify-center items-center">
-                          <h1 className="text-xl text-headingColor font-bold text-center">
-                            Office Location
-                          </h1>
-                        </div>
-                        <div className="flex flex-col justify-center items-center text-gray-600 text-center">
-                          <p>Mannam & Associates, LLC 6160</p>
-                          <p>Peachtree Dunwoody Rd Suite B-230</p>
-                          <p>Atlanta, GA 30328, USA</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex md:justify-start justify-center">
-                    <div className="w-full bg-white border border-gray-200 rounded p-6 transition-transform duration-300 hover:-translate-y-2">
-                      <div className="space-y-3">
-                        <div className="flex justify-center items-center">
-                          <img
-                            src={LawTwo}
-                            alt="services_five"
-                            className="w-20 h-20"
-                          />
-                        </div>
-                        <div className="flex justify-center items-center">
-                          <h1 className="text-xl text-headingColor font-bold text-center">
-                            Document Mailing Address
-                          </h1>
-                        </div>
-                        <div className="flex flex-col justify-center items-center text-gray-600 text-center">
-                          <p>Mannam & Associates, LLC 3651</p>
-                          <p>Peachtree Pkwy Suite E-360</p>
-                          <p>Atlanta, GA 30024, USA</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex md:justify-start justify-center">
-                    <div className="w-full bg-white border border-gray-200 rounded p-6 transition-transform duration-300 hover:-translate-y-2">
-                      <div className="space-y-3">
-                        <div className="flex justify-center items-center">
-                          <img
-                            src={LawOne}
-                            alt="services_five"
-                            className="w-20 h-20"
-                          />
-                        </div>
-                        <div className="flex justify-center items-center">
-                          <h1 className="text-xl text-headingColor font-bold text-center">
-                            Corporate Address
-                          </h1>
-                        </div>
-                        <div className="flex flex-col justify-center items-center text-gray-600 text-center">
-                          <p>Mannam & Associates, LLC 2288</p>
-                          <p>Gunbarrel Road, Suite 154-300</p>
-                          <p>Chattanooga, TN 37421, USA</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+               
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-2 pt-8 max-w-full">
                   <a

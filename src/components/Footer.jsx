@@ -3,7 +3,9 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa6";
-import { SiPaloaltosoftware } from "react-icons/si";
+import georgia from "../assets/georgia.png";
+import tennessee from "../assets/tennessee.png";
+
 const Footer = () => {
   return (
     <div className="bg-[#f2f2f3] p-15 select-none">
@@ -12,17 +14,68 @@ const Footer = () => {
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="pb-8 mb-8 border-b border-gray-600">
               <div className="w-full p-8">
-                <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5 mt-8">
-                  <div className="flex flex-col lg:mb-0 mb-8 gap-4 md:col-span-1 col-span-2">
-                    <div className="w-full ">
+                <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6 mt-8">
+                  <div className="flex flex-col lg:mb-0 mb-8 gap-4 col-span-2 ">
+                    <div className="w-full">
                       <a
                         href="/"
-                        className="flex flex-row items-center md:justify-start justify-center"
+                        className="flex flex-row items-center md:justify-start justify-center "
                       >
                         <h3 className="ml-1 text-2xl text-mainColor font-bold cursor-pointer">
-                          Mannam<span className="text-[#0A3161]">Law</span>
+                          Mannam &{" "}
+                          <span className="text-[#0A3161]">Associates</span>
                         </h3>
                       </a>
+                      <div></div>
+                    </div>
+
+                    <div className="w-full lg:block hidden">
+                      <ul className="lg:pl-1 space-y-3 list-none">
+                        <li className=" flex flex-row items-center md:justify-start justify-center">
+                          <img
+                            src={georgia}
+                            alt=""
+                            className="w-6 h-6 rounded"
+                          />
+                          <a
+                            href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
+                            className="ml-2 font-medium text-headingColor text-[14px] leading-6 text-footerLinks text-center transition duration-500 ease-in-out underline hover:text-blue-600"
+                          >
+                            Atlanta, GA 30328, USA:
+                          </a>
+                          <p className="ml-2 text-headingColor">(678) 392-3170</p>
+                        </li>
+
+                        <li className=" flex flex-row items-center md:justify-start justify-center">
+                          <img
+                            src={tennessee}
+                            alt=""
+                            className="w-6 h-6 rounded"
+                          />
+                          <a
+                            href="https://maps.app.goo.gl/oGgn5UJCpWmAXT2HA"
+                            className="ml-2 font-medium text-headingColor text-[14px] leading-6 text-footerLinks text-center transition duration-500 ease-in-out underline hover:text-blue-600"
+                          >
+                            Chattanooga, TN 37421, USA:
+                          </a>
+                          <p className="ml-2 text-headingColor">(678) 392-3175</p>
+                        </li>
+
+                        <li className=" flex flex-row items-center md:justify-start justify-center">
+                          <img
+                            src={georgia}
+                            alt=""
+                            className="w-6 h-6 rounded"
+                          />
+                          <a
+                            href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
+                            className="ml-2 font-medium text-headingColor text-[14px] leading-6 text-footerLinks text-center transition duration-500 ease-in-out underline hover:text-blue-600"
+                          >
+                            Atlanta, GA 30024, USA:
+                          </a>
+                          <p className="ml-2 text-headingColor">(678) 392-3170</p>
+                        </li>
+                      </ul>
                     </div>
                   </div>
 
