@@ -48,7 +48,7 @@ const NavBar = () => {
       <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4">
         <a href="/" className="flex flex-row items-center md:ml-0 ml-1">
           {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
-          <h4 className="text-2xl text-[#ac0000] font-bold cursor-pointer">
+          <h4 className="md:text-2xl text-xl text-[#ac0000] font-bold cursor-pointer">
             <div className="flex gap-0">
               Mannam &{" "}
               <span className="ml-[2px] text-[#0A3161] font-bold">
@@ -129,13 +129,13 @@ const NavBar = () => {
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? (
               <AiOutlineClose
-                className={`w-6 h-6 ${
+                className={`w-5 h-5 ${
                   isScrolled ? "text-headingColor" : "text-headingColor"
                 }`}
               />
             ) : (
               <RiMenu3Fill
-                className={`w-6 h-6 ${
+                className={`w-5 h-5 ${
                   isScrolled ? "text-headingColor" : "text-headingColor"
                 }`}
               />

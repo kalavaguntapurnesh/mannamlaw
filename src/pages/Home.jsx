@@ -182,7 +182,7 @@ const Home = () => {
                           <img
                             src={law}
                             alt="c_sixteen"
-                            className="w-16 h-16 mb-2 text-mainColor"
+                            className="md:w-16 md:h-16 w-[56px] h-[56px] mb-2 text-mainColor"
                           />
                           <h4 className="mb-2 text-2xl lg:text-start text-center font-bold text-headingColor ">
                             Expert Guidance
@@ -196,7 +196,7 @@ const Home = () => {
                           <img
                             src={group}
                             alt="c_seventeen"
-                            className="w-16 h-16 mb-2 text-mainColor"
+                            className="md:w-16 md:h-16 w-[56px] h-[56px] mb-2 text-mainColor"
                           />
                           <h4 className="mb-2 text-2xl font-bold lg:text-start text-center text-headingColor">
                             Ethical Practices
@@ -210,7 +210,7 @@ const Home = () => {
                         <div className="flex flex-col lg:items-start items-center">
                           <img
                             src={cost}
-                            className="w-16 h-16 mb-2 text-mainColor"
+                            className="md:w-16 md:h-16 w-[56px] h-[56px] mb-2 text-mainColor"
                             alt="carousel_one"
                           />
                           <h4 className="mb-2 text-2xl font-bold lg:text-start text-center text-headingColor">
@@ -225,7 +225,7 @@ const Home = () => {
                         <div className="flex flex-col lg:items-start items-center">
                           <img
                             src={guidance}
-                            className="w-16 h-16 mb-2 text-mainColor"
+                            className="md:w-16 md:h-16 w-[56px] h-[56px] mb-2 text-mainColor"
                             alt="carousel_two"
                           />
                           <h4 className="mb-2 text-2xl text-headingColor font-bold md:text-start text-center">
