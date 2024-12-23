@@ -9,6 +9,8 @@ import Shruthi from "../assets/Shruthi.png";
 import Kanchi from "../assets/kanchi.jpg";
 import { useNavigate } from "react-router-dom";
 import { MdArrowRightAlt } from "react-icons/md";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const Experts = () => {
   const navigate = useNavigate();
@@ -45,8 +47,10 @@ const Experts = () => {
       direct: "(678) 392-3175",
       fax: "(877) 596-1667",
       email: "Hemanth@mannamlaw.com",
-      undergraduation:"Georgia Institute of Technology, Atlanta, GA – B.S., 2009",
-      graduation:"University of Georgia School of Law, Athens, GA – J.D., 2014",
+      undergraduation:
+        "Georgia Institute of Technology, Atlanta, GA – B.S., 2009",
+      graduation:
+        "University of Georgia School of Law, Athens, GA – J.D., 2014",
       initialDescription:
         "Mr. Hemant Ramachandran is an Associate Attorney with Mannam & Associates LLC. He has extensive experience handling matters related to both employment and family immigration, including the preparation and filing of petitions.",
       descriptionOne:
@@ -63,8 +67,8 @@ const Experts = () => {
       direct: "(678) 392-3174",
       fax: "(877) 596-1667",
       email: "sabirou@mannamlaw.com",
-      undergraduation:"Bachelor’s Degree in Corporate Law",
-      graduation:"",
+      undergraduation: "Bachelor’s Degree in Corporate Law",
+      graduation: "",
       initialDescription:
         "Sanousi has over seven years of experience in business immigration. Being highly knowledgeable about various immigration processes, he specializes, and has expertise in, the H-1B nonimmigrant visa application process.",
       descriptionOne:
@@ -95,8 +99,8 @@ const Experts = () => {
       direct: "(678) 392-3171",
       fax: "(877) 596-1667",
       email: "shruthi@mannamlaw.com",
-      undergraduation:"Smith School of Business, University of Maryland",
-      graduation:"",
+      undergraduation: "Smith School of Business, University of Maryland",
+      graduation: "",
       initialDescription:
         "Ms. Khanna graduated summa cum laude from the Smith School of Business, University of Maryland with a Bachelor’s degree in Accounting. She is involved in all aspects of recording and reviewing financial transactions",
       descriptionOne:
@@ -117,7 +121,13 @@ const Experts = () => {
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px]">
               <div className="p-4">
-                <div className="space-y-3">
+                <motion.div
+                  variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="space-y-3"
+                >
                   <div className="flex items-center text-center justify-center ">
                     <div className="h-4 w-1 bg-mainColor"></div>
 
@@ -139,9 +149,15 @@ const Experts = () => {
                       your legal journey.
                     </p>
                   </div>
-                </div>
+                </motion.div>
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:p-6 pt-8">
+                <motion.div
+                  variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:p-6 pt-8"
+                >
                   {cardsData.map((card, index) => (
                     <div
                       key={index}
@@ -194,7 +210,7 @@ const Experts = () => {
                       </div>
                     </div>
                   ))}
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>

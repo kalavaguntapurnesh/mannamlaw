@@ -6,6 +6,8 @@ import health from "../assets/health.svg";
 import callCenter from "../assets/callCenter.svg";
 import education from "../assets/education.svg";
 import finance from "../assets/finance.svg";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const Services = () => {
   const values1 = [
@@ -48,7 +50,13 @@ const Services = () => {
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px]">
               <div className="p-4">
-                <div className="space-y-3">
+                <motion.div
+                  variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="space-y-3"
+                >
                   <div className="flex items-center text-center justify-center ">
                     <div className="h-4 w-1 bg-mainColor"></div>
 
@@ -70,17 +78,23 @@ const Services = () => {
                       and care.
                     </p>
                   </div>
+                </motion.div>
 
-                  <div className="grid grid-cols-1 gap-6 lg:gap-4 pt-4">
-                    <div className="w-full ">
-                      <img
-                        src="https://images.pexels.com/photos/17630959/pexels-photo-17630959/free-photo-of-courtroom-with-american-flags-in-usa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                        alt=""
-                        className="lg:h-[520px] object-cover h-auto w-full rounded"
-                      />
-                    </div>
+                <motion.div
+                  variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="grid grid-cols-1 gap-6 lg:gap-4 pt-6"
+                >
+                  <div className="w-full ">
+                    <img
+                      src="https://images.pexels.com/photos/17630959/pexels-photo-17630959/free-photo-of-courtroom-with-american-flags-in-usa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                      alt=""
+                      className="lg:h-[520px] object-cover h-auto w-full rounded"
+                    />
                   </div>
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>
@@ -92,28 +106,42 @@ const Services = () => {
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px]">
               <div className="p-4">
-                <div className="flex items-center text-center justify-center ">
-                  <div className="h-4 w-1 bg-mainColor"></div>
-                  <h1 className="ml-2 text-lg font-semibold text-mainColor">
-                    Our Offered Services
-                  </h1>
-                </div>
+                <motion.div
+                  variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="flex flex-col"
+                >
+                  <div className="flex items-center text-center justify-center ">
+                    <div className="h-4 w-1 bg-mainColor"></div>
+                    <h1 className="ml-2 text-lg font-semibold text-mainColor">
+                      Our Offered Services
+                    </h1>
+                  </div>
 
-                <div className="mx-auto max-w-[1000px] text-center mt-4">
-                  <h1 className="lg:text-4xl text-2xl font-bold text-headingColor">
-                    Expert advocacy in these areas
-                  </h1>
-                </div>
+                  <div className="mx-auto max-w-[1000px] text-center mt-4">
+                    <h1 className="lg:text-4xl text-2xl font-bold text-headingColor">
+                      Expert advocacy in these areas
+                    </h1>
+                  </div>
 
-                <div className="text-center mt-4">
-                  <h1 className="text-base text-center text-gray-600 lg:leading-normal">
-                    We are dedicated to helping corporate and individual clients
-                    navigate through the ever-changing landscape of U.S.
-                    Immigration Law. The scope of our services are:
-                  </h1>
-                </div>
+                  <div className="text-center mt-4">
+                    <h1 className="text-base text-center text-gray-600 lg:leading-normal">
+                      We are dedicated to helping corporate and individual
+                      clients navigate through the ever-changing landscape of
+                      U.S. Immigration Law. The scope of our services are:
+                    </h1>
+                  </div>
+                </motion.div>
 
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-4 pt-8">
+                <motion.div
+                  variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="grid md:grid-cols-2 grid-cols-1 gap-4 pt-8"
+                >
                   {values1.map((value, index) => (
                     <div
                       key={index}
@@ -141,7 +169,7 @@ const Services = () => {
                       </div>
                     </div>
                   ))}
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>

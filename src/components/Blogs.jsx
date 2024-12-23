@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { MdArrowRightAlt } from "react-icons/md";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const Blogs = () => {
   const [selectedTopic, setSelectedTopic] = useState("Non-Immigrant Visas");
@@ -156,8 +158,38 @@ const Blogs = () => {
         <div className="w-full">
           <div className="w-full mx-auto max-w-[1400px]">
             <div className="p-4">
+              <motion.div
+                variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.3 }}
+                className="space-y-3"
+              >
+                <div className="flex items-center text-center justify-center ">
+                  <div className="h-4 w-1 bg-mainColor"></div>
+
+                  <p className="ml-2 lg:text-lg font-semibold text-mainColor">
+                    Our Blogs
+                  </p>
+                </div>
+
+                <div className="text-center mt-4">
+                  <h3 className="lg:text-4xl text-2xl font-bold text-headingColor">
+                    Insights, Stories, & Perspectives
+                  </h3>
+                </div>
+
+                {/* <div className="text-gray-600 text-center">
+                  <p>
+                    These days, the practice of Immigration Law has become ever
+                    more cross-disciplinary. Our team members bring together a
+                    wide range of legal and industry experience.
+                  </p>
+                </div> */}
+              </motion.div>
+
               {/* Topics Navigation */}
-              <div className="hidden md:flex justify-center space-x-8">
+              <div className="hidden md:flex justify-center space-x-8 pt-8">
                 {topics.map((topic) => (
                   <button
                     key={topic}
@@ -174,7 +206,7 @@ const Blogs = () => {
               </div>
 
               {/* Mobile Select */}
-              <div className="md:hidden mb-4">
+              <div className="md:hidden mb-4 pt-6">
                 <div className="relative">
                   <select
                     className="w-full mb-4 p-3 border border-gray-300 rounded shadow bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none pr-8"

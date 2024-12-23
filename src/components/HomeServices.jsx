@@ -6,6 +6,8 @@ import board from "../assets/board.png";
 import investment from "../assets/investment.png";
 import students from "../assets/students.png";
 import { MdArrowRightAlt } from "react-icons/md";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const HomeServices = () => {
   const values1 = [
@@ -59,7 +61,13 @@ const HomeServices = () => {
         <div className="w-full">
           <div className="w-full mx-auto max-w-[1400px]">
             <div className="p-4">
-              <div className="space-y-3">
+              <motion.div
+                variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.3 }}
+                className="space-y-3"
+              >
                 <div className="flex items-center text-center justify-center ">
                   <div className="h-4 w-1 bg-mainColor"></div>
 
@@ -80,9 +88,15 @@ const HomeServices = () => {
                     needs—discover everything we offer in one convenient place
                   </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8">
+              <motion.div
+                variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.3 }}
+                className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8"
+              >
                 {values1.map((value, index) => (
                   <div
                     key={index}
@@ -116,7 +130,7 @@ const HomeServices = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
