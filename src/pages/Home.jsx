@@ -26,7 +26,7 @@ const Home = () => {
                   variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="flex flex-col space-y-4"
                 >
                   <div className="flex items-center text-center justify-center ">
@@ -52,7 +52,7 @@ const Home = () => {
                   variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="pt-8"
                 >
                   <div className="grid lg:grid-cols-2 grid-cols-1 lg:grid-rows-2 grid-rows-3 gap-4 lg:h-[600px] h-[1000px]">
@@ -136,7 +136,7 @@ const Home = () => {
                         variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                         initial="hidden"
                         whileInView="show"
-                        viewport={{ once: true, amount: 0.3 }}
+                        viewport={{ once: true, amount: 0.2 }}
                         className="col-span-2 mb-8 space-y-4"
                       >
                         <div className="flex items-center lg:justify-start justify-center lg:ml-[5px]">
@@ -177,7 +177,7 @@ const Home = () => {
                         variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                         initial="hidden"
                         whileInView="show"
-                        viewport={{ once: true, amount: 0.3 }}
+                        viewport={{ once: true, amount: 0.2 }}
                         className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0"
                       >
                         <div className="flex flex-col lg:items-start items-center ">

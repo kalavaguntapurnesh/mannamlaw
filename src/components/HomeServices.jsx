@@ -65,7 +65,7 @@ const HomeServices = () => {
                 variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: true, amount: 0.3 }}
+                viewport={{ once: true, amount: 0.2 }}
                 className="space-y-3"
               >
                 <div className="flex items-center text-center justify-center ">
@@ -94,7 +94,7 @@ const HomeServices = () => {
                 variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: true, amount: 0.3 }}
+                viewport={{ once: true, amount: 0.2 }}
                 className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8"
               >
                 {values1.map((value, index) => (
