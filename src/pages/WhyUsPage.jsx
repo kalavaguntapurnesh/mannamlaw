@@ -98,7 +98,7 @@ const WhyUsPage = () => {
                       <div className="flex lg:justify-start justify-center">
                         <div className="space-y-2">
                           <div className="flex justify-center lg:justify-start items-center">
-                            <h4 className="lg:text-5xl text-4xl ml-2 text-headingColor font-semibold text-start">
+                            <h4 className="lg:text-5xl text-4xl ml-2 text-headingColor font-bold text-start">
                               2000
                             </h4>
                           </div>
@@ -114,7 +114,7 @@ const WhyUsPage = () => {
                       <div className="flex lg:justify-start justify-center">
                         <div className="space-y-2">
                           <div className="flex justify-center lg:justify-start items-center">
-                            <h4 className="lg:text-5xl text-4xl ml-2 text-headingColor font-semibold text-start">
+                            <h4 className="lg:text-5xl text-4xl ml-2 text-headingColor font-bold text-start">
                               100%
                             </h4>
                           </div>
@@ -249,7 +249,7 @@ const WhyUsPage = () => {
                           </div>
 
                           <div className="flex justify-center items-center">
-                            <h1 className="text-2xl text-headingColor font-semibold text-center">
+                            <h1 className="text-2xl text-headingColor font-bold text-center">
                               {value.Title}
                             </h1>
                           </div>

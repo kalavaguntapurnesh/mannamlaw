@@ -95,7 +95,7 @@ const HomeServices = () => {
                         </div>
 
                         <div className="flex justify-center items-center">
-                          <h1 className="text-2xl text-headingColor font-semibold text-center">
+                          <h1 className="text-2xl text-headingColor font-bold text-center">
                             {value.Title}
                           </h1>
                         </div>
