@@ -20,7 +20,7 @@ const Practices = () => {
                   variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="space-y-3"
                 >
                   <div className="flex items-center text-center justify-center ">
@@ -50,7 +50,7 @@ const Practices = () => {
                   variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="grid lg:grid-cols-3 grid-cols-1 gap-6 lg:gap-4 pt-6"
                 >
                   <div className="lg:col-span-2 ">
@@ -115,7 +115,7 @@ const Practices = () => {
                   variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="space-y-3"
                 >
                   <div className="flex items-center text-center justify-center ">
@@ -145,7 +145,7 @@ const Practices = () => {
                   variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="space-y-2"
                 >
                   <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8">
@@ -318,7 +318,7 @@ const Practices = () => {
                   variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="bg-[#f8f9fa] h-[200px] lg:h-[180px] shadow rounded"
                 >
                   <div className=" h-[100%]">

@@ -102,7 +102,7 @@ const Contact = () => {
                   variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="space-y-3"
                 >
                   <div className="flex items-center text-center justify-center ">
@@ -131,7 +131,7 @@ const Contact = () => {
                   variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-2 pt-8 max-w-full"
                 >
                   <a

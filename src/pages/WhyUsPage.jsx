@@ -75,7 +75,7 @@ const WhyUsPage = () => {
                     variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                     initial="hidden"
                     whileInView="show"
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     className="space-y-4 flex flex-col lg:justify-start justify-center"
                   >
                     <div className="flex items-center lg:text-start text-center justify-center lg:justify-start lg:ml-[5px]">
@@ -152,7 +152,7 @@ const WhyUsPage = () => {
                     variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                     initial="hidden"
                     whileInView="show"
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     className="flex justify-center items-center w-[100%]"
                   >
                     <div className="lg:block hidden">
@@ -179,7 +179,7 @@ const WhyUsPage = () => {
                     variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                     initial="hidden"
                     whileInView="show"
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     className="bg-[#f8f9fa] rounded p-8 shadow"
                   >
                     <div className="space-y-2 md:text-start text-center md:mx-4">
@@ -204,7 +204,7 @@ const WhyUsPage = () => {
                     variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                     initial="hidden"
                     whileInView="show"
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     className="bg-[#f8f9fa] rounded p-8 shadow"
                   >
                     <div className="space-y-2 md:text-start text-center md:mx-4">
@@ -241,7 +241,7 @@ const WhyUsPage = () => {
                   variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                 >
                   <div className="flex items-center text-center justify-center ">
                     <div className="h-4 w-1 bg-mainColor"></div>
@@ -269,7 +269,7 @@ const WhyUsPage = () => {
                   variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8"
                 >
                   {values1.map((value, index) => (
@@ -316,7 +316,7 @@ const WhyUsPage = () => {
                     variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                     initial="hidden"
                     whileInView="show"
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     className="flex flex-col space-y-6 w-full"
                   >
                     <div className="flex items-center lg:justify-start justify-center lg:ml-[5px]">
@@ -359,7 +359,7 @@ const WhyUsPage = () => {
                     variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                     initial="hidden"
                     whileInView="show"
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     className="flex justify-center items-center w-[100%]"
                   >
                     <div className="lg:block hidden">
@@ -395,7 +395,7 @@ const WhyUsPage = () => {
                   variants={fadeIn("down", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="space-y-3"
                 >
                   <div className="flex items-center text-center justify-center ">
@@ -425,7 +425,7 @@ const WhyUsPage = () => {
                   variants={fadeIn("up", 0.1)} // Fade in from top to bottom
                   initial="hidden"
                   whileInView="show"
-                  viewport={{ once: true, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-2 pt-8 max-w-full"
                 >
                   <a
