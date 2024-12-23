@@ -22,7 +22,7 @@ const Contact = () => {
     // termsAccepted: false,
   });
 
-  console.log("data : ", formData);
+  // console.log("data : ", formData);
   const [captchaVerified, setCaptchaVerified] = useState(false);
 
   const handleChange = (e) => {

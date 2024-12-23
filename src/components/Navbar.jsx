@@ -170,7 +170,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <div
                 onClick={() => toggleMobileDropdown("subscription")}
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 Our Practice
                 <FaAngleDown
@@ -248,7 +248,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <a
                 href="/our-services"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 Our Services
               </a>
@@ -257,7 +257,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <a
                 href="/why-mannam-and-associates"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 About Us
               </a>
@@ -266,7 +266,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <a
                 href="/experts"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 Our Experts
               </a>
@@ -275,7 +275,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <a
                 href="/contact"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 Contact Us
               </a>
