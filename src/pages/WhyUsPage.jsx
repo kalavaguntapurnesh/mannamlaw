@@ -12,6 +12,8 @@ import exp from "../assets/exp.png";
 import comm from "../assets/comm.png";
 import justice from "../assets/justice.webp";
 import { MdArrowRightAlt } from "react-icons/md";
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants.js";
 
 const WhyUsPage = () => {
   const values1 = [
@@ -69,7 +71,13 @@ const WhyUsPage = () => {
             <div className="w-full mx-auto max-w-[1400px]">
               <div className="p-4">
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 ">
-                  <div className="space-y-4 flex flex-col lg:justify-start justify-center">
+                  <motion.div
+                    variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.3 }}
+                    className="space-y-4 flex flex-col lg:justify-start justify-center"
+                  >
                     <div className="flex items-center lg:text-start text-center justify-center lg:justify-start lg:ml-[5px]">
                       <div className="h-4 w-1 bg-mainColor"></div>
 
@@ -138,9 +146,15 @@ const WhyUsPage = () => {
                         </span>
                       </a>
                     </div>
-                  </div>
+                  </motion.div>
 
-                  <div className="flex justify-center items-center w-[100%]">
+                  <motion.div
+                    variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.3 }}
+                    className="flex justify-center items-center w-[100%]"
+                  >
                     <div className="lg:block hidden">
                       <img
                         src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -157,11 +171,17 @@ const WhyUsPage = () => {
                         className="rounded lg:hidden block w-auto"
                       />
                     </div>
-                  </div>
+                  </motion.div>
                 </div>
 
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4 lg:pt-20 md:px-0 px-2 pt-12">
-                  <div className="bg-[#f8f9fa] rounded p-8 shadow">
+                  <motion.div
+                    variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.3 }}
+                    className="bg-[#f8f9fa] rounded p-8 shadow"
+                  >
                     <div className="space-y-2 md:text-start text-center md:mx-4">
                       <div className="flex items-center md:justify-start justify-center ">
                         {/* <div className="h-4 w-1 bg-mainColor"></div> */}
@@ -179,8 +199,14 @@ const WhyUsPage = () => {
                         </h1>
                       </div>
                     </div>
-                  </div>
-                  <div className="bg-[#f8f9fa] rounded p-8 shadow">
+                  </motion.div>
+                  <motion.div
+                    variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.3 }}
+                    className="bg-[#f8f9fa] rounded p-8 shadow"
+                  >
                     <div className="space-y-2 md:text-start text-center md:mx-4">
                       <div className="flex items-center md:justify-start justify-center ">
                         {/* <div className="h-4 w-1 bg-mainColor"></div> */}
@@ -198,7 +224,7 @@ const WhyUsPage = () => {
                         </h1>
                       </div>
                     </div>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             </div>
@@ -211,28 +237,41 @@ const WhyUsPage = () => {
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px]">
               <div className="p-4">
-                <div className="flex items-center text-center justify-center ">
-                  <div className="h-4 w-1 bg-mainColor"></div>
-                  <h1 className="ml-2 text-lg font-semibold text-mainColor">
-                    We are best
-                  </h1>
-                </div>
+                <motion.div
+                  variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                >
+                  <div className="flex items-center text-center justify-center ">
+                    <div className="h-4 w-1 bg-mainColor"></div>
+                    <h1 className="ml-2 text-lg font-semibold text-mainColor">
+                      We are best
+                    </h1>
+                  </div>
 
-                <div className="mx-auto max-w-[1000px] text-center mt-4">
-                  <h1 className="lg:text-4xl text-2xl font-bold text-headingColor">
-                    Why Mannam & Associates?
-                  </h1>
-                </div>
+                  <div className="mx-auto max-w-[1000px] text-center mt-4">
+                    <h1 className="lg:text-4xl text-2xl font-bold text-headingColor">
+                      Why Mannam & Associates?
+                    </h1>
+                  </div>
 
-                <div className="text-center mt-4">
-                  <h1 className="text-base text-center text-gray-600 lg:leading-normal">
-                    Mannam & Associates focuses exclusively on U.S. immigration
-                    law, offering client-oriented, results-driven
-                    representation.
-                  </h1>
-                </div>
+                  <div className="text-center mt-4">
+                    <h1 className="text-base text-center text-gray-600 lg:leading-normal">
+                      Mannam & Associates focuses exclusively on U.S.
+                      immigration law, offering client-oriented, results-driven
+                      representation.
+                    </h1>
+                  </div>
+                </motion.div>
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8">
+                <motion.div
+                  variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8"
+                >
                   {values1.map((value, index) => (
                     <div
                       key={index}
@@ -260,7 +299,7 @@ const WhyUsPage = () => {
                       </div>
                     </div>
                   ))}
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>
@@ -273,7 +312,13 @@ const WhyUsPage = () => {
             <div className="w-full mx-auto max-w-[1400px] rounded">
               <div className="lg:px-4 lg:py-12 px-4 py-8">
                 <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-4 gap-6">
-                  <div className="flex flex-col space-y-6 w-full">
+                  <motion.div
+                    variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.3 }}
+                    className="flex flex-col space-y-6 w-full"
+                  >
                     <div className="flex items-center lg:justify-start justify-center lg:ml-[5px]">
                       <div className="h-4 w-1 bg-mainColor"></div>
                       <h1 className="ml-2 text-lg font-bold text-mainColor ">
@@ -308,9 +353,15 @@ const WhyUsPage = () => {
                         <span className="relative z-10">Contact our team</span>
                       </a>
                     </div>
-                  </div>
+                  </motion.div>
 
-                  <div className="flex justify-center items-center w-[100%]">
+                  <motion.div
+                    variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.3 }}
+                    className="flex justify-center items-center w-[100%]"
+                  >
                     <div className="lg:block hidden">
                       <img
                         src={justice}
@@ -327,7 +378,7 @@ const WhyUsPage = () => {
                         className="rounded lg:hidden block w-auto object-cover"
                       />
                     </div>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             </div>
@@ -340,7 +391,13 @@ const WhyUsPage = () => {
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px]">
               <div className="p-4">
-                <div className="space-y-3">
+                <motion.div
+                  variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="space-y-3"
+                >
                   <div className="flex items-center text-center justify-center ">
                     <div className="h-4 w-1 bg-mainColor"></div>
 
@@ -362,9 +419,15 @@ const WhyUsPage = () => {
                       environments designed for you.
                     </p>
                   </div>
-                </div>
+                </motion.div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-2 pt-8 max-w-full">
+                <motion.div
+                  variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.3 }}
+                  className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-2 pt-8 max-w-full"
+                >
                   <a
                     href="https://maps.app.goo.gl/3thoVg6gfrFoSwY4A"
                     className="flex md:justify-start justify-center"
@@ -393,7 +456,9 @@ const WhyUsPage = () => {
 
                         <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span className="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">
+                              View Location
+                            </span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>
@@ -429,7 +494,9 @@ const WhyUsPage = () => {
 
                         <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span className="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">
+                              View Location
+                            </span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>
@@ -465,14 +532,16 @@ const WhyUsPage = () => {
 
                         <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span className="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">
+                              View Location
+                            </span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>
                       </div>
                     </div>
                   </a>
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>

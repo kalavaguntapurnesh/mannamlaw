@@ -121,7 +121,7 @@ const NavBar = () => {
             href="/contact"
             className="uppercase border-[1px] relative  lg:px-6 md:px-4 py-2 rounded text-sm border-headingColor hover:border-none text-headingColor font-medium overflow-hidden transition-all duration-500 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-auto before:w-0 before:bg-mainColor before:duration-500 before:ease-out hover:text-white hover:shadow-mainColor hover:before:h-40 hover:before:w-48 "
           >
-            <span className="relative z-10">Contact Us</span>
+            <span className="relative z-10">Book Now</span>
           </a>
         </div>
 
@@ -161,7 +161,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <div
                 onClick={() => toggleMobileDropdown("subscription")}
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 Our Practice
                 <FaAngleDown
@@ -239,7 +239,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <a
                 href="/our-services"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 Our Services
               </a>
@@ -248,7 +248,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <a
                 href="/why-mannam-and-associates"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 About Us
               </a>
@@ -257,7 +257,7 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <a
                 href="/experts"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 Our Experts
               </a>
@@ -266,9 +266,9 @@ const NavBar = () => {
             <li className="p-4 border-b border-headingColor">
               <a
                 href="/contact"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
-                Contact Us
+                Book Now
               </a>
             </li>
           </ul>

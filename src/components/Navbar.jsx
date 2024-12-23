@@ -130,7 +130,7 @@ const NavBar = () => {
                 : "border-navGray font-light text-white"
             }`}
           >
-            <span className="relative z-10">Contact Us</span>
+            <span className="relative z-10">Book Now</span>
           </a>
         </div>
 
@@ -277,7 +277,7 @@ const NavBar = () => {
                 href="/contact"
                 className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
-                Contact Us
+                Book Now
               </a>
             </li>
           </ul>
