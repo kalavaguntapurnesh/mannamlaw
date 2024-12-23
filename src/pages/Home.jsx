@@ -184,7 +184,7 @@ const Home = () => {
                             alt="c_sixteen"
                             className="md:w-16 md:h-16 w-[56px] h-[56px] mb-2 text-mainColor"
                           />
-                          <h4 className="mb-2 text-2xl lg:text-start text-center font-bold text-headingColor ">
+                          <h4 className="mb-2 text-2xl font-bold  lg:text-start text-center text-headingColor ">
                             Expert Guidance
                           </h4>
                           <p className="font-normal text-gray-600 lg:text-start text-center">
@@ -198,7 +198,7 @@ const Home = () => {
                             alt="c_seventeen"
                             className="md:w-16 md:h-16 w-[56px] h-[56px] mb-2 text-mainColor"
                           />
-                          <h4 className="mb-2 text-2xl font-bold lg:text-start text-center text-headingColor">
+                          <h4 className="mb-2 text-2xl font-bold  lg:text-start text-center text-headingColor ">
                             Ethical Practices
                           </h4>
                           <p className="font-normal text-gray-600 lg:text-start text-center">
@@ -228,7 +228,7 @@ const Home = () => {
                             className="md:w-16 md:h-16 w-[56px] h-[56px] mb-2 text-mainColor"
                             alt="carousel_two"
                           />
-                          <h4 className="mb-2 text-2xl text-headingColor font-bold md:text-start text-center">
+                          <h4 className="mb-2 text-2xl font-bold  lg:text-start text-center text-headingColor ">
                             Innovative Solutions
                           </h4>
                           <p className="font-normal text-gray-600 md:text-start text-center">
