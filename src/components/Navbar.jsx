@@ -47,7 +47,6 @@ const NavBar = () => {
     >
       <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4">
         <a href="/" className="flex flex-row items-center md:ml-0 ml-1">
-          {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
           <h4 className="md:text-2xl text-xl text-[#ac0000] font-bold cursor-pointer">
             <div className="flex gap-0">
               Mannam &
@@ -162,7 +161,7 @@ const NavBar = () => {
         >
           <a href="/" className="flex flex-row items-center ml-6 mt-6 mb-2">
             {/* <SiPaloaltosoftware className="text-mainColor text-2xl leading-none" /> */}
-            <h4 className="ml-1 text-2xl text-mainColor font-bold cursor-pointer">
+            <h4 className="ml-1 md:text-2xl text-xl text-mainColor font-bold cursor-pointer">
               Mannam & <span className="text-headingColor">Asoociates</span>
             </h4>
           </a>
