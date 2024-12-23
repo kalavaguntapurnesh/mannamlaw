@@ -153,9 +153,9 @@ const Contact = () => {
                           </p>
                         </div>
 
-                        <div class="px-6 pb-4 flex justify-center">
+                        <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span class="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">View Location</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>
@@ -195,9 +195,9 @@ const Contact = () => {
                           </p>
                         </div>
 
-                        <div class="px-6 pb-4 flex justify-center">
+                        <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span class="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">View Location</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>
@@ -237,9 +237,9 @@ const Contact = () => {
                           </p>
                         </div>
 
-                        <div class="px-6 pb-4 flex justify-center">
+                        <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span class="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">View Location</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>
@@ -293,10 +293,10 @@ const Contact = () => {
                         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-6 ">
                           <a
                             href="mailto:info@mannamlaw.com"
-                            class="flex md:justify-start justify-center"
+                            className="flex md:justify-start justify-center"
                           >
-                            <div class="w-full p-4 bg-white border border-gray-200 rounded shadow">
-                              <div class="space-y-2">
+                            <div className="w-full p-4 bg-white border border-gray-200 rounded shadow">
+                              <div className="space-y-2">
                                 <div className="flex justify-center items-center">
                                   <img
                                     src={email}
@@ -304,13 +304,13 @@ const Contact = () => {
                                     className="w-20 h-20"
                                   />
                                 </div>
-                                <div class="flex justify-center items-center">
-                                  <h4 class="text-xl text-headingColor font-semibold text-center">
+                                <div className="flex justify-center items-center">
+                                  <h4 className="text-xl text-headingColor font-semibold text-center">
                                     Email Address
                                   </h4>
                                 </div>
 
-                                <div class="flex flex-col justify-center items-center text-sideHeading text-center font-medium">
+                                <div className="flex flex-col justify-center items-center text-sideHeading text-center font-medium">
                                   <p>info@mannamlaw.com</p>
                                 </div>
                               </div>
@@ -318,10 +318,10 @@ const Contact = () => {
                           </a>
                           <a
                             href="mailto:info@mannamlaw.com"
-                            class="flex md:justify-start justify-center"
+                            className="flex md:justify-start justify-center"
                           >
-                            <div class="w-full p-4 bg-white border border-gray-200 rounded shadow">
-                              <div class="space-y-2">
+                            <div className="w-full p-4 bg-white border border-gray-200 rounded shadow">
+                              <div className="space-y-2">
                                 <div className="flex justify-center items-center">
                                   <img
                                     src={linkedin}
@@ -329,13 +329,13 @@ const Contact = () => {
                                     className="w-20 h-20"
                                   />
                                 </div>
-                                <div class="flex justify-center items-center">
-                                  <h4 class="text-xl text-headingColor font-semibold text-center">
+                                <div className="flex justify-center items-center">
+                                  <h4 className="text-xl text-headingColor font-semibold text-center">
                                     Social Media Links
                                   </h4>
                                 </div>
 
-                                <div class="grid grid-cols-3 pt-2">
+                                <div className="grid grid-cols-3 pt-2">
                                   <a
                                     href="https://www.linkedin.com/in/ravi-mannam-7930531a"
                                     className="flex justify-center items-center"
@@ -499,9 +499,9 @@ const Contact = () => {
 
                         <button
                           type="submit"
-                          class="relative flex h-[50px] w-full items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:bg-white hover:text-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded font-medium"
+                          className="relative flex h-[50px] w-full items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:bg-white hover:text-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded font-medium"
                         >
-                          <span class="relative z-10">Submit</span>
+                          <span className="relative z-10">Submit</span>
                         </button>
                       </form>
                     </div>

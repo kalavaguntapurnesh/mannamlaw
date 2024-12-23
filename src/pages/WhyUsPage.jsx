@@ -95,15 +95,15 @@ const WhyUsPage = () => {
                     </div>
 
                     <div className="grid grid-cols-2 gap-2 pt-4 lg:px-0 px-2">
-                      <div class="flex lg:justify-start justify-center">
-                        <div class="space-y-2">
-                          <div class="flex justify-center lg:justify-start items-center">
-                            <h4 class="lg:text-5xl text-4xl ml-2 text-headingColor font-semibold text-start">
+                      <div className="flex lg:justify-start justify-center">
+                        <div className="space-y-2">
+                          <div className="flex justify-center lg:justify-start items-center">
+                            <h4 className="lg:text-5xl text-4xl ml-2 text-headingColor font-semibold text-start">
                               2000
                             </h4>
                           </div>
 
-                          <div class="flex justify-center lg:justify-start items-center lg:text-base text-sm text-gray-600">
+                          <div className="flex justify-center lg:justify-start items-center lg:text-base text-sm text-gray-600">
                             <p className="lg:text-start text-center">
                               Year of Establishment
                             </p>
@@ -111,15 +111,15 @@ const WhyUsPage = () => {
                         </div>
                       </div>
 
-                      <div class="flex lg:justify-start justify-center">
-                        <div class="space-y-2">
-                          <div class="flex justify-center lg:justify-start items-center">
-                            <h4 class="lg:text-5xl text-4xl ml-2 text-headingColor font-semibold text-start">
+                      <div className="flex lg:justify-start justify-center">
+                        <div className="space-y-2">
+                          <div className="flex justify-center lg:justify-start items-center">
+                            <h4 className="lg:text-5xl text-4xl ml-2 text-headingColor font-semibold text-start">
                               100%
                             </h4>
                           </div>
 
-                          <div class="flex justify-center lg:justify-start items-center lg:text-base text-sm text-gray-600">
+                          <div className="flex justify-center lg:justify-start items-center lg:text-base text-sm text-gray-600">
                             <p className="lg:text-start text-center ">
                               Excellence in Legal Solutions
                             </p>
@@ -131,9 +131,9 @@ const WhyUsPage = () => {
                     <div className="flex lg:justify-start justify-center items-center pb-4 pt-4">
                       <a
                         href="/contact"
-                        class="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                        className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                       >
-                        <span class="relative z-10">
+                        <span className="relative z-10">
                           Request a consultation
                         </span>
                       </a>
@@ -303,9 +303,9 @@ const WhyUsPage = () => {
                     <div className="flex lg:justify-start justify-center items-center pb-4 pt-2">
                       <a
                         href="/contact"
-                        class="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor text-headingColor transition-all before:absolute before:h-0 before:w-0  before:bg-headingColor hover:text-white hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                        className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor text-headingColor transition-all before:absolute before:h-0 before:w-0  before:bg-headingColor hover:text-white hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                       >
-                        <span class="relative z-10">Contact our team</span>
+                        <span className="relative z-10">Contact our team</span>
                       </a>
                     </div>
                   </div>
@@ -391,9 +391,9 @@ const WhyUsPage = () => {
                           <p>Atlanta, GA 30328, USA</p>
                         </div>
 
-                        <div class="px-6 pb-4 flex justify-center">
+                        <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span class="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">View Location</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>
@@ -427,9 +427,9 @@ const WhyUsPage = () => {
                           <p>Chattanooga, TN 37421, USA</p>
                         </div>
 
-                        <div class="px-6 pb-4 flex justify-center">
+                        <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span class="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">View Location</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>
@@ -463,9 +463,9 @@ const WhyUsPage = () => {
                           <p>Atlanta, GA 30024, USA</p>
                         </div>
 
-                        <div class="px-6 pb-4 flex justify-center">
+                        <div className="px-6 pb-4 flex justify-center">
                           <button className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 ">
-                            <span class="relative z-10 ">View Location</span>
+                            <span className="relative z-10 ">View Location</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </button>
                         </div>

@@ -219,15 +219,15 @@ const Blogs = () => {
                       className="w-full h-60 mb-4"
                     />
                     <div className="space-y-3">
-                      <div class="px-6">
-                        <div class="font-bold text-start text-headingColor text-xl mb-2">
+                      <div className="px-6">
+                        <div className="font-bold text-start text-headingColor text-xl mb-2">
                           <h1>{card.title}</h1>
                         </div>
-                        <p class="text-gray-600 text-base text-start ">
+                        <p className="text-gray-600 text-base text-start ">
                           {card.description}
                         </p>
                       </div>
-                      <div class="px-6 pb-4 flex justify-start">
+                      <div className="px-6 pb-4 flex justify-start">
                         <button
                           className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                           onClick={() =>
@@ -239,7 +239,7 @@ const Blogs = () => {
                             )
                           }
                         >
-                          <span class="relative z-10 ">Know More</span>
+                          <span className="relative z-10 ">Know More</span>
                           <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                         </button>
                       </div>

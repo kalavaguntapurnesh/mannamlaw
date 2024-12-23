@@ -6,7 +6,6 @@ import health from "../assets/health.svg";
 import callCenter from "../assets/callCenter.svg";
 import education from "../assets/education.svg";
 import finance from "../assets/finance.svg";
-import { MdArrowRightAlt } from "react-icons/md";
 
 const Services = () => {
   const values1 = [

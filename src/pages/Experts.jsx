@@ -184,7 +184,7 @@ const Experts = () => {
                               className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                               onClick={() => handleViewClick(card)}
                             >
-                              <span class="relative z-10  ">Know More</span>
+                              <span className="relative z-10  ">Know More</span>
                               <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5  " />
                             </button>
                           </div>

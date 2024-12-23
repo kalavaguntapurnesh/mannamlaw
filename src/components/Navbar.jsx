@@ -7,22 +7,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
-// import { SiPaloaltosoftware } from "react-icons/si";
-import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdownMobile, setOpenDropdownMobile] = useState(null);
-  const navigate = useNavigate();
-
-  const phoneNumber = "14042773220";
-  const message =
-    "Hello AXSeva, I would like your guidance on Microsoft Dynamics 365 Finance and Operations.";
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
 
   const handleScroll = () => {
     if (window.scrollY > window.innerHeight / 4) {
@@ -141,7 +131,7 @@ const NavBar = () => {
                 : "border-navGray font-light text-white"
             }`}
           >
-            <span class="relative z-10">Contact Us</span>
+            <span className="relative z-10">Contact Us</span>
           </a>
         </div>
 
@@ -386,127 +376,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
   );
 };
 
-const PricingContent = () => {
-  const navigate = useNavigate();
-  const handleServices = () => {
-    navigate("/contact"); // Navigate to the "About" page
-  };
-  return (
-    <div className="w-64 bg-white p-6 shadow-xl">
-      <div className="mb-3 space-y-3">
-        <h3 className="font-semibold text-sideHeading">
-          We Provide Solutions For
-        </h3>
-        <a
-          href="/"
-          className="block text-sideHeading text-sm hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Integration Consulting
-        </a>
-        <a
-          href="/"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Business Needs
-        </a>
-      </div>
-
-      {/* <button
-        onClick={handleServices}
-        className="w-full rounded border-[1px] border-mainColor px-4 py-2 font-medium hover:font-normal duration-500 ease-in-out transition text-mainColor hover:text-white hover:bg-mainColor hover:border-none"
-      >
-        Contact us
-      </button> */}
-    </div>
-  );
-};
-
-const ServicesContent = () => {
-  const navigate = useNavigate();
-  const handleServices = () => {
-    navigate("/managed-it-services"); // Navigate to the "About" page
-  };
-
-  return (
-    <div className="w-64 bg-white p-6 shadow-xl">
-      <div className="mb-3 space-y-3">
-        <h3 className="font-semibold text-sideHeading">Services We Offer</h3>
-        <a
-          href="/services-microsoft-dynamics-365-finance"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Dynamic 365 Finance & Operations
-        </a>
-        <a
-          href="/services-microsoft-dynamics-365"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Business Intelligence Analytics
-        </a>
-
-        <a
-          href="/services-microsoft-dynamics-365-finance"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Support & Managed Services
-        </a>
-      </div>
-
-      {/* <button
-        onClick={handleServices}
-        className="w-full rounded border-[1px] border-mainColor px-4 py-2 font-medium hover:font-normal duration-500 ease-in-out transition text-mainColor hover:text-white hover:bg-mainColor hover:border-none"
-      >
-        View More
-      </button> */}
-    </div>
-  );
-};
-
-const IndustriesContent = () => {
-  const navigate = useNavigate();
-  return (
-    <div className="w-64 bg-white p-6 shadow-xl">
-      <div className="mb-3 space-y-3">
-        <h3 className="font-semibold text-sideHeading">Industries We Serve</h3>
-        <a
-          href="/industries"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Financial Services
-        </a>
-        <a
-          href="/industries"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Manufacturing Services
-        </a>
-
-        <a
-          href="/industries"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Public Sector Service
-        </a>
-        <a
-          href="/industries"
-          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
-        >
-          Software Services
-        </a>
-      </div>
-
-      {/* <button
-        onClick={() => navigate("/industries")}
-        className="w-full rounded border-[1px] border-mainColor px-4 py-2 font-medium hover:font-normal duration-500 ease-in-out transition text-mainColor hover:text-white hover:bg-mainColor hover:border-none"
-      >
-        View More
-      </button> */}
-    </div>
-  );
-};
-
 const AboutUsContent = () => {
-  const navigate = useNavigate();
   return (
     <div className="w-64 bg-white p-6 shadow-xl">
       <div className="mb-3 space-y-3">

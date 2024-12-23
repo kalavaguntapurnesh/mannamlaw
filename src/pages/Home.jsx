@@ -141,8 +141,8 @@ const Home = () => {
               <div className="p-4">
                 <div className="justify-center w-full ">
                   <div className="w-full max-w-[14000px] mx-auto ">
-                    <div class="items-center mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-16">
-                      <div class="col-span-2 mb-8 space-y-4">
+                    <div className="items-center mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-16">
+                      <div className="col-span-2 mb-8 space-y-4">
                         <div className="flex items-center lg:justify-start justify-center lg:ml-[5px]">
                           <div className="h-4 w-1 bg-mainColor"></div>
                           <p className="ml-2 text-lg font-bold text-mainColor ">
@@ -164,28 +164,30 @@ const Home = () => {
                             and dedication in every case we undertake for you.
                           </p>
                         </div>
-                        <div class=" mt-6 space-y-4">
+                        <div className=" mt-6 space-y-4">
                           <div className="flex lg:justify-start justify-center items-center pb-4">
                             <a
                               href="/contact"
-                              class="relative mt-8 flex h-[50px] w-56 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56 rounded"
+                              className="relative mt-8 flex h-[50px] w-56 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56 rounded"
                             >
-                              <span class="relative z-10">Contact our team</span>
+                              <span className="relative z-10">
+                                Contact our team
+                              </span>
                             </a>
                           </div>
                         </div>
                       </div>
-                      <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
+                      <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                         <div className="flex flex-col lg:items-start items-center ">
                           <img
                             src={law}
                             alt="c_sixteen"
-                            class="w-16 h-16 mb-2 text-mainColor"
+                            className="w-16 h-16 mb-2 text-mainColor"
                           />
-                          <h4 class="mb-2 text-2xl lg:text-start text-center font-bold text-headingColor ">
+                          <h4 className="mb-2 text-2xl lg:text-start text-center font-bold text-headingColor ">
                             Expert Guidance
                           </h4>
-                          <p class="font-normal text-gray-600 lg:text-start text-center">
+                          <p className="font-normal text-gray-600 lg:text-start text-center">
                             Providing clear advice with precision, expertise,
                             and personalized immigration solutions.
                           </p>
@@ -194,12 +196,12 @@ const Home = () => {
                           <img
                             src={group}
                             alt="c_seventeen"
-                            class="w-16 h-16 mb-2 text-mainColor"
+                            className="w-16 h-16 mb-2 text-mainColor"
                           />
-                          <h4 class="mb-2 text-2xl font-bold lg:text-start text-center text-headingColor">
+                          <h4 className="mb-2 text-2xl font-bold lg:text-start text-center text-headingColor">
                             Ethical Practices
                           </h4>
-                          <p class="font-normal text-gray-600 lg:text-start text-center">
+                          <p className="font-normal text-gray-600 lg:text-start text-center">
                             Upholding integrity, fostering trust, and delivering
                             honest legal solutions for customers.
                           </p>
@@ -208,28 +210,28 @@ const Home = () => {
                         <div className="flex flex-col lg:items-start items-center">
                           <img
                             src={cost}
-                            class="w-16 h-16 mb-2 text-mainColor"
+                            className="w-16 h-16 mb-2 text-mainColor"
                             alt="carousel_one"
                           />
-                          <h4 class="mb-2 text-2xl font-bold lg:text-start text-center text-headingColor">
+                          <h4 className="mb-2 text-2xl font-bold lg:text-start text-center text-headingColor">
                             Cost Effective
                           </h4>
-                          <p class="font-normal text-gray-600 lg:text-start text-center">
-                            Delivering affordable immigration solutions without compromising
-                            quality, efficiency, or results.
+                          <p className="font-normal text-gray-600 lg:text-start text-center">
+                            Delivering affordable immigration solutions without
+                            compromising quality, efficiency, or results.
                           </p>
                         </div>
 
                         <div className="flex flex-col lg:items-start items-center">
                           <img
                             src={guidance}
-                            class="w-16 h-16 mb-2 text-mainColor"
+                            className="w-16 h-16 mb-2 text-mainColor"
                             alt="carousel_two"
                           />
-                          <h4 class="mb-2 text-2xl text-headingColor font-bold md:text-start text-center">
+                          <h4 className="mb-2 text-2xl text-headingColor font-bold md:text-start text-center">
                             Innovative Solutions
                           </h4>
-                          <p class="font-normal text-gray-600 md:text-start text-center">
+                          <p className="font-normal text-gray-600 md:text-start text-center">
                             Crafting creative strategies to resolve complex
                             legal challenges effectively for better results.
                           </p>

@@ -103,12 +103,12 @@ const HomeServices = () => {
                           <p>{value.description}</p>
                         </div>
 
-                        <div class="px-6 flex justify-center">
+                        <div className="px-6 flex justify-center">
                           <a
                             href="/our-practices"
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                           >
-                            <span class="relative z-10 ">Know More</span>
+                            <span className="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </a>
                         </div>

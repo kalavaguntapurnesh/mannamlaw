@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
-import quality from "../assets/quality.svg";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const Practices = () => {
@@ -111,12 +110,12 @@ const Practices = () => {
                         </p>
                       </div>
 
-                      <div class="p-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                      <div className="p-6 pt-6 pb-4 flex lg:justify-start justify-center">
                         <a
                           className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                           href="/contact"
                         >
-                          <span class="relative z-10 ">Know More</span>
+                          <span className="relative z-10 ">Know More</span>
                           <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                         </a>
                       </div>
@@ -165,29 +164,29 @@ const Practices = () => {
                 <div className="space-y-2">
                   <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-8">
                     <div className="flex justify-center items-center">
-                      <div class="rounded overflow-hidden shadow md:mx-0 mx-2 border">
+                      <div className="rounded overflow-hidden shadow md:mx-0 mx-2 border">
                         <img
-                          class="w-full h-60 object-cover"
+                          className="w-full h-60 object-cover"
                           src="https://images.pexels.com/photos/1038944/pexels-photo-1038944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="Sunset in the mountains"
                         />
-                        <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
+                        <div className="px-6 pt-4">
+                          <div className="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Employment Based Visas
                           </div>
-                          <p class="text-gray-700 text-base lg:text-start text-center ">
+                          <p className="text-gray-700 text-base lg:text-start text-center ">
                             Navigating complex immigration laws, securing
                             opportunities for global talent, and ensuring
                             compliance with regulations to achieve successful
                             visa outcomes.
                           </p>
                         </div>
-                        <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                        <div className="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
                           <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                             href="/employment-based-visa"
                           >
-                            <span class="relative z-10 ">Know More</span>
+                            <span className="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </a>
                         </div>
@@ -195,28 +194,28 @@ const Practices = () => {
                     </div>
 
                     <div className="flex justify-center items-center">
-                      <div class="rounded overflow-hidden shadow md:mx-0 mx-2 border">
+                      <div className="rounded overflow-hidden shadow md:mx-0 mx-2 border">
                         <img
-                          class="w-full h-60 object-cover"
+                          className="w-full h-60 object-cover"
                           src="https://images.pexels.com/photos/6590619/pexels-photo-6590619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="Sunset in the mountains"
                         />
-                        <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
+                        <div className="px-6 pt-4">
+                          <div className="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Investor Based Visas
                           </div>
-                          <p class="text-gray-700 text-base lg:text-start text-center ">
+                          <p className="text-gray-700 text-base lg:text-start text-center ">
                             Unlock opportunities globally, navigate complex
                             immigration processes, secure investor-based visas,
                             and achieve your dreams with expert legal guidance.
                           </p>
                         </div>
-                        <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                        <div className="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
                           <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                             href="/investor-based-visa"
                           >
-                            <span class="relative z-10 ">Know More</span>
+                            <span className="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </a>
                         </div>
@@ -224,29 +223,29 @@ const Practices = () => {
                     </div>
 
                     <div className="flex justify-center items-center">
-                      <div class=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
+                      <div className=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
                         <img
-                          class="w-full h-60 object-cover"
+                          className="w-full h-60 object-cover"
                           src="https://images.pexels.com/photos/1682497/pexels-photo-1682497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="Sunset in the mountains"
                         />
-                        <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
+                        <div className="px-6 pt-4">
+                          <div className="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Family Based Visas
                           </div>
-                          <p class="text-gray-700 text-base lg:text-start text-center ">
+                          <p className="text-gray-700 text-base lg:text-start text-center ">
                             Family-based visas provide pathways for loved ones
                             to reunite, ensuring legal support for applications,
                             documentation, eligibility, and interview
                             preparation.
                           </p>
                         </div>
-                        <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                        <div className="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
                           <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                             href="/family-based-visa"
                           >
-                            <span class="relative z-10 ">Know More</span>
+                            <span className="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </a>
                         </div>
@@ -256,17 +255,17 @@ const Practices = () => {
 
                   <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-4">
                     <div className="flex justify-center items-center">
-                      <div class=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
+                      <div className=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
                         <img
-                          class="w-full h-60 lg:h-[320px] object-cover"
+                          className="w-full h-60 lg:h-[320px] object-cover"
                           src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="Sunset in the mountains"
                         />
-                        <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
+                        <div className="px-6 pt-4">
+                          <div className="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Students & Scholars
                           </div>
-                          <p class="text-gray-700 text-base lg:text-start text-center ">
+                          <p className="text-gray-700 text-base lg:text-start text-center ">
                             Empowering international students and esteemed
                             scholars with expert legal guidance, ensuring
                             compliance, protection, and success in academic and
@@ -274,12 +273,12 @@ const Practices = () => {
                             and trusted representation.
                           </p>
                         </div>
-                        <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                        <div className="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
                           <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                             href="/student-based-visa"
                           >
-                            <span class="relative z-10 ">Know More</span>
+                            <span className="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </a>
                         </div>
@@ -287,17 +286,17 @@ const Practices = () => {
                     </div>
 
                     <div className="flex justify-center items-center">
-                      <div class=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
+                      <div className=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
                         <img
-                          class="w-full h-60 lg:h-[320px] object-cover"
+                          className="w-full h-60 lg:h-[320px] object-cover"
                           src="https://images.pexels.com/photos/10770457/pexels-photo-10770457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="Sunset in the mountains"
                         />
-                        <div class="px-6 pt-4">
-                          <div class="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
+                        <div className="px-6 pt-4">
+                          <div className="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
                             Naturalization
                           </div>
-                          <p class="text-gray-700 text-base lg:text-start text-center ">
+                          <p className="text-gray-700 text-base lg:text-start text-center ">
                             Guiding individuals through complex immigration
                             processes, securing citizenship with personalized
                             legal expertise, ensuring compliance, fostering
@@ -305,12 +304,12 @@ const Practices = () => {
                             permanent residency and national identity
                           </p>
                         </div>
-                        <div class="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                        <div className="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
                           <a
                             className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
                             href="/naturalization"
                           >
-                            <span class="relative z-10 ">Know More</span>
+                            <span className="relative z-10 ">Know More</span>
                             <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
                           </a>
                         </div>
@@ -352,9 +351,9 @@ const Practices = () => {
                         <div className="flex lg:justify-end justify-center items-center w-[100%]">
                           <a
                             href="/contact"
-                            class="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                            className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden bg-headingColor border border-headingColor text-white  transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-mainColor hover:border-mainColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                           >
-                            <span class="relative z-10">
+                            <span className="relative z-10">
                               Request a consultation
                             </span>
                           </a>
