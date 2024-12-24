@@ -65,7 +65,7 @@ const CopyRight = () => {
                     </p>
 
                     <div className="xl:mx-0 mx-2">
-                      <ul className="list-disc xl:ml-4 space-y-1">
+                      <ul className="list-disc xl:ml-8 ml-2 space-y-1">
                         <li>
                           The content remains unaltered and is reproduced in its
                           entirety.
@@ -89,7 +89,7 @@ const CopyRight = () => {
                       This includes, but is not limited to:
                     </p>
                     <div className="xl:mx-0 mx-2">
-                      <ul className="list-disc xl:ml-4 space-y-1">
+                      <ul className="list-disc xl:ml-8 ml-2 space-y-1">
                         <li>
                           Copying or reproducing content for commercial
                           purposes.

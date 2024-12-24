@@ -237,7 +237,7 @@ const Footer = () => {
                     <ul className="pl-0 mt-4 space-y-3 list-none">
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/copyright"
+                          href="/trademarks"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Trademarks

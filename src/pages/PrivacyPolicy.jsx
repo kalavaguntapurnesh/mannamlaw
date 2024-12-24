@@ -128,7 +128,7 @@ const PrivacyPolicy = () => {
                     {/* Right side: Display all data */}
                     <div className="space-y-12 col-span-2 overflow-y-auto pl-3">
                       <div ref={sectionRefs[0]} className="space-y-4">
-                        <h3 className="text-2xl font-bold text-headingColor">
+                        <h3 className="text-2xl font-semibold text-headingColor">
                           Information We Collect From the User
                         </h3>
 
@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
                             We may collect various types of information from
                             you, including:
                           </p>
-                          <ul className="list-disc xl:ml-3 space-y-1">
+                          <ul className="list-disc xl:ml-8 ml-2 space-y-1">
                             <li>
                               Personal Information: This includes your name,
                               email address, contact details, and any other
@@ -156,7 +156,7 @@ const PrivacyPolicy = () => {
                         </div>
                       </div>
                       <div ref={sectionRefs[1]} className="space-y-4">
-                        <h3 className="text-2xl font-bold text-headingColor">
+                        <h3 className="text-2xl font-semibold text-headingColor">
                           How We Use The Collected Information
                         </h3>
 
@@ -165,7 +165,7 @@ const PrivacyPolicy = () => {
                             We use the collected information for the following
                             purposes:
                           </p>
-                          <ul className="list-disc xl:ml-3 space-y-1">
+                          <ul className="list-disc xl:ml-8 ml-2 space-y-1">
                             <li>
                               Providing Services: To deliver the services you
                               request, including responding to inquiries,
@@ -191,7 +191,7 @@ const PrivacyPolicy = () => {
                         </div>
                       </div>
                       <div ref={sectionRefs[2]} className="space-y-4">
-                        <h3 className="text-2xl font-bold text-headingColor">
+                        <h3 className="text-2xl font-semibold text-headingColor">
                           Data Sharing, Disclosure & Data Security
                         </h3>
 
@@ -201,7 +201,7 @@ const PrivacyPolicy = () => {
                             third parties. However, we may share your
                             information in the following circumstances:
                           </p>
-                          <ul className=" list-disc xl:ml-3 space-y-1">
+                          <ul className=" list-disc xl:ml-8 ml-2 space-y-1">
                             <li>
                               Service Providers: We may share information with
                               trusted third-party service providers who assist
@@ -224,13 +224,13 @@ const PrivacyPolicy = () => {
                         </div>
                       </div>
                       <div ref={sectionRefs[3]} className="space-y-4">
-                        <h3 className="text-2xl font-bold text-headingColor">
+                        <h3 className="text-2xl font-semibold text-headingColor">
                           Your Choices, Rights & Changes to the policy
                         </h3>
 
                         <div className="space-y-2 xl:text-start text-center ">
                           <p>You have the right to:</p>
-                          <ul className=" list-disc xl:ml-3 space-y-1">
+                          <ul className=" list-disc xl:ml-8 ml-2 space-y-1">
                             <li>
                               Access and Correct Your Information: You can
                               access and update your personal information
@@ -262,7 +262,7 @@ const PrivacyPolicy = () => {
                         ref={sectionRefs[4]}
                         className="space-y-4"
                       >
-                        <h3 className="text-2xl font-bold text-headingColor">
+                        <h3 className="text-2xl font-semibold text-headingColor">
                           How to access and control your information
                         </h3>
 
@@ -287,7 +287,7 @@ const PrivacyPolicy = () => {
                             regarding our processing of your information,
                             including the right to:
                           </p>
-                          <ul className=" list-disc xl:ml-3 space-y-1">
+                          <ul className=" list-disc xl:ml-8 ml-2 space-y-1">
                             <li>
                               Know the categories and/or specific pieces of
                               information collected about you, including whether
@@ -311,7 +311,7 @@ const PrivacyPolicy = () => {
                       </div>
 
                       <div ref={sectionRefs[5]} className="space-y-4">
-                        <h3 className="text-2xl font-bold text-headingColor">
+                        <h3 className="text-2xl font-semibold text-headingColor">
                           How do we collect user information?
                         </h3>
 
@@ -402,7 +402,7 @@ const PrivacyPolicy = () => {
                       </div>
 
                       <div ref={sectionRefs[6]} className="space-y-4">
-                        <h3 className="text-2xl font-bold text-headingColor">
+                        <h3 className="text-2xl font-semibold text-headingColor">
                           Personal Infomation Disclosure by Company
                         </h3>
 
