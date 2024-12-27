@@ -220,7 +220,17 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="https://www.linkedin.com/company/mannam-&-associates-llc/"
+                          href="#"
+                          onClick={(event) => {
+                            event.preventDefault();
+                            const userConfirmed = window.confirm(
+                              "You will be navigated to the U.S Department of State - Bureau of Consumer Affairs website. Do you wish to continue?"
+                            );
+                            if (userConfirmed) {
+                              window.location.href =
+                                "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html";
+                            }
+                          }}
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           VISA Bulletin
