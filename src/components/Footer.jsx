@@ -117,7 +117,7 @@ const Footer = () => {
 
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                            href="/naturalization"
+                          href="/naturalization"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Naturalization
@@ -186,7 +186,17 @@ const Footer = () => {
                     <ul className="pl-0 mt-4 space-y-3 list-none">
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/"
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            const userConfirmed = window.confirm(
+                              "You are visiting a web page outside Mannam & Associates and we don't have control over it. Do you wish to continue?"
+                            );
+                            if (userConfirmed) {
+                              window.location.href =
+                                "https://www.uscis.gov/newsroom/all-news";
+                            }
+                          }}
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           USCIS News
@@ -218,7 +228,17 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="https://g.co/kgs/L7ak23S"
+                          href="#"
+                          onClick={(event) => {
+                            event.preventDefault();
+                            const userConfirmed = window.confirm(
+                              "You are visiting a webpage outside Mannam & Associates. Do you wish to continue?"
+                            );
+                            if (userConfirmed) {
+                              window.location.href =
+                                "https://www.usembassy.gov/";
+                            }
+                          }}
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           U.S Consulates

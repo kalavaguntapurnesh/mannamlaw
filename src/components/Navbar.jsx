@@ -232,6 +232,15 @@ const NavBar = () => {
                         Naturalization
                       </a>
                     </li>
+                    <li className="text-headingColor">
+                      <a
+                        href="/liaison-service"
+                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
+"
+                      >
+                        Liaison Services
+                      </a>
+                    </li>
                   </motion.ul>
                 )}
               </AnimatePresence>
@@ -440,6 +449,12 @@ const SupportContent = () => {
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Naturalization
+        </a>
+        <a
+          href="/liaison-service"
+          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
+        >
+          Liaison Services
         </a>
       </div>
       {/* <button

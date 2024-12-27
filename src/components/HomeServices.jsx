@@ -27,7 +27,7 @@ const HomeServices = () => {
     },
     {
       icon: email,
-      Title: "Re-entry Permit",
+      Title: "Liaison Services",
       description:
         "Ensures platform integrity & compliance against harmful activities.",
       color: "text-yellow-500", // Red color for this icon

@@ -237,9 +237,101 @@ const Practices = () => {
                         </div>
                       </div>
                     </div>
+
+                    <div className="flex justify-center items-center">
+                      <div className=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
+                        <img
+                          className="w-full h-60 object-cover"
+                          src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                          alt="Sunset in the mountains"
+                        />
+                        <div className="px-6 pt-4">
+                          <div className="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
+                            Students & Scholars
+                          </div>
+                          <p className="text-gray-700 text-base lg:text-start text-center ">
+                            Empowering international students and esteemed
+                            scholars with expert legal guidance, ensuring
+                            compliance, protection, and success in academic and
+                            professional pursuits through personalized support
+                            and trusted representation.
+                          </p>
+                        </div>
+                        <div className="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                          <a
+                            className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
+                            href="/student-based-visa"
+                          >
+                            <span className="relative z-10 ">Know More</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                      <div className=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
+                        <img
+                          className="w-full h-60 object-cover"
+                          src="https://images.pexels.com/photos/10770457/pexels-photo-10770457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                          alt="Sunset in the mountains"
+                        />
+                        <div className="px-6 pt-4">
+                          <div className="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
+                            Naturalization
+                          </div>
+                          <p className="text-gray-700 text-base lg:text-start text-center ">
+                            Guiding individuals through complex immigration
+                            processes, securing citizenship with personalized
+                            legal expertise, ensuring compliance, fostering
+                            trust, and building pathways.
+                          </p>
+                        </div>
+                        <div className="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                          <a
+                            className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
+                            href="/naturalization"
+                          >
+                            <span className="relative z-10 ">Know More</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                      <div className=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
+                        <img
+                          className="w-full h-60 object-cover"
+                          src="https://images.pexels.com/photos/8866738/pexels-photo-8866738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                          alt="Sunset in the mountains"
+                        />
+                        <div className="px-6 pt-4">
+                          <div className="font-bold lg:text-start text-center text-headingColor lg:text-2xl text-xl mb-2">
+                            Liaison Services
+                          </div>
+                          <p className="text-gray-700 text-base lg:text-start text-center ">
+                            Facilitating seamless communication between
+                            businesses and government entities, providing expert
+                            guidance, resolving regulatory challenges, ensuring
+                            compliance, fostering trust, and building efficient
+                            operational pathways.
+                          </p>
+                        </div>
+                        <div className="px-6 pt-6 pb-4 flex lg:justify-start justify-center">
+                          <a
+                            className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
+                            href="/liaison-service"
+                          >
+                            <span className="relative z-10 ">Know More</span>
+                            <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
 
-                  <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-4">
+                  {/* <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 pt-4">
                     <div className="flex justify-center items-center">
                       <div className=" rounded overflow-hidden shadow md:mx-0 mx-2 border">
                         <img
@@ -301,7 +393,7 @@ const Practices = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </motion.div>
               </div>
             </div>

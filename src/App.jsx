@@ -22,6 +22,7 @@ import Investor from "./pages/Investor";
 import Student from "./pages/Student";
 import Naturalization from "./pages/Naturalization";
 import Trademarks from "./pages/Trademarks";
+import LiaisonService from "./pages/LiaisonService";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/investor-based-visa" element={<Investor />} />
           <Route path="/student-based-visa" element={<Student />} />
           <Route path="/trademarks" element={<Trademarks />} />
+          <Route path="/liaison-service" element={<LiaisonService />} />
           <Route path="/naturalization" element={<Naturalization />} />
           <Route
             path="/terms-and-conditions"
