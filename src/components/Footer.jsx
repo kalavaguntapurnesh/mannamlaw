@@ -395,7 +395,7 @@ const Footer = () => {
 
             <div className="text-center text-xs pb-6">
               <p className="text-headingColor">
-                © 2024 Manna Law Firm. All Rights Reserved.
+                © 2024 Manna & Associates. All rights reserved.
               </p>
             </div>
           </div>
