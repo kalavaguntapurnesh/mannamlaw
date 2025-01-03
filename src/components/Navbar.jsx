@@ -69,18 +69,6 @@ const NavBar = () => {
           <FlyoutLink href="/our-practices" FlyoutContent={SupportContent}>
             Our Practice
           </FlyoutLink>
-          {/* <FlyoutLink
-            href="/managed-it-services"
-            FlyoutContent={ServicesContent}
-          >
-            Our Services
-          </FlyoutLink> */}
-          {/* <FlyoutLink href="/solutions" FlyoutContent={PricingContent}>
-            Achievements
-          </FlyoutLink> */}
-          {/* <FlyoutLink href="/experts" FlyoutContent={IndustriesContent}>
-            Our Experts
-          </FlyoutLink> */}
 
           <FlyoutLink
             href="/why-mannam-and-associates"
@@ -260,14 +248,67 @@ const NavBar = () => {
                 )}
               </AnimatePresence>
             </li>
-            {/* <li className="p-4 border-b border-headingColor">
-              <a
-                href="/contact"
-                className="flex items-center justify-between cursor-pointer text-headingColor"
+
+            <li className="p-4 border-b border-headingColor">
+              <div
+                onClick={() => toggleMobileDropdown("aboutUs")}
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
-                Achievements
-              </a>
-            </li> */}
+                About Us
+                <FaAngleDown
+                  className={`transition-transform ${
+                    openDropdownMobile === "aboutUs"
+                      ? "rotate-180 text-mainColor"
+                      : ""
+                  }`}
+                />
+              </div>
+              <AnimatePresence>
+                {openDropdownMobile === "aboutUs" && (
+                  <motion.ul
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: "auto" }}
+                    exit={{ opacity: 0, height: 0 }}
+                    className="pl-4 mt-6 space-y-2"
+                  >
+                    <li className="text-headingColor">
+                      <a
+                        href="/why-mannam-and-associates"
+                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold"
+                      >
+                        Why Mannam & Associates
+                      </a>
+                    </li>
+                    <li className="text-headingColor">
+                      <a
+                        href="/our-difference"
+                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold"
+                      >
+                        Our Difference
+                      </a>
+                    </li>
+                    <li className="text-headingColor">
+                      <a
+                        href="/privacy-policy"
+                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
+"
+                      >
+                        Our Privacy Policy
+                      </a>
+                    </li>
+                    <li className="text-headingColor">
+                      <a
+                        href="/terms-and-conditions"
+                        className="block text-sm hover:text-mainColor transition duration-300 ease-in-out  hover:font-semibold
+"
+                      >
+                        Terms & Conditions
+                      </a>
+                    </li>
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </li>
 
             <li className="p-4 border-b border-headingColor">
               <a
@@ -275,15 +316,6 @@ const NavBar = () => {
                 className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
                 Our Services
-              </a>
-            </li>
-
-            <li className="p-4 border-b border-headingColor">
-              <a
-                href="/why-mannam-and-associates"
-                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
-              >
-                About Us
               </a>
             </li>
 
@@ -412,19 +444,33 @@ const AboutUsContent = () => {
   return (
     <div className="w-64 bg-white p-6 shadow-xl">
       <div className="mb-3 space-y-3">
-        <h3 className="font-semibold text-sideHeading">About MannamLaw</h3>
+        <h3 className="font-semibold text-sideHeading">
+          About Mannam & Associates
+        </h3>
 
         <a
           href="/why-mannam-and-associates"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
-          Why MannamLaw
+          Why Mannam & Associates
         </a>
         <a
           href="/our-difference"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Our Difference
+        </a>
+        <a
+          href="/privacy-policy"
+          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
+        >
+          Our Privacy Policy
+        </a>
+        <a
+          href="/terms-and-conditions"
+          className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
+        >
+          Terms & Conditions
         </a>
       </div>
       {/* <div className="mb-6 space-y-3"></div>
