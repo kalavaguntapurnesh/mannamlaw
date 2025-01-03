@@ -231,7 +231,7 @@ const Footer = () => {
                             );
                             if (userConfirmed) {
                               window.open(
-                                "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html",
+                                "https://egov.uscis.gov/processing-times/",
                                 "_blank"
                               );
                             }
