@@ -323,7 +323,7 @@ const Footer = () => {
                           onClick={(e) => {
                             e.preventDefault();
                             const userConfirmed = window.confirm(
-                              "You will be navigated to the U.S Citizen and Immigration Services website. Do you wish to continue?"
+                              "You will be navigated to the U.S Citizen and Immigration Services website. Do you wish to continue ?"
                             );
                             if (userConfirmed) {
                               window.open(
