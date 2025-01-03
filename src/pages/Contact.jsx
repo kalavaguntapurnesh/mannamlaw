@@ -11,6 +11,8 @@ import { MdArrowRightAlt } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants.js";
 import axios from "axios";
+import emailImage from "../assets/email.svg";
+import address from "../assets/address.svg";
 
 const Contact = () => {
   const [fullName, setFullName] = useState("");
@@ -257,13 +259,13 @@ const Contact = () => {
                         </div>
                         <div className="lg:text-start text-center">
                           <p className="lg:text-4xl text-2xl font-bold text-headingColor">
-                            Prompting America's Prosperity through our legal
-                            experts
+                            Prompting America&apos;s Prosperity through our
+                            legal experts
                           </p>
                         </div>
                         <div className="lg:text-start text-center">
                           <p className=" text-base text-gray-600 md:text-start text-center">
-                            Empowering America's growth with trusted legal
+                            Empowering America&apos;s growth with trusted legal
                             expertise, we navigate complexities, protect rights,
                             and drive success. Our dedicated professionals
                             deliver innovative solutions, ensuring prosperity,
@@ -280,9 +282,9 @@ const Contact = () => {
                               <div className="space-y-2">
                                 <div className="flex justify-center items-center">
                                   <img
-                                    src={email}
+                                    src={emailImage}
                                     alt="contact_three"
-                                    className="w-20 h-20"
+                                    className="w-16 h-16"
                                   />
                                 </div>
                                 <div className="flex justify-center items-center">
@@ -305,9 +307,9 @@ const Contact = () => {
                               <div className="space-y-2">
                                 <div className="flex justify-center items-center">
                                   <img
-                                    src={linkedin}
+                                    src={address}
                                     alt="contact_four"
-                                    className="w-20 h-20"
+                                    className="w-16 h-16"
                                   />
                                 </div>
                                 <div className="flex justify-center items-center">
