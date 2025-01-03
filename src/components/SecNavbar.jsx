@@ -91,7 +91,7 @@ const NavBar = () => {
                 : "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
             }`}
           >
-            <a href="/our-services">Our Services</a>
+            <a href="/our-services">Services</a>
             <div
               className={` h-[2px] w-0 group-hover:w-full transition-all duration-300 ${
                 isScrolled ? "bg-mainColor" : "bg-mainColor"
@@ -107,6 +107,20 @@ const NavBar = () => {
             }`}
           >
             <a href="/experts">Our Experts</a>
+            <div
+              className={` h-[2px] w-0 group-hover:w-full transition-all duration-300 ${
+                isScrolled ? "bg-mainColor" : "bg-mainColor"
+              }`}
+            ></div>
+          </li>
+          <li
+            className={` group transition duration-300 uppercase ${
+              isScrolled
+                ? "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
+                : "text-headingColor hover:text-mainColor transition ease-in-out duration-500"
+            }`}
+          >
+            <a href="/contact">Contact Us</a>
             <div
               className={` h-[2px] w-0 group-hover:w-full transition-all duration-300 ${
                 isScrolled ? "bg-mainColor" : "bg-mainColor"
@@ -274,6 +288,15 @@ const NavBar = () => {
 
             <li className="p-4 border-b border-headingColor">
               <a
+                href="/contact"
+                className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
+              >
+                Contact Us
+              </a>
+            </li>
+
+            <li className="p-4 border-b border-headingColor">
+              <a
                 href="https://mannam-syndeo-ui.vercel.app/"
                 className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
@@ -388,7 +411,7 @@ const AboutUsContent = () => {
           Why MannamLaw
         </a>
         <a
-          href="/collaborate-with-us"
+          href="/our-difference"
           className="block text-sm text-sideHeading hover:text-mainColor transition duration-500 ease-in-out  hover:font-semibold"
         >
           Our Difference
