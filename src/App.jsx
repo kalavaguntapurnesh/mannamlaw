@@ -24,6 +24,7 @@ import Naturalization from "./pages/Naturalization";
 import Trademarks from "./pages/Trademarks";
 import LiaisonService from "./pages/LiaisonService";
 import OurDifference from "./pages/OurDifference";
+import BarMembership from "./pages/BarMembership";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           />
           <Route path="/our-services" element={<Services />} />
           <Route path="/copyright" element={<CopyRight />} />
+          <Route path="/bar-membership" element={<BarMembership />} />
         </Routes>
       </BrowserRouter>
     </>
