@@ -77,8 +77,9 @@ const Contact = () => {
 
                   <div className="text-gray-600 text-center">
                     <p>
-                      Don't hesitate to get in touch – we're here to help, share
-                      ideas, or collaborate anytime. Let's connect and chat!"
+                      Don&apos;t hesitate to get in touch – we&apos;re here to
+                      help, share ideas, or collaborate anytime. Let&apos;s
+                      connect and chat&quot;
                     </p>
                   </div>
                 </motion.div>
@@ -241,7 +242,12 @@ const Contact = () => {
 
                 <div className="w-full mx-auto max-w-[1400px] pt-16">
                   <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
-                    <div>
+                    <motion.div
+                      variants={fadeIn("down", 0.1)} // Fade in from top to bottom
+                      initial="hidden"
+                      whileInView="show"
+                      viewport={{ once: true, amount: 0.2 }}
+                    >
                       <div className="flex flex-col space-y-4 mt-8">
                         <div className="flex items-center lg:justify-start justify-center lg:text-start text-center">
                           <div className="h-4 w-1 bg-mainColor"></div>
@@ -335,9 +341,15 @@ const Contact = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="mx-2">
+                    <motion.div
+                      variants={fadeIn("up", 0.1)} // Fade in from top to bottom
+                      initial="hidden"
+                      whileInView="show"
+                      viewport={{ once: true, amount: 0.2 }}
+                      className="mx-2"
+                    >
                       <form
                         onSubmit={handleSubmit}
                         className="mt-8 lg:p-6 lg:shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded"
@@ -443,7 +455,7 @@ const Contact = () => {
                           <span className="relative z-10">Submit</span>
                         </button>
                       </form>
-                    </div>
+                    </motion.div>
                   </div>
                 </div>
               </div>

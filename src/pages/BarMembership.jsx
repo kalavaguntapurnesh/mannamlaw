@@ -156,34 +156,37 @@ const BarMembership = () => {
                 </div>
 
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-12">
-                  <div className="flex justify-center items-center">
+                  <a
+                    href="https://www.aila.org/"
+                    className="flex justify-center items-center"
+                  >
                     <img
                       src={aila}
                       alt="aila"
                       className="md:w-[260px] md:h-[260px] w-auto h-auto"
                     />
-                  </div>
-                  <div className="flex justify-center items-center">
+                  </a>
+                  <a href="https://www.gabar.org/" className="flex justify-center items-center">
                     <img
                       src={georgia}
                       alt="georgia"
                       className="md:w-[260px] md:h-[260px] w-auto h-auto"
                     />
-                  </div>
-                  <div className="flex justify-center items-center">
+                  </a>
+                  <a href="https://www.tba.org/" className="flex justify-center items-center">
                     <img
                       src={tennessee}
                       alt="tennessee"
                       className="md:w-[260px] md:h-[260px] w-auto h-auto"
                     />
-                  </div>
-                  <div className="flex justify-center items-center">
+                  </a>
+                  <a href="https://atlantabar.org/" className="flex justify-center items-center">
                     <img
                       src={atlanta}
                       alt="atlanta"
                       className="md:w-[260px] md:h-[260px] w-auto h-auto"
                     />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

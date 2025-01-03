@@ -11,6 +11,10 @@ import { useNavigate } from "react-router-dom";
 import { MdArrowRightAlt } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants.js";
+import alia from "../assets/aila_bar.png";
+import georgia from "../assets/georgia_bar.png";
+import tenessee from "../assets/tennessee_bar.jpg";
+// import atlanta from "../assets/atlanta_bar.jpg";
 
 const Experts = () => {
   const navigate = useNavigate();
@@ -18,6 +22,10 @@ const Experts = () => {
   const cardsData = [
     {
       image: Ravi,
+      barOne: alia,
+      barTwo: tenessee,
+      barOneLink:"https://www.aila.org/",
+      barTwoLink:"https://www.tba.org/",
       name: "Ravi Mannam",
       role: "Managing Attorney / Founder",
       languages: "English, Hindi, Telugu",
@@ -39,6 +47,10 @@ const Experts = () => {
     },
     {
       image: Hemanth,
+      barOne: alia,
+      barTwo: georgia,
+      barOneLink:"https://www.aila.org/",
+      barTwoLink:"https://www.gabar.org/",
       name: "Hemant Ramachandran",
       role: "Associate Attorney",
       languages: "English, Spanish, Tamil",
