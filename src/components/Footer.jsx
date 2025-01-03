@@ -223,7 +223,19 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="https://www.linkedin.com/company/mannam-&-associates-llc/"
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            const userConfirmed = window.confirm(
+                              "You will be navigated to the U.S Department of State - Bureau of Consumer Affairs website. Do you wish to continue?"
+                            );
+                            if (userConfirmed) {
+                              window.open(
+                                "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html",
+                                "_blank"
+                              );
+                            }
+                          }}
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Processing Times
@@ -255,7 +267,7 @@ const Footer = () => {
                           onClick={(event) => {
                             event.preventDefault();
                             const userConfirmed = window.confirm(
-                              "You are visiting a webpage outside Mannam & Associates. Do you wish to continue?"
+                              "You will be navigated to the U.S Department of State - Bureau of Consumer Affairs website. Do you wish to continue?"
                             );
                             if (userConfirmed) {
                               window.open(
@@ -315,7 +327,7 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/"
+                          href="/bar-membership"
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Bar Membership
