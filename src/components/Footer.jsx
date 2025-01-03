@@ -190,11 +190,13 @@ const Footer = () => {
                           onClick={(e) => {
                             e.preventDefault();
                             const userConfirmed = window.confirm(
-                              "You are visiting a web page outside Mannam & Associates and we don't have control over it. Do you wish to continue?"
+                              "You will be navigated to the U.S. Citizen and Immigration Services website. Do you wish to continue?"
                             );
                             if (userConfirmed) {
-                              window.location.href =
-                                "https://www.uscis.gov/newsroom/all-news";
+                              window.open(
+                                "https://www.uscis.gov/newsroom/all-news",
+                                "_blank"
+                              );
                             }
                           }}
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
@@ -227,8 +229,10 @@ const Footer = () => {
                               "You will be navigated to the U.S Department of State - Bureau of Consumer Affairs website. Do you wish to continue?"
                             );
                             if (userConfirmed) {
-                              window.location.href =
-                                "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html";
+                              window.open(
+                                "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html",
+                                "_blank"
+                              );
                             }
                           }}
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
@@ -245,8 +249,10 @@ const Footer = () => {
                               "You are visiting a webpage outside Mannam & Associates. Do you wish to continue?"
                             );
                             if (userConfirmed) {
-                              window.location.href =
-                                "https://www.usembassy.gov/";
+                              window.open(
+                                "https://www.usembassy.gov/",
+                                "_blank"
+                              );
                             }
                           }}
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
@@ -395,7 +401,7 @@ const Footer = () => {
 
             <div className="text-center text-xs pb-6">
               <p className="text-headingColor">
-                © 2024 Manna & Associates. All rights reserved.
+                © 2024 Mannam & Associates. All rights reserved.
               </p>
             </div>
           </div>

@@ -23,6 +23,7 @@ import Student from "./pages/Student";
 import Naturalization from "./pages/Naturalization";
 import Trademarks from "./pages/Trademarks";
 import LiaisonService from "./pages/LiaisonService";
+import OurDifference from "./pages/OurDifference";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/details/:title" element={<DetailsPage />} />
           <Route path="/why-mannam-and-associates" element={<WhyUsPage />} />
+          <Route path="/our-difference" element={<OurDifference />} />
           <Route path="/experts" element={<Experts />} />
           <Route path="/experts/:name" element={<ExpertDetails />} />
           <Route path="/contact" element={<Contact />} />

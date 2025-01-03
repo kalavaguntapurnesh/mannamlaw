@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
@@ -7,85 +7,41 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import linkedin from "../assets/social.png";
-import email from "../assets/email.png";
 import { MdArrowRightAlt } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants.js";
 import axios from "axios";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    fullname: "",
-    jobtitle: "",
-    email: "",
-    phoneNumber: "",
-    companyName: "",
-    lookingFor: "",
-    message: "",
-    // termsAccepted: false,
-  });
-
-  // console.log("data : ", formData);
-  const [captchaVerified, setCaptchaVerified] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setFormData({
-      ...formData,
-      [name]: type === "checkbox" ? checked : value,
-    });
-  };
-
-  const handleCaptcha = (value) => {
-    setCaptchaVerified(!!value);
-  };
+  const [fullName, setFullName] = useState("");
+  const [legalIssue, setLegalIssue] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    if (!captchaVerified) {
-      alert("Please verify the reCAPTCHA.");
-      return;
-    }
-
-    if (!formData.termsAccepted) {
-      alert("Please accept the terms and conditions.");
-      return;
-    }
-
     try {
-      // https://axseva-backend.onrender.com
-      // http://localhost:3010/api/register
       const response = await axios.post(
-        "https://axseva-backend.onrender.com/api/register",
-        formData
+        "http://localhost:8080/api/v1/registerUser",
+        {
+          fullName,
+          legalIssue,
+          email,
+          phoneNumber,
+          message,
+        }
       );
-      // Swal.fire({
-      //   title: "Success",
-      //   text: "Form submitted successfully!",
-      // });
-      setFormData({
-        fullname: "",
-        jobtitle: "",
-        email: "",
-        phoneNumber: "",
-        companyName: "",
-        lookingFor: "",
-        message: "",
-        termsAccepted: false,
-      });
-      setCaptchaVerified(false);
+
+      if (response.status === 201) {
+        alert("Form Submitted Successfully");
+        console.log("Form Submitted Successfully!!!");
+      }
     } catch (error) {
       console.error(
         "Error submitting form",
         error.response ? error.response.data : error
       );
-      // Swal.fire({
-      //   title: "Error",
-      //   text: error.response
-      //     ? error.response.data.message
-      //     : "Server error or internal error!",
-      // });
     }
   };
 
@@ -383,7 +339,7 @@ const Contact = () => {
 
                     <div className="mx-2">
                       <form
-                        // onSubmit={handleSubmit}
+                        onSubmit={handleSubmit}
                         className="mt-8 lg:p-6 lg:shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded"
                       >
                         <div className="w-full grid md:grid-cols-2 grid-cols-1 md:gap-4">
@@ -398,8 +354,7 @@ const Contact = () => {
                               type="text"
                               name="fullname"
                               id="fullname"
-                              value={formData.fullname}
-                              onChange={handleChange}
+                              onChange={(e) => setFullName(e.target.value)}
                               placeholder="Your Full Name"
                               className="w-full rounded bg-[#f1f0f4] py-3 px-6 text-base text-[#393053] outline-none focus:bg-white focus:border-[0.5px] ease-in-out transition duration-1000 focus:border-[#393053]"
                             />
@@ -414,10 +369,9 @@ const Contact = () => {
                             </label>
                             <input
                               type="text"
-                              name="jobtitle"
-                              id="jobtitle"
-                              value={formData.jobtitle}
-                              onChange={handleChange}
+                              name="legalIssue"
+                              id="legalIssue"
+                              onChange={(e) => setLegalIssue(e.target.value)}
                               placeholder="Your Legal Issue"
                               className="w-full rounded bg-[#f1f0f4] py-3 px-6 text-base text-[#393053] outline-none focus:bg-white focus:border-[0.5px] ease-in-out transition duration-1000 focus:border-[#393053]"
                             />
@@ -435,8 +389,7 @@ const Contact = () => {
                             type="email"
                             name="email"
                             id="email"
-                            value={formData.email}
-                            onChange={handleChange}
+                            onChange={(e) => setEmail(e.target.value)}
                             placeholder="Your Email"
                             className="w-full rounded bg-[#f1f0f4] py-3 px-6 text-base text-[#393053] outline-none focus:bg-white focus:border-[0.5px] ease-in-out transition duration-1000 focus:border-[#393053]"
                           />
@@ -453,8 +406,7 @@ const Contact = () => {
                             type="text"
                             name="phoneNumber"
                             id="phoneNumber"
-                            value={formData.phoneNumber}
-                            onChange={handleChange}
+                            onChange={(e) => setPhoneNumber(e.target.value)}
                             placeholder="Your Phone Number"
                             className="w-full rounded bg-[#f1f0f4] py-3 px-6 text-base text-[#393053] outline-none focus:bg-white focus:border-[0.5px] ease-in-out transition duration-1000 focus:border-[#393053]"
                           />
@@ -471,8 +423,7 @@ const Contact = () => {
                             rows="4"
                             name="message"
                             id="message"
-                            value={formData.message}
-                            onChange={handleChange}
+                            onChange={(e) => setMessage(e.target.value)}
                             placeholder="Let us know if you’d like to schedule a meeting, discuss opportunities, or have any questions. We're here to help!"
                             className="w-full resize-none rounded border bg-[#f1f0f4] py-3 px-6 text-base text-[#393053] outline-none focus:bg-white focus:border-[0.5px] ease-in-out transition duration-1000 focus:border-[#393053]"
                           ></textarea>
@@ -484,37 +435,6 @@ const Contact = () => {
                             onChange={handleCaptcha}
                           />
                         </div> */}
-
-                        <div className="flex items-center justify-center mb-5">
-                          <input
-                            type="checkbox"
-                            id="termsAccepted"
-                            name="termsAccepted"
-                            checked={formData.termsAccepted}
-                            onChange={handleChange}
-                            className="w-4 h-4"
-                          />
-                          <label
-                            htmlFor="termsAccepted"
-                            className="ml-3 text-sm"
-                          >
-                            I accept the{" "}
-                            <a
-                              href="/terms-and-conditions"
-                              className="font-medium text-primary-600 hover:underline"
-                            >
-                              Terms and Conditions
-                            </a>{" "}
-                            &{" "}
-                            <a
-                              href="/privacy-policy"
-                              className="font-medium text-primary-600 hover:underline"
-                            >
-                              Privacy Policy
-                            </a>{" "}
-                            of the company.
-                          </label>
-                        </div>
 
                         <button
                           type="submit"
