@@ -17,7 +17,7 @@ const Home = () => {
       <MainLayout />
       <HomeServices />
 
-      <div className="lg:pt-16 pt-12 pb-12">
+      <div className="lg:pt-16 pt-12 ">
         <div className="relative">
           <div className="w-full">
             <div className="w-full lg:mx-auto max-w-[1400px] mx-auto">
@@ -124,7 +124,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="pt-16 pb-12">
+      <div className="pt-16">
         <div className="bg-white">
           <div className="w-full ">
             <div className="w-full mx-auto max-w-[1400px]">
