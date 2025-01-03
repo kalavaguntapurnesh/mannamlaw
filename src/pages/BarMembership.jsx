@@ -3,6 +3,10 @@ import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
 import bar from "../assets/Bar.jpg";
+import tennessee from "../assets/tennessee_bar.jpg";
+import atlanta from "../assets/atlanta_bar.jpg";
+import aila from "../assets/aila_bar.png";
+import georgia from "../assets/georgia_bar.png";
 
 const BarMembership = () => {
   return (
@@ -148,6 +152,37 @@ const BarMembership = () => {
                       education, advocacy, and career development while
                       safeguarding the public&apos;s interest in legal matters.
                     </p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-12">
+                  <div className="flex justify-center items-center">
+                    <img
+                      src={aila}
+                      alt="aila"
+                      className="md:w-[260px] md:h-[260px] w-auto h-auto"
+                    />
+                  </div>
+                  <div className="flex justify-center items-center">
+                    <img
+                      src={georgia}
+                      alt="georgia"
+                      className="md:w-[260px] md:h-[260px] w-auto h-auto"
+                    />
+                  </div>
+                  <div className="flex justify-center items-center">
+                    <img
+                      src={tennessee}
+                      alt="tennessee"
+                      className="md:w-[260px] md:h-[260px] w-auto h-auto"
+                    />
+                  </div>
+                  <div className="flex justify-center items-center">
+                    <img
+                      src={atlanta}
+                      alt="atlanta"
+                      className="md:w-[260px] md:h-[260px] w-auto h-auto"
+                    />
                   </div>
                 </div>
               </div>

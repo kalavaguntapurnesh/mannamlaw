@@ -15,43 +15,37 @@ const HomeServices = () => {
       icon: passport,
       Title: "Employment Based Visas",
       description:
-        "Getting started, Begin your journey with simple, clear steps forward",
-      color: "text-green-500", // Blue color for this icon
+        "Professional legal services specializing in employment-based visas, guiding clients through complex immigration processes efficiently.",
     },
     {
       icon: document,
       Title: "Naturalization Process",
       description:
-        "Manage personal information, security & specific configurations.",
-      color: "text-blue-500", // Green color for this icon
+        "Expert legal guidance for navigating the naturalization process, ensuring a smooth path to U.S. citizenship success.",
     },
     {
       icon: email,
       Title: "Liaison Services",
       description:
-        "Ensures platform integrity & compliance against harmful activities.",
-      color: "text-yellow-500", // Red color for this icon
+        "Specialized legal support bridging communication gaps, ensuring seamless coordination and resolution in liaison matters.",
     },
     {
       icon: investment,
       Title: "Investment Based Visas",
       description:
-        "Spam Free, Ensuring clean, secure, & reliable digital communication.",
-      color: "text-teal-500", // Yellow color for this icon
+        "Tailored legal expertise for investment-based visas, empowering entrepreneurs to achieve U.S. residency through investments.",
     },
     {
       icon: students,
       Title: "Students & Scholars",
       description:
-        "Deliver reliable, customer-focused solutions with innovation.",
-      color: "text-pink-500", // Purple color for this icon
+        "Comprehensive legal services for student and scholar visas, facilitating academic and research opportunities in the U.S.",
     },
     {
       icon: board,
       Title: "Family based Visas",
       description:
-        "Discover our location with an interactive map offering geographic insights & navigation guidance.",
-      color: "text-violet-500", // Pink color for this icon
+        "Dedicated legal assistance for family-based visas, uniting loved ones and securing residency with personalized support.",
     },
   ];
 
