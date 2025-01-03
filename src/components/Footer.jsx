@@ -123,6 +123,15 @@ const Footer = () => {
                           Naturalization
                         </a>
                       </li>
+
+                      <li className=" flex items-start md:justify-start justify-center">
+                        <a
+                          href="/liaison-service"
+                          className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
+                        >
+                          Liaison Services
+                        </a>
+                      </li>
                     </ul>
                   </div>
                   <div className="mb-12 md:mb-0">
