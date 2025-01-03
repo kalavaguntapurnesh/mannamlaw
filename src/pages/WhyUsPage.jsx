@@ -180,7 +180,7 @@ const WhyUsPage = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true, amount: 0.2 }}
-                    className="bg-[#f8f9fa] rounded p-8 shadow"
+                    className="bg-[#f8f9fa] rounded p-6 shadow"
                   >
                     <div className="space-y-2 md:text-start text-center md:mx-4">
                       <div className="flex items-center md:justify-start justify-center ">
@@ -192,10 +192,12 @@ const WhyUsPage = () => {
                       </div>
                       <div className="text-gray-600">
                         <h1>
-                          We are dedicated to providing client-oriented,
-                          results-driven representation, focusing exclusively on
-                          the complex and challenging area of Immigration &
-                          Naturalization Law
+                          Our mission is to be recognized as the premier
+                          immigration law firm globally, dedicated to helping
+                          businesses thrive through access to critical global
+                          talent and assisting individuals and families in
+                          fulfilling their aspirations of making the United
+                          States their home.
                         </h1>
                       </div>
                     </div>
@@ -205,7 +207,7 @@ const WhyUsPage = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true, amount: 0.2 }}
-                    className="bg-[#f8f9fa] rounded p-8 shadow"
+                    className="bg-[#f8f9fa] rounded p-6 shadow"
                   >
                     <div className="space-y-2 md:text-start text-center md:mx-4">
                       <div className="flex items-center md:justify-start justify-center ">
@@ -217,10 +219,12 @@ const WhyUsPage = () => {
                       </div>
                       <div className="text-gray-600">
                         <h1>
-                          Delivering exceptional legal services with a
-                          commitment to quality, affordability, and personalized
-                          solutions, ensuring client satisfaction and success in
-                          every case we handle.
+                          Our vision is to profoundly impact the lives of
+                          individuals striving to realize the American dream of
+                          living in the United States. By supporting their
+                          journey, we aim to not only enrich their lives but
+                          also bring lasting benefits to their families, their
+                          professional endeavors, and the global community.
                         </h1>
                       </div>
                     </div>
