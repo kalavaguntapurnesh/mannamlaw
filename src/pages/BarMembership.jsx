@@ -41,9 +41,9 @@ const BarMembership = () => {
               <div className="p-4">
                 <div className="space-y-2 xl:text-start text-center pt-4">
                   <div className="space-y-2 xl:text-start text-center ">
-                    {/* <h1 className="text-headingColor text-2xl font-bold pb-4">
-                      Terms and Conditions of Mannam & Associates
-                    </h1> */}
+                    <h1 className="text-headingColor text-2xl font-bold pb-1 ">
+                      American Association Lawyers Association
+                    </h1>
                     <p className="text-sideHeading">
                       <a
                         href="#"
@@ -92,6 +92,61 @@ const BarMembership = () => {
                         Hemant Ravichandran
                       </a>{" "}
                       are Members of AILA.
+                    </p>
+                    <h1 className="text-headingColor text-2xl font-bold pb-1 pt-4">
+                      Atlanta Bar Association
+                    </h1>
+                    <p className="text-sideHeading">
+                      The Atlanta Bar Association is a respected and storied
+                      institution whose members connect from throughout the
+                      metropolitan Atlanta area.
+                    </p>
+                    <p className="text-sideHeading">
+                      It serves its members with innovative programs and
+                      services that stay in step with the ever changing legal
+                      landscape. Our membership includes lawyers, law school
+                      students, patent agents and legal assistants, among
+                      others, and are as diverse and varied as the activities
+                      and programs we provide
+                    </p>
+                    <p className="text-sideHeading">
+                      Our voluntary association is as diverse as the activities
+                      and programs we offer to our members which promote
+                      professional development, foster relationships, and
+                      further community engagement and service.
+                    </p>
+
+                    <h1 className="text-headingColor text-2xl font-bold pb-1 pt-4">
+                      The State Bar of Georgia
+                    </h1>
+
+                    <p className="text-sideHeading">
+                      The State Bar of Georgia exists to foster among the
+                      members of the Bar of this state the principles of duty
+                      and service to the public; to improve the administration
+                      of justice; and to advance the science of law. All persons
+                      authorized to practice law in this state are required to
+                      be members.
+                    </p>
+                    <p className="text-sideHeading">
+                      The Bar has strict codes of ethics and discipline that are
+                      enforced by the Supreme Court of Georgia through the State
+                      Bar’s Office of the General Counsel. Membership license
+                      fees and other contributions help the Bar provide programs
+                      that are mutually beneficial to its members and the
+                      general public.
+                    </p>
+
+                    <h1 className="text-headingColor text-2xl font-bold pb-1 pt-4">
+                      The State Bar of Tennessee
+                    </h1>
+                    <p className="text-sideHeading">
+                      The State Bar of Tennessee is a professional organization
+                      responsible for overseeing the practice of law and
+                      ensuring ethical standards within the state of Tennessee.
+                      It supports legal professionals by providing resources for
+                      education, advocacy, and career development while
+                      safeguarding the public&apos;s interest in legal matters.
                     </p>
                   </div>
                 </div>
