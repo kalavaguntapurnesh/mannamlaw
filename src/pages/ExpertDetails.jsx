@@ -17,10 +17,10 @@ const ExpertDetails = () => {
     <>
       <SecNavbar />
 
-      <div className="lg:pt-28 pt-24 pb-12">
+      <div className="pt-24 lg:pt-28 pb-12">
         <div className="relative">
           <div className="w-full">
-            <div className="w-full mx-auto max-w-[1400px] lg:pt-8 ">
+            <div className="w-full mx-auto max-w-[1400px]">
               <div className="p-6">
                 <div className="lg:grid hidden grid-cols-3 gap-4 ">
                   <div className="space-y-4 p-4 col-span-2">
@@ -114,6 +114,15 @@ const ExpertDetails = () => {
                           {card.graduation}
                         </p>
                       </div>
+
+                      <div className="flex flex-row space-y-1 gap-4">
+                        <a href={card.barOneLink}>
+                          <img src={card.barOne} alt="" className="w-24 h-24" />
+                        </a>
+                        <a href={card.barTwoLink}>
+                          <img src={card.barTwo} alt="" className="w-24 h-24" />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -138,7 +147,7 @@ const ExpertDetails = () => {
                         <p className="text-gray-500 uppercase">
                           Bar Admission:{" "}
                         </p>
-                        <p className="text-[#1a1a1a] font-medium">
+                        <p className="text-[#1a1a1a] font-medium text-center">
                           {card?.barAdmission || "N/A"}
                         </p>
                       </div>
@@ -183,6 +192,13 @@ const ExpertDetails = () => {
                           {card.direct}
                         </p>
                       </div>
+                    </div>
+                  )}
+
+                  {card.image && (
+                    <div className="flex flex-row justify-center items-center py-4 gap-6">
+                      <img src={card.barOne} alt="" className="w-24 h-24" />
+                      <img src={card.barTwo} alt="" className="w-24 h-24" />
                     </div>
                   )}
 
