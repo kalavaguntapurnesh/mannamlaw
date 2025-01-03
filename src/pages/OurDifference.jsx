@@ -10,21 +10,37 @@ import DiffThree from "../assets/DiffThree.svg";
 import DiffFour from "../assets/DiffFour.svg";
 import DiffFive from "../assets/DiffFive.svg";
 import justice from "../assets/justice.webp";
-import Investor from "../assets/Investor.jpg"
+import Investor from "../assets/Investor.jpg";
+import { MdArrowRightAlt } from "react-icons/md";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const OurDifference = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   const values1 = [
     {
       icon: DiffFive,
       Title: "Equipped with knowledge",
       description:
         "Mannam & Associates is also distinguished by its expertise in helping clients navigate the ever-changing face of the U.S. immigration system,i.e.,what it means and how it could impact a client’s family and/or business. We stay ahead of the changes to keep our clients informed",
+      link: "/our-difference#four",
     },
     {
       icon: DiffOne,
       Title: "Aggressive Representation",
       description:
         "The successful resolution of your immigration matters holds the keys to the future of your family and/or the growth of your business.  Throughout our years of immigration practice, we are proud to have become the voice for thousands of clients before the USCIS. ",
+      link: "/our-difference#five",
     },
   ];
 
@@ -34,18 +50,21 @@ const OurDifference = () => {
       Title: "Accessibility for Clients",
       description:
         "We consider accessibility to be the cornerstone of our service ethic. We can achieve satisfying results for clients if we keep them actively engaged throughout the process. Therefore, we make every effort to afford our clients timely access to legal counsel.",
+      link: "/our-difference#one",
     },
     {
       icon: DiffThree,
       Title: "Client-Focused Care",
       description:
         "We are a multinational group with well-rounded global expertise. Many of our team members have first-hand knowledge of the immigration process and its challenges. We understand the stake you have in the successful outcome of this journey.",
+      link: "/our-difference#two",
     },
     {
       icon: DiffFour,
       Title: "Attention to Details",
       description:
         "At Mannam & Associates, we have implemented a triple-verification system to ensure that each case receives thorough analysis and consideration.  First, an experienced attorney devises a strategy that serves both, the long-term and short-term.",
+      link: "/our-difference#three",
     },
   ];
 
@@ -121,6 +140,16 @@ const OurDifference = () => {
                           <div className="flex justify-center items-center text-gray-600 text-center lg:leading-normal">
                             <p>{value.description}</p>
                           </div>
+
+                          <div className="px-6 flex justify-center">
+                            <a
+                              href={value.link}
+                              className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
+                            >
+                              <span className="relative z-10 ">Know More</span>
+                              <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -157,6 +186,16 @@ const OurDifference = () => {
                           <div className="flex justify-center items-center text-gray-600 text-center lg:leading-normal">
                             <p>{value.description}</p>
                           </div>
+
+                          <div className="px-6 flex justify-center">
+                            <a
+                              href={value.link}
+                              className="flex flex-row items-center text-mainColor hover:text-headingColor transition ease-in-out duration-500 hover:-translate-y-1"
+                            >
+                              <span className="relative z-10 ">Know More</span>
+                              <MdArrowRightAlt className="ml-1 mt-1 w-5 h-5 " />
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -168,7 +207,7 @@ const OurDifference = () => {
         </div>
       </div>
 
-      <div className="pt-16 pb-4">
+      <div id="one" className="pt-8 pb-4">
         <div className="relative">
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px] rounded">
@@ -251,7 +290,7 @@ const OurDifference = () => {
         </div>
       </div>
 
-      <div className="pt-16 pb-4">
+      <div id="two" className="pt-8 pb-4">
         <div className="relative">
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px] rounded">
@@ -330,7 +369,7 @@ const OurDifference = () => {
         </div>
       </div>
 
-      <div className="pt-16 pb-4">
+      <div id="three" className="pt-8 pb-4">
         <div className="relative">
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px] rounded">
@@ -422,7 +461,7 @@ const OurDifference = () => {
         </div>
       </div>
 
-      <div className="pt-16 pb-4">
+      <div id="four" className="pt-8 pb-4">
         <div className="relative">
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px] rounded">
@@ -515,7 +554,7 @@ const OurDifference = () => {
         </div>
       </div>
 
-      <div className="pt-16 pb-4">
+      <div id="five" className="pt-8 pb-4">
         <div className="relative">
           <div className="w-full">
             <div className="w-full mx-auto max-w-[1400px] rounded">
