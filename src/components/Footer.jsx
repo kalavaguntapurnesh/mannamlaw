@@ -206,7 +206,16 @@ const Footer = () => {
                       </li>
                       <li className=" flex items-start md:justify-start justify-center">
                         <a
-                          href="/about-us"
+                          href="#"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            const userConfirmed = window.confirm(
+                              "You will be navigated to the U.S. Department of Homeland Security website. Do you wish to continue?"
+                            );
+                            if (userConfirmed) {
+                              window.open("https://www.dhs.gov/", "_blank");
+                            }
+                          }}
                           className="hover:text-mainColor font-medium text-headingColor no-underline text-[14px] leading-6 text-footerLinks text-center transition duration-300 ease-in-out"
                         >
                           Homeland Security
