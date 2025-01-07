@@ -117,7 +117,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="lg:list-disc list-none xl:ml-8 ml-4 space-y-2">
                       <li>
                         We understand the United States Government’s enthusiasm
                         to attract immigrant investors and entrepreneurs to
@@ -185,7 +185,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         The E-1 Treaty Trader Visa allows a business owner or
                         essential employee to enter the United States,
@@ -198,7 +198,7 @@ const Investor = () => {
                       <li className="font-medium lg:leading-normal">
                         To qualify for E-1 Treaty Trader visa:
                       </li>
-                      <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                      <ul className="list-[upper-roman] xl:ml-8 ml-2 space-y-2">
                         <li>
                           The applicant must be a national of a treaty country;
                         </li>
@@ -242,7 +242,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         E-2 Treaty Investor visa is a non-immigrant visa that
                         allows foreign investors to invest in the U.S. by
@@ -255,7 +255,7 @@ const Investor = () => {
                       <li className="font-medium lg:leading-normal">
                         In order to be qualified for the E-2 visa, you must:
                       </li>
-                      <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                      <ul className="list-[upper-roman] xl:ml-8 ml-2 space-y-2">
                         <li>
                           Be from a country with a treaty agreement with U.S.;
                         </li>
@@ -305,7 +305,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         An E visa is a non-immigrant visa and does not lead to
                         either a "green card" or U.S. Citizenship. If the
@@ -343,7 +343,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         {" "}
                         The Principal E-1/E-2 holder’s Spouse and children under
@@ -362,7 +362,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         The intra-company transfer provision is a long-standing
                         visa category designed to allow international firms,
@@ -395,7 +395,7 @@ const Investor = () => {
                       </li>
 
                       <li>Managerial Capacity:</li>
-                      <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                      <ul className="list-[upper-roman] xl:ml-8 ml-2 space-y-2">
                         <li>
                           Manages the organization, or a department,
                           subdivision, function, or component of the
@@ -418,7 +418,7 @@ const Investor = () => {
                       </ul>
 
                       <li>Executive Capacity:</li>
-                      <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                      <ul className="list-[upper-roman] xl:ml-8 ml-2 space-y-2">
                         <li>
                           Directs the management of the organization or a major
                           component or function of the organization;
@@ -439,7 +439,7 @@ const Investor = () => {
                       </ul>
 
                       <li>Specialized Knowledge:</li>
-                      <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                      <ul className="list-[upper-roman] xl:ml-8 ml-2 space-y-2">
                         <li>
                           Possesses knowledge that is valuable to the employer's
                           competitiveness in the market place;
@@ -469,7 +469,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         An L-1 Blanket Petition is an expedited program for
                         large multi-national corporations that are frequent
@@ -512,7 +512,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         Individuals with an L-1 visa may also be eligible for a
                         green card through employment. If an individual served
@@ -534,7 +534,7 @@ const Investor = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         H-1B visas are an obvious choice for bringing in foreign
                         talent to address labor shortages in the fields of IT

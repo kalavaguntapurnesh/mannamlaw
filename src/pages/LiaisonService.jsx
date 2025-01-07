@@ -89,7 +89,7 @@ const LiaisonService = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>U.S. Citizenship & Immigration Services</li>
                       <li>U.S. Custom & Border Protection</li>
                       <li>U.S. Department of Labor</li>
