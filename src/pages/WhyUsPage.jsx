@@ -86,7 +86,7 @@ const WhyUsPage = () => {
                       </p>
                     </div>
                     <div>
-                      <h1 className="lg:text-5xl lg:text-start text-center text-2xl text-headingColor font-bold lg:leading-snug">
+                      <h1 className="lg:text-4xl lg:text-start text-center text-2xl text-headingColor font-bold lg:leading-snug">
                         Reliable Expertise for Your Legal Success
                       </h1>
                     </div>
@@ -106,7 +106,7 @@ const WhyUsPage = () => {
                       <div className="flex lg:justify-start justify-center">
                         <div className="space-y-2">
                           <div className="flex justify-center lg:justify-start items-center">
-                            <h4 className="lg:text-5xl text-4xl ml-2 text-headingColor font-bold text-start">
+                            <h4 className="lg:text-4xl text-4xl ml-2 text-headingColor font-bold text-start">
                               2000
                             </h4>
                           </div>
@@ -122,7 +122,7 @@ const WhyUsPage = () => {
                       <div className="flex lg:justify-start justify-center">
                         <div className="space-y-2">
                           <div className="flex justify-center lg:justify-start items-center">
-                            <h4 className="lg:text-5xl text-4xl ml-2 text-headingColor font-bold text-start">
+                            <h4 className="lg:text-4xl text-4xl ml-2 text-headingColor font-bold text-start">
                               100%
                             </h4>
                           </div>

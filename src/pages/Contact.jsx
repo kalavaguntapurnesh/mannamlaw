@@ -294,7 +294,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className="flex flex-col justify-center items-center text-sideHeading text-center font-medium">
-                                  <p>info@mannamlaw.com</p>
+                                  <p className="hover:underline hover:text-blue-600">info@mannamlaw.com</p>
                                 </div>
                               </div>
                             </div>

@@ -24,7 +24,7 @@ const LiaisonService = () => {
                       </p>
                     </div>
                     <div>
-                      <h1 className="lg:text-5xl lg:text-start text-center text-2xl text-headingColor font-bold lg:leading-snug">
+                      <h1 className="lg:text-4xl lg:text-start text-center text-2xl text-headingColor font-bold lg:leading-snug">
                         Representation before Government Agencies
                       </h1>
                     </div>
@@ -69,6 +69,34 @@ const LiaisonService = () => {
                         className="rounded lg:hidden block w-auto"
                       />
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pt-8 pb-12">
+        <div className="relative">
+          <div className="w-full">
+            <div className="w-full mx-auto max-w-[1400px]">
+              <div className="p-4">
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-bold text-start underline  text-headingColor">
+                    Representation before Government Agencies (Liaison
+                    Services):
+                  </h3>
+
+                  <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
+                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                      <li>U.S. Citizenship & Immigration Services</li>
+                      <li>U.S. Custom & Border Protection</li>
+                      <li>U.S. Department of Labor</li>
+                      <li>U.S. Department of States and Consular Posts</li>
+                      <li>Social Security Agency</li>
+                      <li>State Department of Motor Vehicles</li>
+                    </ul>
                   </div>
                 </div>
               </div>

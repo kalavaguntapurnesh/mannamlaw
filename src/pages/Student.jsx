@@ -22,7 +22,7 @@ const Student = () => {
                       </p>
                     </div>
                     <div>
-                      <h1 className="lg:text-5xl lg:text-start text-center text-2xl text-headingColor font-bold lg:leading-snug">
+                      <h1 className="lg:text-4xl lg:text-start text-center text-2xl text-headingColor font-bold lg:leading-snug">
                         Visa options for students & scholars
                       </h1>
                     </div>

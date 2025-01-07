@@ -251,8 +251,8 @@ const OurDifference = () => {
 
                     <div className="flex lg:justify-start justify-center items-center pb-4 pt-2">
                       <a
-                        href="/contact"
-                        className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor text-headingColor transition-all before:absolute before:h-0 before:w-0  before:bg-headingColor hover:text-white hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                        href="https://mannam-syndeo-ui.vercel.app/"
+                        className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor bg-headingColor text-white transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-headingColor hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                       >
                         <span className="relative z-10">Contact our team</span>
                       </a>
@@ -355,10 +355,10 @@ const OurDifference = () => {
 
                     <div className="flex lg:justify-start justify-center items-center pb-4 pt-2">
                       <a
-                        href="/contact"
+                        href="https://mannam-syndeo-ui.vercel.app/"
                         className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor text-headingColor transition-all before:absolute before:h-0 before:w-0  before:bg-headingColor hover:text-white hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                       >
-                        <span className="relative z-10">Contact our team</span>
+                        <span className="relative z-10">Schedule a demo</span>
                       </a>
                     </div>
                   </motion.div>
@@ -423,9 +423,11 @@ const OurDifference = () => {
                     <div className="flex lg:justify-start justify-center items-center pb-4 pt-2">
                       <a
                         href="/contact"
-                        className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor text-headingColor transition-all before:absolute before:h-0 before:w-0  before:bg-headingColor hover:text-white hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                        className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor bg-headingColor text-white transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-headingColor hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                       >
-                        <span className="relative z-10">Contact our team</span>
+                        <span className="relative z-10">
+                          Contact our experts
+                        </span>
                       </a>
                     </div>
                   </motion.div>
@@ -543,7 +545,9 @@ const OurDifference = () => {
                         href="/contact"
                         className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor text-headingColor transition-all before:absolute before:h-0 before:w-0  before:bg-headingColor hover:text-white hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                       >
-                        <span className="relative z-10">Contact our team</span>
+                        <span className="relative z-10">
+                          Let&apos;s get started
+                        </span>
                       </a>
                     </div>
                   </motion.div>
@@ -613,9 +617,9 @@ const OurDifference = () => {
                     <div className="flex lg:justify-start justify-center items-center pb-4 pt-2">
                       <a
                         href="/contact"
-                        className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor text-headingColor transition-all before:absolute before:h-0 before:w-0  before:bg-headingColor hover:text-white hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
+                        className="relative flex h-[50px] md:w-60 w-3/4 items-center justify-center overflow-hidden border border-headingColor bg-headingColor text-white transition-all before:absolute before:h-0 before:w-0  before:bg-white hover:text-headingColor hover:border-headingColor before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-full rounded"
                       >
-                        <span className="relative z-10">Contact our team</span>
+                        <span className="relative z-10">Learn More</span>
                       </a>
                     </div>
                   </motion.div>
