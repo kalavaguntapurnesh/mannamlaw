@@ -117,7 +117,7 @@ const Family = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="lg:list-disc list-none xl:ml-8 ml-2 space-y-2">
                       <li>
                         One of the most rewarding parts of our practice involves
                         reuniting families who are separated across the globe,
@@ -184,7 +184,7 @@ const Family = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         A U.S. citizen who wants to bring his or her foreign
                         fiancé(e) to get married and live in the U.S. must file
@@ -195,7 +195,7 @@ const Family = () => {
                         To qualify for a K-1 visa, the engaged couple must meet
                         the following conditions:
                       </li>
-                      <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                      <ul className="list-[upper-roman] xl:ml-8 ml-2 space-y-2">
                         <li>One party is a U.S. citizen;</li>
                         <li>
                           Both parties are legally free to marry (neither party
@@ -247,7 +247,7 @@ const Family = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-disc xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         A K-3 Spousal Visa allows the foreign spouse of a U.S.
                         citizen to enter the United States on a temporary visa,
@@ -287,51 +287,46 @@ const Family = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
-                      <li>Immediate Relatives</li>
-                      <ul className=" xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
+                      <li>
+                        Immediate Relatives: Immediate Relatives are generally
+                        divided into three categories: spouses, unmarried
+                        children under 21, and parents of USCs.
+                      </li>
+                      <li>
+                        Preference Categories: A person is eligible to apply for
+                        a Green Card through a U.S. Citizen and/or Legal
+                        Permanent Resident relative, if he or she falls under
+                        one the following four preference categories:
+                      </li>
+
+                      <ul className="list-[upper-roman] xl:ml-8 ml-2 space-y-2">
                         <li>
-                          Immediate Relatives are generally divided into three
-                          categories: spouses, unmarried children under 21, and
-                          parents of USCs.
+                          <span className="underline text-headingColor font-medium">
+                            First:{" "}
+                          </span>{" "}
+                          Unmarried Sons and Daughters of Citizens (21 years of
+                          age or older)
                         </li>
-                      </ul>
-                      <li>Preference Categories</li>
-                      <ul className=" xl:ml-8 ml-2 space-y-2">
                         <li>
-                          A person is eligible to apply for a Green Card through
-                          a U.S. Citizen and/or Legal Permanent Resident
-                          relative, if he or she falls under one the following
-                          four preference categories:
+                          <span className="underline text-headingColor font-medium">
+                            Second:{" "}
+                          </span>{" "}
+                          Spouses and Children, and Unmarried Sons and Daughters
+                          of Permanent Residents:
                         </li>
-                        <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
-                          <li>
-                            <span className="underline text-headingColor font-medium">
-                              First:{" "}
-                            </span>{" "}
-                            Unmarried Sons and Daughters of Citizens (21 years
-                            of age or older)
-                          </li>
-                          <li>
-                            <span className="underline text-headingColor font-medium">
-                              Second:{" "}
-                            </span>{" "}
-                            Spouses and Children, and Unmarried Sons and
-                            Daughters of Permanent Residents:
-                          </li>
-                          <li>
-                            <span className="underline text-headingColor font-medium">
-                              Third:{" "}
-                            </span>{" "}
-                            Married Sons and Daughters of Citizens
-                          </li>
-                          <li>
-                            <span className="underline text-headingColor font-medium">
-                              Fourth:{" "}
-                            </span>{" "}
-                            Brothers and Sisters of Adult Citizen
-                          </li>
-                        </ul>
+                        <li>
+                          <span className="underline text-headingColor font-medium">
+                            Third:{" "}
+                          </span>{" "}
+                          Married Sons and Daughters of Citizens
+                        </li>
+                        <li>
+                          <span className="underline text-headingColor font-medium">
+                            Fourth:{" "}
+                          </span>{" "}
+                          Brothers and Sisters of Adult Citizen
+                        </li>
                       </ul>
                     </ul>
                   </div>
@@ -343,7 +338,7 @@ const Family = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         {" "}
                         Immediate relatives of U.S. Citizens are generally
@@ -416,7 +411,7 @@ const Family = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         {" "}
                         Most alien spouses of U.S. Citizen will be initially
@@ -451,7 +446,7 @@ const Family = () => {
                   </h3>
 
                   <div className="space-y-2 xl:text-start text-center text-gray-800 lg:leading-normal">
-                    <ul className="list-decimal xl:ml-8 ml-2 space-y-2">
+                    <ul className="list-decimal xl:ml-8 ml-4 space-y-2">
                       <li>
                         {" "}
                         Legal Permanent Residents may petition for his or her

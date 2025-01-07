@@ -122,7 +122,7 @@ const NavBar = () => {
             href="https://mannam-syndeo-ui.vercel.app/"
             className="uppercase border-[1px] relative  lg:px-6 md:px-4 py-2 rounded text-sm border-headingColor hover:border-none text-headingColor font-medium overflow-hidden transition-all duration-500 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-auto before:w-0 before:bg-mainColor before:duration-500 before:ease-out hover:text-white hover:shadow-mainColor hover:before:h-40 hover:before:w-48 "
           >
-            <span className="relative z-10">Schedule Now</span>
+            <span className="relative z-10">Schedule Free Consultation</span>
           </a>
         </div>
 
@@ -330,7 +330,7 @@ const NavBar = () => {
                 href="https://mannam-syndeo-ui.vercel.app/"
                 className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
-                Schedule Now
+                Schedule Free Consultation
               </a>
             </li>
           </ul>

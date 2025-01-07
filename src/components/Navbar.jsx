@@ -133,7 +133,7 @@ const NavBar = () => {
                 : "border-navGray font-light text-white"
             }`}
           >
-            <span className="relative z-10">Schedule Now</span>
+            <span className="relative z-10">Schedule Free Consultation</span>
           </a>
         </div>
 
@@ -342,7 +342,7 @@ const NavBar = () => {
                 href="https://mannam-syndeo-ui.vercel.app/"
                 className="flex items-center justify-between cursor-pointer text-headingColor font-medium"
               >
-                Schedule Now
+                Schedule Free Consultation
               </a>
             </li>
           </ul>
