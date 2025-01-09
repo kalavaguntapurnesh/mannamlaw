@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
@@ -13,10 +14,13 @@ import justice from "../assets/justice.webp";
 import Investor from "../assets/Investor.jpg";
 import { MdArrowRightAlt } from "react-icons/md";
 import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
 
 const OurDifference = () => {
   const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
 
   useEffect(() => {
     if (location.hash) {

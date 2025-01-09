@@ -1,9 +1,16 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
 
 const PrivacyPolicy = () => {
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   const [activeHeading, setActiveHeading] = useState(null);
 
   // State to manage selected heading for mobile

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
@@ -9,6 +10,10 @@ import email from "../assets/email.png";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const Family = () => {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   const values1 = [
     {
       icon: passport,

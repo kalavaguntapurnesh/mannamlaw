@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
@@ -9,6 +10,10 @@ import aila from "../assets/aila_bar.png";
 import georgia from "../assets/georgia_bar.png";
 
 const BarMembership = () => {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   return (
     <>
       <SecNavbar />
@@ -166,21 +171,30 @@ const BarMembership = () => {
                       className="md:w-[260px] md:h-[260px] w-auto h-auto"
                     />
                   </a>
-                  <a href="https://www.gabar.org/" className="flex justify-center items-center">
+                  <a
+                    href="https://www.gabar.org/"
+                    className="flex justify-center items-center"
+                  >
                     <img
                       src={georgia}
                       alt="georgia"
                       className="md:w-[260px] md:h-[260px] w-auto h-auto"
                     />
                   </a>
-                  <a href="https://www.tba.org/" className="flex justify-center items-center">
+                  <a
+                    href="https://www.tba.org/"
+                    className="flex justify-center items-center"
+                  >
                     <img
                       src={tennessee}
                       alt="tennessee"
                       className="md:w-[260px] md:h-[260px] w-auto h-auto"
                     />
                   </a>
-                  <a href="https://atlantabar.org/" className="flex justify-center items-center">
+                  <a
+                    href="https://atlantabar.org/"
+                    className="flex justify-center items-center"
+                  >
                     <img
                       src={atlanta}
                       alt="atlanta"

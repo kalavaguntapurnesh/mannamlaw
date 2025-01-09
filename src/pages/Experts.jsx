@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
@@ -19,13 +20,17 @@ import tenessee from "../assets/tennessee_bar.jpg";
 const Experts = () => {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   const cardsData = [
     {
       image: Ravi,
       barOne: alia,
       barTwo: tenessee,
-      barOneLink:"https://www.aila.org/",
-      barTwoLink:"https://www.tba.org/",
+      barOneLink: "https://www.aila.org/",
+      barTwoLink: "https://www.tba.org/",
       name: "Ravi Mannam",
       role: "Managing Attorney / Founder",
       languages: "English, Hindi, Telugu",
@@ -49,8 +54,8 @@ const Experts = () => {
       image: Hemanth,
       barOne: alia,
       barTwo: georgia,
-      barOneLink:"https://www.aila.org/",
-      barTwoLink:"https://www.gabar.org/",
+      barOneLink: "https://www.aila.org/",
+      barTwoLink: "https://www.gabar.org/",
       name: "Hemant Ramachandran",
       role: "Associate Attorney",
       languages: "English, Spanish, Tamil",

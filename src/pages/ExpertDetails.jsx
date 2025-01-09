@@ -1,10 +1,15 @@
 import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 import { useParams, useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import SecNavbar from "../components/SecNavbar";
 import ContactUsButton from "../components/ScrollToTop";
 
 const ExpertDetails = () => {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   const { name } = useParams();
   const location = useLocation();
   const card = location.state; // Get the card data passed as state

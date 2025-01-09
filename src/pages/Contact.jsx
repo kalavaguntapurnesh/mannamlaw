@@ -1,3 +1,5 @@
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
@@ -6,26 +8,33 @@ import USA from "../assets/USA.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import linkedin from "../assets/social.png";
 import { MdArrowRightAlt } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants.js";
 import axios from "axios";
 import emailImage from "../assets/email.svg";
 import address from "../assets/address.svg";
+import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   const [fullName, setFullName] = useState("");
   const [legalIssue, setLegalIssue] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/v1/registerUser",
+        // "http://localhost:8080/api/v1/registerUser",
+        "https://axseva-backend-9un4.onrender.com/api/v1/registerUser",
         {
           fullName,
           legalIssue,
@@ -36,10 +45,16 @@ const Contact = () => {
       );
 
       if (response.status === 201) {
-        alert("Form Submitted Successfully");
+        Swal.fire({
+          title: "Your mail was sent successfully!",
+          icon: "success",
+        });
+        window.location.reload();
+        navigate("/");
         console.log("Form Submitted Successfully!!!");
       }
     } catch (error) {
+      console.log("Error in sending mail");
       console.error(
         "Error submitting form",
         error.response ? error.response.data : error
@@ -294,7 +309,9 @@ const Contact = () => {
                                 </div>
 
                                 <div className="flex flex-col justify-center items-center text-sideHeading text-center font-medium">
-                                  <p className="hover:underline hover:text-blue-600">info@mannamlaw.com</p>
+                                  <p className="hover:underline hover:text-blue-600">
+                                    info@mannamlaw.com
+                                  </p>
                                 </div>
                               </div>
                             </div>

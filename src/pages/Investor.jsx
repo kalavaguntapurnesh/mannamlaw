@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ReactGA from "react-ga4";
 import Footer from "../components/Footer";
 import SecNavbar from "./../components/SecNavbar";
 import ScrollToTop from "../components/ScrollToTop";
 import investor from "../assets/Investor.jpg";
-import family from "../assets/Family.jpg";
 import passport from "../assets/passport.png";
 import document from "../assets/document.png";
 import email from "../assets/email.png";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const Investor = () => {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   const values1 = [
     {
       icon: passport,
