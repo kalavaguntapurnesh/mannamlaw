@@ -34,7 +34,7 @@ const Contact = () => {
     try {
       const response = await axios.post(
         // "http://localhost:8080/api/v1/registerUser",
-        "https://axseva-backend-9un4.onrender.com/api/v1/registerUser",
+        "https://mannam-backend.onrender.com/api/userRegister",
         {
           fullName,
           legalIssue,
